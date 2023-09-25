@@ -35,8 +35,30 @@ loaded_data_2 = []
 #Define the Material Model: Create a function or class that defines your material model, including the hardening 
 #parameters that you want to calibrate. For example, if you're using a power-law hardening model:
 
-def power_law_hardening(S0, n, E):
-    return S0 * (1 + n * E)
+def swift_voce_stress(sigma_y, K, n, plastic_strain):
+    """
+    Calculate the stress using the Swift-Voce equation.
+    
+    Args:
+    sigma_y (float): Yield stress.
+    K (float): Material constant.
+    n (float): Strain-hardening exponent.
+    plastic_strain (float): True plastic strain.
+    
+    Returns:
+    float: True stress.
+    """
+    stress = sigma_y + K * (plastic_strain ** n)
+    return stress
+
+# Example usage:
+sigma_y = 300.0  # Yield stress in MPa
+K = 100.0       # Material constant
+n = 0.2         # Strain-hardening exponent
+plastic_strain = 0.1  # True plastic strain
+
+true_stress = swift_voce_stress(sigma_y, K, n, plastic_strain)
+print("True Stress:", true_stress, "MPa")
 
 #Define the Objective Function: Create an objective function that calculates the difference between the experimental 
 #data and the model predictions for a given set of hardening parameters. You can use a least-squares error as your objective function:
