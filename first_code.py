@@ -67,8 +67,5 @@ def objective_function(params, E, S_exp):
     S_pred = power_law_hardening(*params, E)
     return np.sum((S_pred - S_exp) ** 2)
 
-#commit try by şan 
-
-#commit by crista
 
 #commit by şan 2 
