@@ -68,4 +68,4 @@ def objective_function(params, E, S_exp):
     return np.sum((S_pred - S_exp) ** 2)
 
 
-#commit by şan 2 
+#change
