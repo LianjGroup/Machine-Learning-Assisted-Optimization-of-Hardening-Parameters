@@ -9,7 +9,7 @@ def checkCreate(path):
     if not os.path.exists(path):
         os.makedirs(path)
 
-def initialize_directory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex):
+def startTheDirectory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex):
 
     if optimizeStrategy == "SOO":
         # For log
@@ -131,10 +131,10 @@ if __name__ == "__main__":
     numberOfInitialSims = globalConfig["numberOfInitialSims"]
     initialSimsSpacing = globalConfig["initialSimsSpacing"]
     if optimizeStrategy == "SOO":
-        initialize_directory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex)
+        startTheDirectory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex)
     elif optimizeStrategy == "MOO":
         geometries = geometry.split(",")
-        initialize_directory(optimizeStrategy, material, hardeningLaw, geometries, curveIndex)
+        startTheDirectory(optimizeStrategy, material, hardeningLaw, geometries, curveIndex)
     
 
     

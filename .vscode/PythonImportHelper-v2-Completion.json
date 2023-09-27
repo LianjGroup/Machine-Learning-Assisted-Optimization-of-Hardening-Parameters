@@ -1,0 +1,1133 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "subprocess",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "subprocess",
+        "description": "subprocess",
+        "detail": "subprocess",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "shutil",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shutil",
+        "description": "shutil",
+        "detail": "shutil",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "glob",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "glob",
+        "description": "glob",
+        "detail": "glob",
+        "documentation": {}
+    },
+    {
+        "label": "prettytable",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyTable",
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "isExtraImport": true,
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
+        "label": "PrettyTable",
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "isExtraImport": true,
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
+        "label": "copy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "copy",
+        "description": "copy",
+        "detail": "copy",
+        "documentation": {}
+    },
+    {
+        "label": "savgol_filter",
+        "importPath": "scipy.signal",
+        "description": "scipy.signal",
+        "isExtraImport": true,
+        "detail": "scipy.signal",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "CubicSpline",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "CubicSpline",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "CubicSpline",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "CubicSpline",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "isExtraImport": true,
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "isExtraImport": true,
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "isExtraImport": true,
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "isExtraImport": true,
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "isExtraImport": true,
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "SingleTaskGP",
+        "importPath": "botorch.models",
+        "description": "botorch.models",
+        "isExtraImport": true,
+        "detail": "botorch.models",
+        "documentation": {}
+    },
+    {
+        "label": "ExactMarginalLogLikelihood",
+        "importPath": "gpytorch.mlls",
+        "description": "gpytorch.mlls",
+        "isExtraImport": true,
+        "detail": "gpytorch.mlls",
+        "documentation": {}
+    },
+    {
+        "label": "fit_gpytorch_model",
+        "importPath": "botorch.fit",
+        "description": "botorch.fit",
+        "isExtraImport": true,
+        "detail": "botorch.fit",
+        "documentation": {}
+    },
+    {
+        "label": "qExpectedHypervolumeImprovement",
+        "importPath": "botorch.acquisition.multi_objective",
+        "description": "botorch.acquisition.multi_objective",
+        "isExtraImport": true,
+        "detail": "botorch.acquisition.multi_objective",
+        "documentation": {}
+    },
+    {
+        "label": "optimize_acqf",
+        "importPath": "botorch.optim",
+        "description": "botorch.optim",
+        "isExtraImport": true,
+        "detail": "botorch.optim",
+        "documentation": {}
+    },
+    {
+        "label": "NondominatedPartitioning",
+        "importPath": "botorch.utils.multi_objective.box_decompositions",
+        "description": "botorch.utils.multi_objective.box_decompositions",
+        "isExtraImport": true,
+        "detail": "botorch.utils.multi_objective.box_decompositions",
+        "documentation": {}
+    },
+    {
+        "label": "is_non_dominated",
+        "importPath": "botorch.utils.multi_objective.pareto",
+        "description": "botorch.utils.multi_objective.pareto",
+        "isExtraImport": true,
+        "detail": "botorch.utils.multi_objective.pareto",
+        "documentation": {}
+    },
+    {
+        "label": "standardize",
+        "importPath": "botorch.utils",
+        "description": "botorch.utils",
+        "isExtraImport": true,
+        "detail": "botorch.utils",
+        "documentation": {}
+    },
+    {
+        "label": "IdentityMCMultiOutputObjective",
+        "importPath": "botorch.acquisition.multi_objective.objective",
+        "description": "botorch.acquisition.multi_objective.objective",
+        "isExtraImport": true,
+        "detail": "botorch.acquisition.multi_objective.objective",
+        "documentation": {}
+    },
+    {
+        "label": "MinMaxScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "StandardScaler",
+        "importPath": "sklearn.preprocessing",
+        "description": "sklearn.preprocessing",
+        "isExtraImport": true,
+        "detail": "sklearn.preprocessing",
+        "documentation": {}
+    },
+    {
+        "label": "simpson",
+        "importPath": "scipy.integrate",
+        "description": "scipy.integrate",
+        "isExtraImport": true,
+        "detail": "scipy.integrate",
+        "documentation": {}
+    },
+    {
+        "label": "LinearRegression",
+        "importPath": "sklearn.linear_model",
+        "description": "sklearn.linear_model",
+        "isExtraImport": true,
+        "detail": "sklearn.linear_model",
+        "documentation": {}
+    },
+    {
+        "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage0_initialize_directory",
+        "description": "stage0_initialize_directory",
+        "isExtraImport": true,
+        "detail": "stage0_initialize_directory",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.SOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.SOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.SOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "optimizers.BO",
+        "description": "optimizers.BO",
+        "isExtraImport": true,
+        "detail": "optimizers.BO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "optimizers.BO",
+        "description": "optimizers.BO",
+        "isExtraImport": true,
+        "detail": "optimizers.BO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "optimizers.BO",
+        "description": "optimizers.BO",
+        "isExtraImport": true,
+        "detail": "optimizers.BO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "optimizers.BO",
+        "description": "optimizers.BO",
+        "isExtraImport": true,
+        "detail": "optimizers.BO",
+        "documentation": {}
+    },
+    {
+        "label": "stage0_configs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "isExtraImport": true,
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "isExtraImport": true,
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "isExtraImport": true,
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "isExtraImport": true,
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.MOO_SIM",
+        "description": "modules.MOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.MOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.MOO_SIM",
+        "description": "modules.MOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.MOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "stage1_MOO_prepare_targetCurve",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stage1_MOO_prepare_targetCurve",
+        "description": "stage1_MOO_prepare_targetCurve",
+        "detail": "stage1_MOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage1_MOO_prepare_targetCurve",
+        "description": "stage1_MOO_prepare_targetCurve",
+        "isExtraImport": true,
+        "detail": "stage1_MOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "stage1_SOO_prepare_targetCurve",
+        "description": "stage1_SOO_prepare_targetCurve",
+        "isExtraImport": true,
+        "detail": "stage1_SOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "MOO_SIM",
+        "kind": 6,
+        "importPath": "modules.MOO_SIM",
+        "description": "modules.MOO_SIM",
+        "peekOfCode": "class MOO_SIM():\n    def __init__(self, info):\n        self.info = info\n    def latin_hypercube_sampling(self):\n        paramConfig = self.info[\"paramConfig\"]\n        numberOfInitialSims = self.info[\"numberOfInitialSims\"]\n        linspaceValues = {}\n        for param in paramConfig:\n            linspaceValues[param] = np.linspace(\n                start=paramConfig[param][\"lowerBound\"] * paramConfig[param][\"exponent\"], ",
+        "detail": "modules.MOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "SOO_SIM",
+        "kind": 6,
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
+        "peekOfCode": "class SOO_SIM():\n    def __init__(self, info):\n        self.info = info\n    def latin_hypercube_sampling(self):\n        paramConfig = self.info[\"paramConfig\"]\n        numberOfInitialSims = self.info[\"numberOfInitialSims\"]\n        linspaceValues = {}\n        for param in paramConfig:\n            linspaceValues[param] = np.linspace(\n                start=paramConfig[param][\"lowerBound\"] * paramConfig[param][\"exponent\"], ",
+        "detail": "modules.SOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "Swift",
+        "kind": 2,
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "peekOfCode": "def Swift(c1,c2,c3, truePlasticStrain):\n    trueStress = c1 * (c2 + truePlasticStrain) ** c3\n    return trueStress\ndef Voce(c1,c2,c3,truePlasticStrain):\n    trueStress = c1 + c2 * (1- np.exp(-c3 * truePlasticStrain))\n    return trueStress\ndef SwiftVoce(c1,c2,c3,c4,c5,c6,c7,truePlasticStrain):\n    trueStressSwift = Swift(c2,c3,c4,truePlasticStrain)\n    trueStressVoce = Voce(c5,c6,c7,truePlasticStrain)\n    trueStress = c1 * trueStressSwift + (1 - c1) * trueStressVoce",
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "Voce",
+        "kind": 2,
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "peekOfCode": "def Voce(c1,c2,c3,truePlasticStrain):\n    trueStress = c1 + c2 * (1- np.exp(-c3 * truePlasticStrain))\n    return trueStress\ndef SwiftVoce(c1,c2,c3,c4,c5,c6,c7,truePlasticStrain):\n    trueStressSwift = Swift(c2,c3,c4,truePlasticStrain)\n    trueStressVoce = Voce(c5,c6,c7,truePlasticStrain)\n    trueStress = c1 * trueStressSwift + (1 - c1) * trueStressVoce\n    return trueStress\ndef calculate_flowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # We assume that parameters is a dictionary",
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "SwiftVoce",
+        "kind": 2,
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "peekOfCode": "def SwiftVoce(c1,c2,c3,c4,c5,c6,c7,truePlasticStrain):\n    trueStressSwift = Swift(c2,c3,c4,truePlasticStrain)\n    trueStressVoce = Voce(c5,c6,c7,truePlasticStrain)\n    trueStress = c1 * trueStressSwift + (1 - c1) * trueStressVoce\n    return trueStress\ndef calculate_flowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # We assume that parameters is a dictionary\n    if hardeningLaw == \"Swift\":\n        c1, c2, c3 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"]\n        trueStress = Swift(c1, c2, c3, truePlasticStrain)",
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_flowCurve",
+        "kind": 2,
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "peekOfCode": "def calculate_flowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # We assume that parameters is a dictionary\n    if hardeningLaw == \"Swift\":\n        c1, c2, c3 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"]\n        trueStress = Swift(c1, c2, c3, truePlasticStrain)\n    elif hardeningLaw == \"Voce\":\n        c1, c2, c3 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"]\n        trueStress = Voce(c1, c2, c3, truePlasticStrain)\n    elif hardeningLaw == \"SwiftVoce\":\n        c1, c2, c3, c4, c5, c6, c7 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"], parameters[\"c4\"], parameters[\"c5\"], parameters[\"c6\"], parameters[\"c7\"]",
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "printLog",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def printLog(message, logPath):\n    with open(logPath, 'a+') as logFile:\n        logFile.writelines(message + \"\\n\")\n    print(message)\ndef parseBoundsBO(paramInfo):\n    paramBounds = {}\n    for param in paramInfo:\n        paramBounds[param] = (paramInfo[param]['lowerBound'], paramInfo[param]['upperBound'])\n    return paramBounds\ndef is_directory_empty(directory_path):",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "parseBoundsBO",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def parseBoundsBO(paramInfo):\n    paramBounds = {}\n    for param in paramInfo:\n        paramBounds[param] = (paramInfo[param]['lowerBound'], paramInfo[param]['upperBound'])\n    return paramBounds\ndef is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "is_directory_empty",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], \n                                    window_length=5, \n                                    polyorder=3,\n                                    mode='interp',\n                                    #mode='nearest',",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "smoothing_force",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], \n                                    window_length=5, \n                                    polyorder=3,\n                                    mode='interp',\n                                    #mode='nearest',\n                                    #mode='mirror',\n                                    #mode='wrap',",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "interpolatingForce",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    # Interpolate the force\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce\ndef interpolating_FD_Curves(FD_Curves, targetCurve):\n    # Interpolate the force from FD_Curves to the target curve\n    # FD_Curves is a dictionaries\n    # where each element is of form (parameterTuples) => {\"displacement\": <np.array>, \"force\": <np.array>}\n    # targetCurve is a dictionary of form {\"displacement\": <np.array>, \"force\": <np.array>}",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "interpolating_FD_Curves",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def interpolating_FD_Curves(FD_Curves, targetCurve):\n    # Interpolate the force from FD_Curves to the target curve\n    # FD_Curves is a dictionaries\n    # where each element is of form (parameterTuples) => {\"displacement\": <np.array>, \"force\": <np.array>}\n    # targetCurve is a dictionary of form {\"displacement\": <np.array>, \"force\": <np.array>}\n    # Create interp1d fitting from scipy\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "interpolatingStress",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def interpolatingStress(simStrain, simStress, targetStrain):\n    interpolatingFunction = interp1d(simStrain, simStress, fill_value='extrapolate')\n    # Interpolate the stress\n    interpolatedSimStress = interpolatingFunction(targetStrain)\n    return interpolatedSimStress\ndef interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "interpolating_flowCurves",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]\n        # Interpolate the force\n        flowCurves_copy[paramsTuple][\"stress\"] = interpolatingStress(simStrain, simStress, targetStrain)\n        flowCurves_copy[paramsTuple][\"strain\"] = targetStrain\n    return flowCurves_copy",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "SOO_write_BO_json_log",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):\n    # Write the BO log file\n    # Each line of BO logging json file looks like this\n    # {\"target\": <loss value>, \"params\": {\"params1\": <value1>, ..., \"paramsN\": <valueN>}, \"datetime\": {\"datetime\": \"2023-06-02 18:26:46\", \"elapsed\": 0.0, \"delta\": 0.0}}\n    # FD_Curves is a dictionaries\n    # where each element is of form (parameterTuples) => {\"displacement\": <np.array>, \"force\": <np.array>}\n    # targetCurve is a dictionary of form {\"displacement\": <np.array>, \"force\": <np.array>}\n    # Construct the json file line by line for each element in FD_Curves\n    # Each line is a dictionary\n    # Delete the json file if it exists",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "MOO_write_BO_json_log",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def MOO_write_BO_json_log(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    # Delete the json file if it exists\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        # Construct the dictionary\n        line = {}\n        # Note: BO in Bayes-Opt tries to maximize, so you should use the negative of the loss function.\n        loss = 0\n        for geometry in geometries:",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "MOO_suggest_BOTORCH",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, yieldingIndices, paramConfig,iteration):\n    # Calculate losses and prepare data for model\n    params = []\n    losses = []\n    for param_tuple, geom_to_simCurves in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        #print(param_tuple)\n        params.append([value for param, value in param_tuple])\n        # The minus sign is because BOTORCH tries to maximize objectives, but we want to minimize the loss\n        loss_iter = []\n        for geometry in geometries:",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "MOO_calculate_geometries_weight",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def MOO_calculate_geometries_weight(targetCurves, geometries):\n    geometryWeights = {}\n    for geometry in geometries:\n        targetDisplacement = targetCurves[geometry][\"displacement\"]\n        targetForce = targetCurves[geometry][\"force\"]\n        x_start = min(targetDisplacement)\n        x_end = max(targetDisplacement)\n        # Interpolate the force-displacement curve\n        target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n        # Evaluate the two curves at various points within the x-range boundary",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "prettyPrint",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def prettyPrint(parameters, paramConfig, logPath):\n    logTable = PrettyTable()\n    logTable.field_names = [\"Parameter\", \"Value\"]\n    for param in parameters:\n        paramName = paramConfig[param]['name']\n        paramValue = parameters[param]\n        paramUnit = paramConfig[param]['unit']\n        paramValueUnit = f\"{paramValue} {paramUnit}\" if paramUnit != \"dimensionless\" else paramValue\n        #print(paramName)\n        #print(paramValueUnit)",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "read_FD_Curve",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def read_FD_Curve(filePath):\n    output_data=np.loadtxt(filePath, skiprows=2)\n    # column 1 is time step\n    # column 2 is displacement\n    # column 3 is force\n    columns=['X', 'Displacement', 'Force']\n    df = pd.DataFrame(data=output_data, columns=columns)\n    # Converting to numpy array\n    displacement = df.iloc[:, 1].to_numpy()\n    force = df.iloc[:, 2].to_numpy()",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "create_parameter_file",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def create_parameter_file(filePath, paramsDict):\n    columns = [\"Parameter\", \"Value\"]\n    df = pd.DataFrame(columns=columns)\n    for key, value in paramsDict.items():\n        df.loc[len(df.index)] = [key, value]\n    df.to_excel(f\"{filePath}/parameters.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/parameters.csv\", index=False)\ndef create_flowCurve_file(filePath, truePlasticStrain, trueStress):\n    columns = [\"strain,-\", \"stress,MPa\", \"stress,Pa\"]\n    df = pd.DataFrame(columns=columns)",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "create_flowCurve_file",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def create_flowCurve_file(filePath, truePlasticStrain, trueStress):\n    columns = [\"strain,-\", \"stress,MPa\", \"stress,Pa\"]\n    df = pd.DataFrame(columns=columns)\n    for i in range(len(truePlasticStrain)):\n        df.loc[len(df.index)] = [truePlasticStrain[i], trueStress[i], trueStress[i]*1e6]\n    df.to_excel(f\"{filePath}/flowCurve.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/flowCurve.csv\", index=False)\ndef create_FD_Curve_file(filePath, displacement, force):\n    columns = [\"displacement,mm\", \"force,kN\", \"force,N\"]\n    df = pd.DataFrame(columns=columns)",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "create_FD_Curve_file",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def create_FD_Curve_file(filePath, displacement, force):\n    columns = [\"displacement,mm\", \"force,kN\", \"force,N\"]\n    df = pd.DataFrame(columns=columns)\n    for i in range(len(displacement)):\n        df.loc[len(df.index)] = [displacement[i], force[i] * 1e-3, force[i]]\n    df.to_excel(f\"{filePath}/FD_Curve.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/FD_Curve.csv\", index=False)\ndef replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "replace_flowCurve_material_inp",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()\n    # Locate the section containing the stress-strain data\n    start_line = None\n    end_line = None\n    for i, line in enumerate(material_inp_content):\n        if '*Plastic' in line:\n            start_line = i + 1\n        elif '*Density' in line:",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "replace_maxDisp_geometry_inp",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def replace_maxDisp_geometry_inp(filePath, maxTargetDisplacement):\n    with open(filePath, 'r') as geometry_inp:\n        geometry_inp_content = geometry_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(geometry_inp_content[-60:]):\n        if line.startswith('*Boundary, amplitude'):\n            original_index = len(geometry_inp_content) - 60 + i\n            start_line = original_index + 1\n            end_line = original_index + 2",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "replace_materialName_geometry_inp",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def replace_materialName_geometry_inp(filePath, materialName):\n    with open(filePath, 'r') as geometry_inp:\n        geometry_inp_content = geometry_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(geometry_inp_content[-100:]):\n        if line.startswith('*INCLUDE, INPUT='):\n            original_index = len(geometry_inp_content) - 100 + i\n            start_line = original_index\n            end_line = original_index + 1",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "rescale_paramsDict",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def rescale_paramsDict(paramsDict, paramConfig):\n    rescaled_paramsDict = {}\n    for param, value in paramsDict.items():\n        rescaled_paramsDict[param] = value * paramConfig[param]['exponent']\n    return rescaled_paramsDict\ndef reverseAsParamsToGeometries(curves, geometries):\n    exampleGeometry = geometries[0]\n    reverseCurves = {}\n    for paramsTuple in curves[exampleGeometry]:\n        reverseCurves[paramsTuple] = {}",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "reverseAsParamsToGeometries",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def reverseAsParamsToGeometries(curves, geometries):\n    exampleGeometry = geometries[0]\n    reverseCurves = {}\n    for paramsTuple in curves[exampleGeometry]:\n        reverseCurves[paramsTuple] = {}\n        for geometry in geometries:\n            reverseCurves[paramsTuple][geometry] = curves[geometry][paramsTuple]\n    return reverseCurves\ndef calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_yielding_index",
+        "kind": 2,
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "peekOfCode": "def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"\n    This function calculates the end of the elastic (linear) region of the force-displacement curve.\n    \"\"\"\n    yielding_index = 0\n    # Initialize the Linear Regression model\n    linReg = LinearRegression()\n    targetDisplacement = np.array(targetDisplacement)\n    targetForce = np.array(targetForce)\n    for i in range(2, len(targetDisplacement)):",
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "lossFlow",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def lossFlow(targetStrain, targetStress, simStress):\n    return np.sqrt(np.mean((targetStress - simStress)**2))\ndef dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    # Implementing numerical integration of the area bounded by \n    # the two curves and two vertical x axis\n    # Define the x-range boundary\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "dummy_lossFD",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    # Implementing numerical integration of the area bounded by \n    # the two curves and two vertical x axis\n    # Define the x-range boundary\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    # Interpolate the simulated force-displacement curve\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "lossFD",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    # Implementing numerical integration of the area bounded by \n    # the two curves and two vertical x axis\n    # Define the x-range boundary\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    # Interpolate the simulated force-displacement curve\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    # Evaluate the two curves at various points within the x-range boundary",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "loss_plastic",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def loss_plastic(targetDisplacement, targetForce, simForce, step, epsilon=1e-8):\n    \"\"\"\n    This function calculates the loss for the plastic region of the force-displacement curve. \n    The loss is a adaptive weighted sum of the residuals loss, slope loss, and important points penalty.\n    The weights adapt as the number of iterations increases.\n    \"\"\"\n    # Calculate residuals and corresponding loss\n    residuals = targetForce - simForce\n    residuals_loss = np.sqrt(np.mean(residuals ** 2))\n    # Calculate slopes and corresponding loss",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "lossFD",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    return loss_plastic(targetDisplacement, targetForce, simForce, iteration)\ndef stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "stopFD_SOO",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(targetCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "stopFD_MOO",
+        "kind": 2,
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "peekOfCode": "def stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(targetCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "load_settings",
+        "kind": 2,
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "peekOfCode": "def load_settings(): \n     # First, we define a dictionary 'dataDictionary' containing various configuration settings and data. \n     # we will return this dictionary \n    dataDictionary = {\n        'projectDirectoryLocation': projectDirectoryLocation,  # Location of the project directory\n        'logFileLocation': logFileLocation,  # Location of log files\n        'specsDataFolder': specsDataFolder,  # Folder for specifications data\n        'outputFileDirectory': outputFileDirectory,  # Directory for output files\n        'simulationFileDirectory': simulationFileDirectory,  # Directory for simulation files\n        'targetFileDirectory': targetFileDirectory,  # Directory for target files",
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "checkCreate",
+        "kind": 2,
+        "importPath": "stage0_initialize_directory",
+        "description": "stage0_initialize_directory",
+        "peekOfCode": "def checkCreate(path):\n    if not os.path.exists(path):\n        os.makedirs(path)\ndef startTheDirectory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex):\n    if optimizeStrategy == \"SOO\":\n        # For log\n        checkCreate(\"log\")\n        # For paramInfo\n        path = f\"SOO_paramInfo/{material}_{hardeningLaw}_{geometry}_curve{curveIndex}\"\n        checkCreate(path)",
+        "detail": "stage0_initialize_directory",
+        "documentation": {}
+    },
+    {
+        "label": "startTheDirectory",
+        "kind": 2,
+        "importPath": "stage0_initialize_directory",
+        "description": "stage0_initialize_directory",
+        "peekOfCode": "def startTheDirectory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex):\n    if optimizeStrategy == \"SOO\":\n        # For log\n        checkCreate(\"log\")\n        # For paramInfo\n        path = f\"SOO_paramInfo/{material}_{hardeningLaw}_{geometry}_curve{curveIndex}\"\n        checkCreate(path)\n        # For results \n        path = f\"SOO_results/{material}_{hardeningLaw}_{geometry}_curve{curveIndex}\"\n        checkCreate(path)",
+        "detail": "stage0_initialize_directory",
+        "documentation": {}
+    },
+    {
+        "label": "main_prepare_targetCurve",
+        "kind": 2,
+        "importPath": "stage1_MOO_prepare_targetCurve",
+        "description": "stage1_MOO_prepare_targetCurve",
+        "peekOfCode": "def main_prepare_targetCurve(info):\n    # ----------------------------------#\n    #   Step 1: Preparing target curve  #\n    # ----------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "detail": "stage1_MOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "main_prepare_targetCurve",
+        "kind": 2,
+        "importPath": "stage1_SOO_prepare_targetCurve",
+        "description": "stage1_SOO_prepare_targetCurve",
+        "peekOfCode": "def main_prepare_targetCurve(info):\n    # ----------------------------------#\n    #   Step 1: Preparing target curve  #\n    # ----------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "detail": "stage1_SOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "main_run_initialSims",
+        "kind": 2,
+        "importPath": "stage2_MOO_run_initialSims",
+        "description": "stage2_MOO_run_initialSims",
+        "peekOfCode": "def main_run_initialSims(info):\n    # ---------------------------------------#\n    #   Step 2: Running initial simulations  #\n    # ---------------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "detail": "stage2_MOO_run_initialSims",
+        "documentation": {}
+    },
+    {
+        "label": "main_run_initialSims",
+        "kind": 2,
+        "importPath": "stage2_SOO_run_initialSims",
+        "description": "stage2_SOO_run_initialSims",
+        "peekOfCode": "def main_run_initialSims(info):\n    # ---------------------------------------#\n    #   Step 2: Running initial simulations  #\n    # ---------------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "detail": "stage2_SOO_run_initialSims",
+        "documentation": {}
+    }
+]

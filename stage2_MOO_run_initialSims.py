@@ -74,7 +74,7 @@ def main_run_initialSims(info):
             printLog(f"Number of initial simulations for {geometry} geometry: {numberOfInitialSims} FD curves", logPath)
 
 if __name__ == "__main__":
-    info = stage0_configs.main_config()
+    info = stage0_configs.load_settings()
     targetCurves, maxTargetDisplacements = stage1_MOO_prepare_targetCurve.main_prepare_targetCurve(info)
     info['targetCurves'] = targetCurves
     info['maxTargetDisplacements'] = maxTargetDisplacements
