@@ -62,7 +62,7 @@ def load_settings():
             simulationFileDirectory, 
             templateFileDirectory, 
             targetFileDirectory
-        ) = startTheDirectory(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, curveIdentifier)
+        ) = activateFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, curveIdentifier)
 
     # Start directory for Multi-Objective Optimization
     elif optimizationApproach == "MOO":
@@ -75,7 +75,7 @@ def load_settings():
             simulationFileDirectory, 
             templateFileDirectory, 
             targetFileDirectory
-        ) = startTheDirectory(optimizationApproach, medium, hardeningLaw, shapes, curveIdentifier)
+        ) = activateFolder(optimizationApproach, medium, hardeningLaw, shapes, curveIdentifier)
 
     # Extract corresponding indices for MOO
         correspondingIndices = str(outputIdentifier).split(";")

@@ -1077,20 +1077,20 @@
         "documentation": {}
     },
     {
-        "label": "checkCreate",
+        "label": "verifyAndBuild",
         "kind": 2,
         "importPath": "stage0_initialize_directory",
         "description": "stage0_initialize_directory",
-        "peekOfCode": "def checkCreate(path):\n    if not os.path.exists(path):\n        os.makedirs(path)\ndef startTheDirectory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex):\n    if optimizeStrategy == \"SOO\":\n        # For log\n        checkCreate(\"log\")\n        # For paramInfo\n        path = f\"SOO_paramInfo/{material}_{hardeningLaw}_{geometry}_curve{curveIndex}\"\n        checkCreate(path)",
+        "peekOfCode": "def verifyAndBuild(path):\n    \"\"\"\n    Creates a directory at the specified 'path' if it does not already exist.\n    Args:\n        path (str): The path where the directory should be created.\n    Returns:\n        None\n    \"\"\"\n    if not os.path.exists(path):\n        os.makedirs(path)",
         "detail": "stage0_initialize_directory",
         "documentation": {}
     },
     {
-        "label": "startTheDirectory",
+        "label": "startFolder",
         "kind": 2,
         "importPath": "stage0_initialize_directory",
         "description": "stage0_initialize_directory",
-        "peekOfCode": "def startTheDirectory(optimizeStrategy, material, hardeningLaw, geometry, curveIndex):\n    if optimizeStrategy == \"SOO\":\n        # For log\n        checkCreate(\"log\")\n        # For paramInfo\n        path = f\"SOO_paramInfo/{material}_{hardeningLaw}_{geometry}_curve{curveIndex}\"\n        checkCreate(path)\n        # For results \n        path = f\"SOO_results/{material}_{hardeningLaw}_{geometry}_curve{curveIndex}\"\n        checkCreate(path)",
+        "peekOfCode": "def startFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, curveIdentifier):\n    \"\"\"\n    Activate a folder structure based on optimization parameters.\n    Args:\n        optimization_approach (str): The optimization approach ('SOO' or other).\n        medium (str): The medium type.\n        hardening_law (str): The hardening law used.\n        shape_of_the_object (str): The shape of the object.\n        curve_identifier (int): The curve identifier.\n    \"\"\"",
         "detail": "stage0_initialize_directory",
         "documentation": {}
     },
