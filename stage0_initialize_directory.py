@@ -171,22 +171,22 @@ def startFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, cu
     if optimizationApproach == "SOO":
 
         # Path to store log data
-        logPath = f"log/SOO_{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}.txt"
+        pathForLog = f"log/SOO_{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}.txt"
 
         # Path for storing parameter information related to the optimization
-        paramInfoPath = f"SOO_paramInfo/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
+        pathForParameterData = f"SOO_paramInfo/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
 
         # Path to store the results of the optimization process
-        resultPath = f"SOO_results/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
+        pathForOutputs = f"SOO_results/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
 
         # Path to store simulation data generated during optimization
-        simPath = f"SOO_simulations/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
+        pathForSimulations = f"SOO_simulations/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
 
         # Path to store target data used in the optimization
-        targetPath = f"SOO_targets/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
+        pathForTargets = f"SOO_targets/{medium}_{hardeningLaw}_{shapeOfTheObject}_curve{curveIdentifier}"
 
         # Path to templates that assist in the optimization process, specific to the medium and object shape
-        templatePath = f"templates/{medium}/{shapeOfTheObject}"
+        pathForTemplates = f"templates/{medium}/{shapeOfTheObject}"
     
     #####################################
     #####                           #####
@@ -201,24 +201,24 @@ def startFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, cu
     elif optimizationApproach == "MOO":
 
         # Path to store log data
-        logPath = f"log/MOO_{medium}_{hardeningLaw}_curve{curveIdentifier}.txt"
+        pathForLog = f"log/MOO_{medium}_{hardeningLaw}_curve{curveIdentifier}.txt"
 
         # Path for storing parameter information related to the optimization
-        paramInfoPath = f"MOO_paramInfo/{medium}_{hardeningLaw}_curve{curveIdentifier}"
+        pathForParameterData = f"MOO_paramInfo/{medium}_{hardeningLaw}_curve{curveIdentifier}"
 
         # Path to store the results of the optimization process
-        resultPath = f"MOO_results/{medium}_{hardeningLaw}_curve{curveIdentifier}"
+        pathForOutputs = f"MOO_results/{medium}_{hardeningLaw}_curve{curveIdentifier}"
 
          # Path to store simulation data generated during optimization
-        simPath = f"MOO_simulations/{medium}_{hardeningLaw}_curve{curveIdentifier}"
+        pathForSimulations = f"MOO_simulations/{medium}_{hardeningLaw}_curve{curveIdentifier}"
 
         # Path to store target data used in the optimization
-        targetPath = f"MOO_targets/{medium}_{hardeningLaw}_curve{curveIdentifier}"
+        pathForTargets = f"MOO_targets/{medium}_{hardeningLaw}_curve{curveIdentifier}"
 
         # Path to templates that assist in the optimization process, specific to the medium and object shape
-        templatePath = f"templates/{medium}"
+        pathForTemplates = f"templates/{medium}"
 
-    return locateProject, logPath, paramInfoPath, resultPath, simPath, templatePath, targetPath
+    return locateProject, pathForLog, pathForParameterData, pathForOutputs, pathForSimulations, pathForTemplates, pathForTargets
 
 
     #####################################

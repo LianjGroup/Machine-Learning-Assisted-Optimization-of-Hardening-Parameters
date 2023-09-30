@@ -75,7 +75,7 @@ def main_run_initialSims(info):
 
 if __name__ == "__main__":
     info = stage0_configs.load_settings()
-    targetCurves, maxTargetDisplacements = stage1_MOO_prepare_targetCurve.main_prepare_targetCurve(info)
+    targetCurves, maxTargetDisplacements = stage1_MOO_prepare_targetCurve.buildTargetCurve(info)
     info['targetCurves'] = targetCurves
     info['maxTargetDisplacements'] = maxTargetDisplacements
     main_run_initialSims(info)

@@ -157,6 +157,14 @@
         "documentation": {}
     },
     {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
         "label": "sys",
         "kind": 6,
         "isExtraImport": true,
@@ -277,14 +285,6 @@
         "documentation": {}
     },
     {
-        "label": "interp1d",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
         "label": "CubicSpline",
         "importPath": "scipy.interpolate",
         "description": "scipy.interpolate",
@@ -330,14 +330,6 @@
         "description": "scipy.interpolate",
         "isExtraImport": true,
         "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -563,6 +555,54 @@
         "description": "sklearn.metrics",
         "isExtraImport": true,
         "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "BayesianOptimization",
+        "importPath": "bayes_opt",
+        "description": "bayes_opt",
+        "isExtraImport": true,
+        "detail": "bayes_opt",
+        "documentation": {}
+    },
+    {
+        "label": "UtilityFunction",
+        "importPath": "bayes_opt",
+        "description": "bayes_opt",
+        "isExtraImport": true,
+        "detail": "bayes_opt",
+        "documentation": {}
+    },
+    {
+        "label": "JSONLogger",
+        "importPath": "bayes_opt.logger",
+        "description": "bayes_opt.logger",
+        "isExtraImport": true,
+        "detail": "bayes_opt.logger",
+        "documentation": {}
+    },
+    {
+        "label": "Events",
+        "importPath": "bayes_opt.event",
+        "description": "bayes_opt.event",
+        "isExtraImport": true,
+        "detail": "bayes_opt.event",
+        "documentation": {}
+    },
+    {
+        "label": "load_logs",
+        "importPath": "bayes_opt.util",
+        "description": "bayes_opt.util",
+        "isExtraImport": true,
+        "detail": "bayes_opt.util",
+        "documentation": {}
+    },
+    {
+        "label": "other kernels from sklearn",
+        "importPath": "sklearn.gaussian_process.kernels import RBF. Matern # you can try to",
+        "description": "sklearn.gaussian_process.kernels import RBF. Matern # you can try to",
+        "isExtraImport": true,
+        "detail": "sklearn.gaussian_process.kernels import RBF. Matern # you can try to",
         "documentation": {}
     },
     {
@@ -1068,6 +1108,15 @@
         "documentation": {}
     },
     {
+        "label": "BO",
+        "kind": 6,
+        "importPath": "optimizers.BO",
+        "description": "optimizers.BO",
+        "peekOfCode": "class BO():\n    ##################################\n    # OPTIMIZER CLASS INITIALIZATION #\n    ##################################\n    def __init__(self, info):        \n        #############################\n        # Optimizer hyperparameters #\n        #############################\n        self.info = info\n        # maximize parameters",
+        "detail": "optimizers.BO",
+        "documentation": {}
+    },
+    {
         "label": "load_settings",
         "kind": 2,
         "importPath": "stage0_configs",
@@ -1095,11 +1144,11 @@
         "documentation": {}
     },
     {
-        "label": "main_prepare_targetCurve",
+        "label": "buildTargetCurve",
         "kind": 2,
         "importPath": "stage1_MOO_prepare_targetCurve",
         "description": "stage1_MOO_prepare_targetCurve",
-        "peekOfCode": "def main_prepare_targetCurve(info):\n    # ----------------------------------#\n    #   Step 1: Preparing target curve  #\n    # ----------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "peekOfCode": "def buildTargetCurve(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####       DECLARING        ####\n    ####     PATH VARIABLES     ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
         "detail": "stage1_MOO_prepare_targetCurve",
         "documentation": {}
     },
