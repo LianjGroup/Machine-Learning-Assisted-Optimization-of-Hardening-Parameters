@@ -1,9 +1,5 @@
 import numpy as np
 import pandas as pd
-
-from sklearn.metrics import mean_squared_error
-from scipy.interpolate import CubicSpline
-from scipy.interpolate import interp1d
 from modules.SOO_SIM import *
 from modules.hardeningLaws import *
 from modules.helper import *
@@ -11,43 +7,99 @@ from modules.stoploss import *
 from optimizers.BO import *
 from stage0_configs import * 
 from math import *
-import json
-from datetime import datetime
-import os
-import prettytable
 
-def main_prepare_targetCurve(info):
+def buildTargetCurve(data):
 
-    # ----------------------------------#
-    #   Step 1: Preparing target curve  #
-    # ----------------------------------#
+    ################################
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    #### BUILDING TARGET CURVE  ####
+    ####        FOR SOO         ####
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ################################
     
-    projectPath = info['projectPath']
-    logPath = info['logPath']
-    resultPath = info['resultPath']
-    simPath = info['simPath']
-    targetPath = info['targetPath']
-    templatePath = info['templatePath'] 
-    material = info['material']
-    optimizeStrategy = info['optimizeStrategy']
-    optimizerName = info['optimizerName']
-    hardeningLaw = info['hardeningLaw']
-    paramConfig = info['paramConfig']
-    geometry = info['geometry']
-    deviationPercent = info['deviationPercent']
-    numberOfInitialSims = info['numberOfInitialSims']
-    
+    # Retrieve the project path from the 'data' dictionary
+    pathForProject = data['pathForProject']
 
-    # Read the CSV target curve file into a DataFrame (ground truth)
-    df = pd.read_csv(f'{targetPath}/FD_Curve.csv')
-    expDisplacement = df['displacement/mm'].to_numpy()
-    expForce = df['force/N'].to_numpy()
-    targetCurve = {}
-    targetCurve['displacement'] = expDisplacement
-    targetCurve['force'] = expForce
-    #targetCurve['force'] = smoothing_force(expForce)
-    maxTargetDisplacement = ceil(max(expDisplacement) * 10) / 10
-    return targetCurve, maxTargetDisplacement
+    # Retrieve the log path from the 'data' dictionary
+    pathForLog = data['pathForLog']
 
-    #print(maxTargetDisplacement)
-    #time.sleep(30)
+    # Retrieve the outputs path from the 'data' dictionary
+    pathForOutputs = data['pathForOutputs']
+
+    # Retrieve the simulations path from the 'data' dictionary
+    pathForSimulations = data['pathForSimulations']
+
+    # Retrieve the targets path from the 'data' dictionary
+    pathForTargets = data['pathForTargets']
+
+    # Retrieve the templates path from the 'data' dictionary
+    pathForTemplates = data['pathForTemplates'] 
+
+    ################################
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ####       DECLARING        ####
+    ####    OTHER VARIABLES     ####
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ################################
+
+    # Retrieve the 'medium' value from the 'data' dictionary
+    medium = data['medium']
+
+    # Retrieve the 'optimizationApproach' value from the 'data' dictionary
+    optimizationApproach = data['optimizationApproach']
+
+    # Retrieve the 'algorithmLabel' value from the 'data' dictionary
+    algorithmLabel = data['algorithmLabel']
+
+    # Retrieve the 'hardeningLaw' value from the 'data' dictionary
+    hardeningLaw = data['hardeningLaw']
+
+    # Retrieve the 'configData' value from the 'data' dictionary
+    configData = data['configData']
+
+    # Retrieve the 'geometries' value from the 'data' dictionary
+    geometries = data['geometries']
+
+    # Retrieve the 'percentageDifference' value from the 'data' dictionary
+    percentageDifference = data['percentageDifference']
+
+    # Retrieve the 'numInitialSimulations' value from the 'data' dictionary
+    numInitialSimulations = data['numInitialSimulations']
+
+
+    ################################
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ####  CURVE SPECIFICATIONS  ####
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ################################
+
+
+    # Read data from a CSV file
+    dataFrame = pd.read_csv(f'{pathForTargets}/FD_Curve.csv')
+
+    # Extract displacement and force data from the DataFrame
+    anticipatedShift = dataFrame['displacement/mm'].to_numpy()
+    anticipatedForce = dataFrame['force/N'].to_numpy()
+
+    # Create a dictionary for the intended curve    
+    intendedCurve = {}
+    intendedCurve['displacement'] = anticipatedShift
+    intendedCurve['force'] = anticipatedForce
+
+    # Store the intended curve and target movement limit in dictionaries
+    targetMovementLimits = ceil(max(anticipatedShift) * 10) / 10
+
+    # Return the dictionaries containing intended curves and target movement limits
+    return intendedCurve, targetMovementLimits

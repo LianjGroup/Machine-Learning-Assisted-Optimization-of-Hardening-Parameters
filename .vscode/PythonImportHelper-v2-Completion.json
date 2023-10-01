@@ -1,5 +1,270 @@
 [
     {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqus",
+        "description": "abaqus",
+        "isExtraImport": true,
+        "detail": "abaqus",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "abaqusConstants",
+        "description": "abaqusConstants",
+        "isExtraImport": true,
+        "detail": "abaqusConstants",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "viewerModules",
+        "description": "viewerModules",
+        "isExtraImport": true,
+        "detail": "viewerModules",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
+        "label": "executeOnCaeStartup",
+        "importPath": "driverUtils",
+        "description": "driverUtils",
+        "isExtraImport": true,
+        "detail": "driverUtils",
+        "documentation": {}
+    },
+    {
         "label": "pandas",
         "kind": 6,
         "isExtraImport": true,
@@ -24,15 +289,6 @@
         "importPath": "subprocess",
         "description": "subprocess",
         "detail": "subprocess",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -301,54 +557,6 @@
         "documentation": {}
     },
     {
-        "label": "CubicSpline",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "interp1d",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "CubicSpline",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "interp1d",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
@@ -519,22 +727,6 @@
     },
     {
         "label": "r2_score",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "mean_squared_error",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
-        "label": "mean_squared_error",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
         "isExtraImport": true,
@@ -781,6 +973,1086 @@
         "description": "stage1_SOO_prepare_targetCurve",
         "isExtraImport": true,
         "detail": "stage1_SOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "description": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_25C_SwiftVoce_curve1.NDBR20.initial.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.CHD6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR50.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.1.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "working_directory",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "working_directory = os.getcwd()  \n# Execute Abaqus CAE startup\nexecuteOnCaeStartup()\n# Open output database\no2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "o2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "o2 = session.openOdb(name='geometry.odb')\n# Set the viewport parameters\nsession.viewports['Viewport: 1'].setValues(displayedObject=o2)\nsession.viewports['Viewport: 1'].odbDisplay.display.setValues(plotState=(CONTOURS_ON_DEF,))\nsession.viewports['Viewport: 1'].odbDisplay.commonOptions.setValues(visibleEdges=FEATURE)\nsession.viewports['Viewport: 1'].view.fitView()\n# Print deformed shape to file\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"Deformed_Specimen\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "odb",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "odb = session.odbs[working_directory + r\"\\geometry.odb\"]\nsession.xyDataListFromField(\n    odb=odb, \n    outputPosition=NODAL, \n    variable=(('RF', NODAL, ((COMPONENT, 'RF2'), )), ), \n    operator=ADD, \n    nodeSets=(\"DISP\", )\n)\n# Adjust the view parameters\nsession.viewports['Viewport: 1'].view.setValues(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "force = session.xyDataObjects['Force']\nforce_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double_data",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "force_double_data = [(x[0], 2.0*x[1]) for x in force.data]\nforce_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "force_double",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "force_double = session.XYData(name='Force_double', data=force_double_data, \n                              xValuesLabel=force.xValuesLabel, yValuesLabel=force.yValuesLabel)\nsession.xyDataObjects.changeKey(fromName='Force', toName='Force_original')\nsession.xyDataObjects.changeKey(fromName='Force_double', toName='Force')\n# Create a new XY plot with the doubled force and displacement data\nxy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "xy1 = session.xyDataObjects['Displacement']\nxy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy2",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "xy2 = session.xyDataObjects['Force']\nsession.XYData(name='Force-Displacement', objectToCopy=xy2)\nsession.xyDataObjects['Force-Displacement'].setValues(sourceDescription=xy1.description)\nxy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xy3",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "xy3 = combine(xy1, xy2)\nxyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "xyp",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "xyp = session.XYPlot('XYPlot-1')\nchartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chartName",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "chartName = list(session.charts.keys())[0]\nchart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, ",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "chart",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "chart = xyp.charts[chartName]\nc1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "c1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "c1 = session.Curve(xyData=xy3)\nchart.setValues(curvesToPlot=(c1, ), )\nsession.charts[chartName].autoColor(lines=True, symbols=True)\nsession.viewports['Viewport: 1'].setValues(displayedObject=xyp)\n# Save the force-displacement curve\nsession.printToFile(\n    fileName=os.path.join(working_directory,\"FD_Curve_Plot\"), \n    format=TIFF, \n    canvasObjects=(session.viewports['Viewport: 1'], )\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x0",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "x0 = session.xyDataObjects['Displacement']\nx1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "description": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
+        "peekOfCode": "x1 = session.xyDataObjects['Force']  # This now refers to the doubled force\nsession.writeXYReport(\n    fileName=os.path.join(working_directory,\"FD_Curve.txt\"), \n    appendMode=OFF, \n    xyData=(x0, x1)\n)",
+        "detail": "MOO_simulations.DP1000_400C_SwiftVoce_curve1.NDBR6.iteration.2.postprocess",
         "documentation": {}
     },
     {
@@ -1153,20 +2425,20 @@
         "documentation": {}
     },
     {
-        "label": "main_prepare_targetCurve",
+        "label": "buildTargetCurve",
         "kind": 2,
         "importPath": "stage1_SOO_prepare_targetCurve",
         "description": "stage1_SOO_prepare_targetCurve",
-        "peekOfCode": "def main_prepare_targetCurve(info):\n    # ----------------------------------#\n    #   Step 1: Preparing target curve  #\n    # ----------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "peekOfCode": "def buildTargetCurve(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    #### BUILDING TARGET CURVE  ####\n    ####        FOR SOO         ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
         "detail": "stage1_SOO_prepare_targetCurve",
         "documentation": {}
     },
     {
-        "label": "main_run_initialSims",
+        "label": "executeSimulations",
         "kind": 2,
         "importPath": "stage2_MOO_run_initialSims",
         "description": "stage2_MOO_run_initialSims",
-        "peekOfCode": "def main_run_initialSims(info):\n    # ---------------------------------------#\n    #   Step 2: Running initial simulations  #\n    # ---------------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "peekOfCode": "def executeSimulations(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####       DECLARING        ####\n    ####     PATH VARIABLES     ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
         "detail": "stage2_MOO_run_initialSims",
         "documentation": {}
     },

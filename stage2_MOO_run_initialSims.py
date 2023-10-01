@@ -1,9 +1,6 @@
 import numpy as np
 import pandas as pd
 
-from sklearn.metrics import mean_squared_error
-from scipy.interpolate import CubicSpline
-from scipy.interpolate import interp1d
 from modules.MOO_SIM import *
 from modules.hardeningLaws import *
 from modules.helper import *
@@ -14,68 +11,136 @@ import stage0_configs
 import stage1_MOO_prepare_targetCurve
 from stage1_MOO_prepare_targetCurve import *
 from math import *
-import json
-from datetime import datetime
 import os
-import prettytable
 
-def main_run_initialSims(info):
+    ##################################
+    ###                            ###
+    ###                            ###
+    ###     Executing Initial      ###
+    ###        Simulations         ###
+    ###          for MOO           ###
+    ###                            ###
+    ###                            ###
+    ##################################
 
-    # ---------------------------------------#
-    #   Step 2: Running initial simulations  #
-    # ---------------------------------------#
+
+def executeSimulations(data):
+
+    ################################
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ####       DECLARING        ####
+    ####     PATH VARIABLES     ####
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ################################
     
-    projectPath = info['projectPath']
-    logPath = info['logPath']
-    resultPath = info['resultPath']
-    simPath = info['simPath']
-    targetPath = info['targetPath']
-    templatePath = info['templatePath'] 
-    material = info['material']
-    optimizeStrategy = info['optimizeStrategy']
-    optimizerName = info['optimizerName']
-    hardeningLaw = info['hardeningLaw']
-    paramConfig = info['paramConfig']
-    geometries = info['geometries']
-    deviationPercent = info['deviationPercent']
-    numberOfInitialSims = info['numberOfInitialSims']
-    generateParams = info['generateParams'] 
-    maxTargetDisplacements = info['maxTargetDisplacements']
+    # Retrieve the project path from the 'data' dictionary
+    pathForProject = data['pathForProject']
+
+    # Retrieve the log path from the 'data' dictionary
+    pathForLog = data['pathForLog']
+
+    # Retrieve the outputs path from the 'data' dictionary
+    pathForOutputs = data['pathForOutputs']
+
+    # Retrieve the simulations path from the 'data' dictionary
+    pathForSimulations = data['pathForSimulations']
+
+    # Retrieve the targets path from the 'data' dictionary
+    pathForTargets = data['pathForTargets']
+
+    # Retrieve the templates path from the 'data' dictionary
+    pathForTemplates = data['pathForTemplates'] 
+
+    ################################
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ####       DECLARING        ####
+    ####    OTHER VARIABLES     ####
+    ####                        ####
+    ####                        ####
+    ####                        ####
+    ################################
+
+    # Retrieve the 'medium' value from the 'data' dictionary
+    medium = data['medium']
+
+    # Retrieve the 'optimizationApproach' value from the 'data' dictionary
+    optimizationApproach = data['optimizationApproach']
+
+    # Retrieve the 'algorithmLabel' value from the 'data' dictionary
+    algorithmLabel = data['algorithmLabel']
+
+    # Retrieve the 'hardeningLaw' value from the 'data' dictionary
+    hardeningLaw = data['hardeningLaw']
+
+    # Retrieve the 'configData' value from the 'data' dictionary
+    configData = data['configData']
+
+    # Retrieve the 'geometries' value from the 'data' dictionary
+    geometries = data['geometries']
+
+    # Retrieve the 'percentageDifference' value from the 'data' dictionary
+    percentageDifference = data['percentageDifference']
+
+    # Retrieve the 'numInitialSimulations' value from the 'data' dictionary
+    numInitialSimulations = data['numInitialSimulations']
+
+    # Retrieve the 'specsSetForGeneration' value from the 'data' dictionary
+    specsSetForGeneration = data['specsSetForGeneration'] 
+
+    # Retrieve the 'targetMovementLimits' value from the 'data' dictionary
+    targetMovementLimits = data['targetMovementLimits']
 
 
-    if generateParams == "manual":
-        parameters = np.load(f"{resultPath}/parameters.npy", allow_pickle=True).tolist()
-        info['numberOfInitialSims'] = len(parameters)
+    # Check the value of 'specsSetForGeneration' to determine how to proceed
+    if specsSetForGeneration == "manual":
+        # Load specifications from a file and convert to a Python dictionary
+        specs = np.load(f"{pathForOutputs}/parameters.npy", allow_pickle=True).tolist()
+        # Update the number of initial simulations in the 'data' dictionary
+        data['numberOfInitialSims'] = len(specs)
+    elif specsSetForGeneration == "auto":
+        # Generate specifications using Latin hypercube sampling
+        specs = simulation.latin_hypercube_sampling(shapeOfTheObject)
 
-    elif generateParams == "auto":
-        parameters = sim.latin_hypercube_sampling(geometry)
+    # Iterate over different geometries
+    for shapeOfTheObject in geometries:
+        # Create a deep copy of the 'data' dictionary
+        copyTheData = copy.deepcopy(data)
 
-    for geometry in geometries:
-        infoCopy = copy.deepcopy(info)
-        resultPathGeometry = f"{resultPath}/{geometry}"
-        simPathGeometry = f"{simPath}/{geometry}"
-        templatePathGeometry = f"{templatePath}/{geometry}"
-        infoCopy['resultPath'] = resultPathGeometry
-        infoCopy['simPath'] = simPathGeometry
-        infoCopy['templatePath'] = templatePathGeometry
-        infoCopy['maxTargetDisplacement'] = maxTargetDisplacements[geometry]
-        sim = MOO_SIM(infoCopy) 
+        # Construct paths for result, simulation, and template directories
+        resultPathGeometry = f"{pathForOutputs}/{shapeOfTheObject}"
+        simPathGeometry = f"{pathForSimulations}/{shapeOfTheObject}"
+        templatePathGeometry = f"{pathForTemplates}/{shapeOfTheObject}"
+
+        # Update paths and 'maxTargetDisplacement' in the copied data
+        copyTheData['resultPath'] = resultPathGeometry
+        copyTheData['simPath'] = simPathGeometry
+        copyTheData['templatePath'] = templatePathGeometry
+        copyTheData['maxTargetDisplacement'] = targetMovementLimits[shapeOfTheObject]
+
+        # Create a simulation object 'simulation' with the updated data
+        simulation = MOO_SIM(copyTheData) 
 
         if not os.path.exists(f"{resultPathGeometry}/initial/common/FD_Curves_unsmooth.npy"):
-            printLog("=======================================================================", logPath)
-            printLog(f"There are no initial simulations for {geometry} geometry", logPath)
-            printLog(f"Program starts running the initial simulations for {geometry} geometry", logPath)
-            sim.run_initial_simulations(parameters)
-            printLog(f"Initial simulations for {geometry} geometry have completed", logPath)
+            printLog("***********************************************************", pathForLog)
+            printLog(f"Shape with the name: {shapeOfTheObject} , doesn't have any simulations.", pathForLog)
+            printLog(f"Simulations for the shape with name: {shapeOfTheObject} , are running.", pathForLog)
+            simulation.run_initial_simulations(specs)
+            printLog(f"Simulations for the shape with name: {shapeOfTheObject} have been completed", pathForLog)
         else: 
-            printLog("=======================================================================", logPath)
-            printLog(f"Initial simulations for {geometry} geometry already exist", logPath)
+            printLog("***********************************************************", pathForLog)
+            printLog(f"Simulations for the shape with name: {shapeOfTheObject}, already exist.", pathForLog)
             numberOfInitialSims = len(np.load(f"{resultPathGeometry}/initial/common/FD_Curves_unsmooth.npy", allow_pickle=True).tolist())
-            printLog(f"Number of initial simulations for {geometry} geometry: {numberOfInitialSims} FD curves", logPath)
+            printLog(f"Simulation count for the geometry named {shapeOfTheObject}: {numberOfInitialSims} FD curves", pathForLog)
 
 if __name__ == "__main__":
     info = stage0_configs.load_settings()
     targetCurves, maxTargetDisplacements = stage1_MOO_prepare_targetCurve.buildTargetCurve(info)
     info['targetCurves'] = targetCurves
     info['maxTargetDisplacements'] = maxTargetDisplacements
-    main_run_initialSims(info)
+    executeSimulations(info)
