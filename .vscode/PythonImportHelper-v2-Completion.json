@@ -9,15 +9,6 @@
         "documentation": {}
     },
     {
-        "label": "sys",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "sys",
-        "description": "sys",
-        "detail": "sys",
-        "documentation": {}
-    },
-    {
         "label": "json",
         "kind": 6,
         "isExtraImport": true,
@@ -42,15 +33,6 @@
         "importPath": "pandas",
         "description": "pandas",
         "detail": "pandas",
-        "documentation": {}
-    },
-    {
-        "label": "glob",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "glob",
-        "description": "glob",
-        "detail": "glob",
         "documentation": {}
     },
     {
@@ -240,14 +222,6 @@
         "documentation": {}
     },
     {
-        "label": "StandardScaler",
-        "importPath": "sklearn.preprocessing",
-        "description": "sklearn.preprocessing",
-        "isExtraImport": true,
-        "detail": "sklearn.preprocessing",
-        "documentation": {}
-    },
-    {
         "label": "subprocess",
         "kind": 6,
         "isExtraImport": true,
@@ -294,22 +268,6 @@
         "description": "modules.hardeningLaws",
         "isExtraImport": true,
         "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
-        "isExtraImport": true,
-        "detail": "modules.helper",
         "documentation": {}
     },
     {
@@ -376,6 +334,14 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
@@ -476,42 +442,50 @@
     },
     {
         "label": "*",
-        "importPath": "modules.SOO_SIM",
-        "description": "modules.SOO_SIM",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
         "isExtraImport": true,
-        "detail": "modules.SOO_SIM",
+        "detail": "ASSETS.PART4_SIM_SOO",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.SOO_SIM",
-        "description": "modules.SOO_SIM",
+        "importPath": "ASSETS.helper",
+        "description": "ASSETS.helper",
         "isExtraImport": true,
-        "detail": "modules.SOO_SIM",
+        "detail": "ASSETS.helper",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.SOO_SIM",
-        "description": "modules.SOO_SIM",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
         "isExtraImport": true,
-        "detail": "modules.SOO_SIM",
+        "detail": "MODELS.PART1_BAYESIANOPT",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "optimizers.PART1_BAYESIANOPT",
-        "description": "optimizers.PART1_BAYESIANOPT",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
         "isExtraImport": true,
-        "detail": "optimizers.PART1_BAYESIANOPT",
+        "detail": "MODELS.PART1_BAYESIANOPT",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "optimizers.PART1_BAYESIANOPT",
-        "description": "optimizers.PART1_BAYESIANOPT",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
         "isExtraImport": true,
-        "detail": "optimizers.PART1_BAYESIANOPT",
+        "detail": "MODELS.PART1_BAYESIANOPT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
+        "isExtraImport": true,
+        "detail": "MODELS.PART1_BAYESIANOPT",
         "documentation": {}
     },
     {
@@ -589,10 +563,18 @@
     },
     {
         "label": "*",
-        "importPath": "modules.MOO_SIM",
-        "description": "modules.MOO_SIM",
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
         "isExtraImport": true,
-        "detail": "modules.MOO_SIM",
+        "detail": "modules.SOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.SOO_SIM",
         "documentation": {}
     },
     {
@@ -605,18 +587,10 @@
     },
     {
         "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
+        "importPath": "modules.MOO_SIM",
+        "description": "modules.MOO_SIM",
         "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
+        "detail": "modules.MOO_SIM",
         "documentation": {}
     },
     {
