@@ -1,7 +1,7 @@
 import numpy as np
 import subprocess
 import os
-from modules.hardeningLaws import *
+from ASSETS.PART1_HARDENINGLAWS import *
 from modules.helper import *
 import shutil
 import random

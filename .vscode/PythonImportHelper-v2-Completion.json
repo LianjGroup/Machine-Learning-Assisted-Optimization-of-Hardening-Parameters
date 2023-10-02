@@ -232,42 +232,26 @@
     },
     {
         "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
@@ -334,22 +318,6 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
@@ -438,6 +406,38 @@
         "description": "PART1_FOLDERS",
         "isExtraImport": true,
         "detail": "PART1_FOLDERS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
         "documentation": {}
     },
     {
