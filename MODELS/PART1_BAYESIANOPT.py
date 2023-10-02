@@ -5,7 +5,7 @@ from bayes_opt.event import Events
 from bayes_opt.util import load_logs
 from sklearn.gaussian_process.kernels import RBF
 import os
-from modules.helper import *
+from ASSETS.PART2_ASSTFUNCT import *
 
 class bayesianOptimization():
 
@@ -15,41 +15,41 @@ class bayesianOptimization():
         kendi.random_state = 123 
         kendi.init_points = 0
         kendi.iterations = 1 
-        kendi.acquisitionFunction = UtilityFunction(kind='poi', xi=0.1)
+        kendi.acquisitionFunction = UtilityFunction(kind='POI', xi=0.1)
         kendi.GP_kernel = RBF(length_scale=1, length_scale_bounds=(1e-3, 1e3)) 
         kendi.alpha = 1e-9
         kendi.normalize_y=True
         kendi.n_restarts_optimizer=5
-        kendi.logger = JSONLogger(path=f"optimizers/logs.json", reset=False)
+        kendi.logger = JSONLogger(path=f"MODELS/logs.json", reset=False)
     
-    def initializeOptimizer(self, lossFunction, param_bounds, loadingProgress = True):
-        self.param_bounds = param_bounds
-        self.loadingProgress = loadingProgress
-        bo_instance = BayesianOptimization(
-            f = lossFunction,
-            pbounds = param_bounds, 
-            verbose = self.verbose,
-            random_state = self.random_state,
+    def initializeOptimizer(kendi, errorFunction, rangeConstraints, progressStatus = True):
+        kendi.param_bounds = rangeConstraints
+        kendi.loadingProgress = progressStatus
+        optimizationObject = BayesianOptimization(
+            f = errorFunction,
+            pbounds = rangeConstraints, 
+            verbose = kendi.verbose,
+            random_state = kendi.random_state,
             bounds_transformer = None,
             allow_duplicate_points = False,
         )
-        bo_instance.set_gp_params(
-            kernel=self.GP_kernel,
-            alpha=self.alpha,
-            normalize_y=self.normalize_y,
-            n_restarts_optimizer=self.n_restarts_optimizer,
-            random_state=self.random_state
+        optimizationObject.set_gp_params(
+            kernel=kendi.GP_kernel,
+            alpha=kendi.alpha,
+            normalize_y=kendi.normalize_y,
+            n_restarts_optimizer=kendi.n_restarts_optimizer,
+            random_state=kendi.random_state
         )
-        self.optimizer = bo_instance
-        if loadingProgress == False:
-            self.optimizer.subscribe(Events.OPTIMIZATION_STEP, self.logger)
+        kendi.optimizer = optimizationObject
+        if progressStatus == False:
+            kendi.optimizer.subscribe(Events.OPTIMIZATION_STEP, kendi.logger)
         else:
-            projectPath = self.info["projectPath"]
-            logPath = self.info["logPath"]
-            if os.path.exists(f"{projectPath}/optimizers/logs.json"):
-                load_logs(self.optimizer, logs=[f"optimizers/logs.json"]);
-                printLog("BO optimizer is now aware of {} points.".format(len(self.optimizer.space)), logPath)
-                self.optimizer.subscribe(Events.OPTIMIZATION_STEP, self.logger)
+            pathForProject = kendi.info["pathForProject"]
+            pathForLog = kendi.info["pathForLog"]
+            if os.path.exists(f"{pathForProject}/MODELS/logs.json"):
+                load_logs(kendi.optimizer, logs=[f"MODELS/logs.json"]);
+                printLog("BO optimizer is now aware of {} points.".format(len(kendi.optimizer.space)), pathForLog)
+                kendi.optimizer.subscribe(Events.OPTIMIZATION_STEP, kendi.logger)
         
         
     def run(self):

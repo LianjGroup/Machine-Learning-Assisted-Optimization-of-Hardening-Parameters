@@ -141,7 +141,7 @@ def startFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, cu
             startFolder(f"{path}/{shapeOfTheObject}/iteration")
 
         # Define a path for targets
-        path = f"MOO_targets/{medium}_{hardeningLaw}_curve{curveIdentifier}"
+        path = f"TARGETS_FOR_MOO/{medium}_{hardeningLaw}_curve{curveIdentifier}"
         startFolder(path)
 
         # Create subdirectories within the targets folder for each geometry

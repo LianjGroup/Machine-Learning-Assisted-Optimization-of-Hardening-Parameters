@@ -38,17 +38,7 @@ def is_directory_empty(directory_path):
 def smoothing_force(force, startIndex, endIndex, iter=20000):
     smooth_force = copy.deepcopy(force)
     for i in range(iter):
-        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], 
-                                    window_length=5, 
-                                    polyorder=3,
-                                    mode='interp',
-                                    #mode='nearest',
-                                    #mode='mirror',
-                                    #mode='wrap',
-                                    #mode='constant',
-                                    #deriv=0,
-                                    delta=1
-                                    )
+        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)
         smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))
     return smooth_force
 
@@ -124,13 +114,10 @@ def MOO_write_BO_json_log(combined_interpolated_params_to_geoms_FD_Curves_smooth
             file.write("\n")
 
 def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, yieldingIndices, paramConfig,iteration):
-    # Calculate losses and prepare data for model
     params = []
     losses = []
     for param_tuple, geom_to_simCurves in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():
-        #print(param_tuple)
         params.append([value for param, value in param_tuple])
-        # The minus sign is because BOTORCH tries to maximize objectives, but we want to minimize the loss
         loss_iter = []
         for geometry in geometries:
             yieldingIndex = yieldingIndices[geometry]
@@ -142,41 +129,26 @@ def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, 
             ))
         losses.append(loss_iter)
 
-    # Convert your data to the tensor(float 64)
     X = torch.tensor(params, dtype=torch.float64)
     Y = torch.stack([torch.tensor(loss, dtype=torch.float64) for loss in losses])
 
-    # Define the bounds of the search space
     lower_bounds = torch.tensor([paramConfig[param]['lowerBound'] * paramConfig[param]['exponent'] for param in paramConfig.keys()]).float()
     upper_bounds = torch.tensor([paramConfig[param]['upperBound'] * paramConfig[param]['exponent'] for param in paramConfig.keys()]).float()
 
     bounds = np.vstack([lower_bounds, upper_bounds])
 
-    # Create the MinMaxScaler and fit it to the bounds
     scaler = MinMaxScaler().fit(bounds)
 
-    # Transform the parameters using the fitted scaler
     X_normalized = torch.tensor(scaler.transform(X.numpy()), dtype=torch.float64)
 
-    # Standardize Y to have zero mean and unit variance
     Y_standardized = standardize(Y)
 
-    # Normalise the bounds in accordance to the normalised params
     bounds_normalized = torch.tensor([[0.0]*X_normalized.shape[1], [1.0]*X_normalized.shape[1]])
 
-    # Initialize model
     model = SingleTaskGP(X_normalized, Y_standardized)
     mll = ExactMarginalLogLikelihood(model.likelihood, model)
     fit_gpytorch_model(mll)
 
-    # Define the acquisition function
-    # **Reference Point**
-
-    # qEHVI requires specifying a reference point, which is the lower bound on the objectives used for computing hypervolume. 
-    # In this tutorial, we assume the reference point is known. In practice the reference point can be set 
-    # 1) using domain knowledge to be slightly worse than the lower bound of objective values, 
-    # where the lower bound is the minimum acceptable value of interest for each objective, or 
-    # 2) using a dynamic reference point selection strategy.
     ref_point = Y_standardized.max(dim=0).values - 0.01
 
     partitioning = NondominatedPartitioning(ref_point=ref_point, Y=Y_standardized)
@@ -187,19 +159,16 @@ def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, 
         objective=IdentityMCMultiOutputObjective(),
     )
 
-    # Optimize the acquisition function
     candidates, _ = optimize_acqf(
         acq_function=acq_func,
         bounds=bounds_normalized,
-        q=1,#q: This is the number of points to sample in each step
-        num_restarts=10,#num_restarts: This is the number of starting points for the optimization.
-        raw_samples=1000,#raw_samples: This is the number of samples to draw when initializing the optimization
+        q=1,
+        num_restarts=10,
+        raw_samples=1000,
     )
 
-    # Unnormalize the candidates
     candidates = torch.tensor(scaler.inverse_transform(candidates.detach().numpy()), dtype=torch.float64)
 
-    #converting to dictionary
     pareto_front = [{param: value.item() for param, value in zip(paramConfig.keys(), next_param)} for next_param in candidates]
     return pareto_front
 
@@ -213,10 +182,8 @@ def MOO_calculate_geometries_weight(targetCurves, geometries):
         x_start = min(targetDisplacement)
         x_end = max(targetDisplacement)
 
-        # Interpolate the force-displacement curve
         target_FD_func = interp1d(targetDisplacement, targetForce, fill_value="extrapolate")
 
-        # Evaluate the two curves at various points within the x-range boundary
         x_values = np.linspace(x_start, x_end, num=10000)
 
         y_values = target_FD_func(x_values)
@@ -224,7 +191,6 @@ def MOO_calculate_geometries_weight(targetCurves, geometries):
         area = simpson(y_values, x_values)
         geometryWeights[geometry] = 1/np.array(area)
     
-    # normalize the weights
     sumWeights = np.sum(list(geometryWeights.values()))
     for geometry in geometryWeights:
         geometryWeights[geometry] = geometryWeights[geometry]/sumWeights
@@ -239,8 +205,6 @@ def prettyPrint(parameters, paramConfig, logPath):
         paramValue = parameters[param]
         paramUnit = paramConfig[param]['unit']
         paramValueUnit = f"{paramValue} {paramUnit}" if paramUnit != "dimensionless" else paramValue
-        #print(paramName)
-        #print(paramValueUnit)
         logTable.add_row([paramName, paramValueUnit])
 
     stringMessage = "\n"
@@ -249,18 +213,11 @@ def prettyPrint(parameters, paramConfig, logPath):
 
     printLog(stringMessage, logPath)
 
-#######################################
-# Simulation related helper functions #
-#######################################
 
 def read_FD_Curve(filePath):
     output_data=np.loadtxt(filePath, skiprows=2)
-    # column 1 is time step
-    # column 2 is displacement
-    # column 3 is force
     columns=['X', 'Displacement', 'Force']
     df = pd.DataFrame(data=output_data, columns=columns)
-    # Converting to numpy array
     displacement = df.iloc[:, 1].to_numpy()
     force = df.iloc[:, 2].to_numpy()
     return displacement, force
@@ -292,7 +249,6 @@ def create_FD_Curve_file(filePath, displacement, force):
 def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):
     with open(filePath, 'r') as material_inp:
         material_inp_content = material_inp.readlines()
-    # Locate the section containing the stress-strain data
     start_line = None
     end_line = None
     for i, line in enumerate(material_inp_content):
@@ -305,15 +261,12 @@ def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):
     if start_line is None or end_line is None:
         raise ValueError('Could not find the stress-strain data section')
 
-    # Modify the stress-strain data
     new_stress_strain_data = zip(trueStress, truePlasticStrain)
-    # Update the .inp file
     new_lines = []
     new_lines.extend(material_inp_content[:start_line])
     new_lines.extend([f'{stress},{strain}\n' for stress, strain in new_stress_strain_data])
     new_lines.extend(material_inp_content[end_line:])
 
-    # Write the updated material.inp file
     with open(filePath, 'w') as file:
         file.writelines(new_lines)
 
@@ -388,7 +341,6 @@ def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998
     """
     yielding_index = 0
 
-    # Initialize the Linear Regression model
     linReg = LinearRegression()
     targetDisplacement = np.array(targetDisplacement)
     targetForce = np.array(targetForce)
@@ -396,7 +348,7 @@ def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998
         linReg.fit(targetDisplacement[:i].reshape(-1, 1), targetForce[:i]) 
         simForce = linReg.predict(targetDisplacement[:i].reshape(-1, 1)) 
         r2 = r2_score(targetForce[:i], simForce) 
-        if r2 < r2_threshold:  # If R^2 is below threshold, mark the end of linear region
+        if r2 < r2_threshold:  
             yielding_index = i - 1
             break
     return yielding_index

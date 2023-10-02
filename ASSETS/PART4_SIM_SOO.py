@@ -47,33 +47,22 @@ class SOO_SIM():
         numberOfInitialSims = self.info['numberOfInitialSims']
         truePlasticStrain = self.info['truePlasticStrain']
         maxTargetDisplacement = self.info['maxTargetDisplacement']
-
-        # initial_params = self.latin_hypercube_sampling()
-        # #print(initial_params)
-        # np.save(f"{resultPath}/initial/common/parameters.npy", initial_params)
-        # initial_params = np.load(f"{resultPath}/initial/common/parameters.npy", allow_pickle=True).tolist()
-        # Initializing the flow curves and force-displacement curves
-        # The structure of flow curve: dict of (hardening law params typle) -> {stress: stressArray , strain: strainArray}
         
         flowCurves = {}
         
         for paramDict in initial_params:
             paramsTuple = tuple(paramDict.items())
-            trueStress = calculate_flowCurve(paramDict, hardeningLaw, truePlasticStrain)
+            trueStress = findFlowCurve(paramDict, hardeningLaw, truePlasticStrain)
             flowCurves[paramsTuple] = {}
             flowCurves[paramsTuple]['strain'] = truePlasticStrain
             flowCurves[paramsTuple]['stress'] = trueStress
         np.save(f"{resultPath}/initial/common/flowCurves.npy", flowCurves)
-        #print(flowCurves)
 
-        indexParamsDict = {} # Map simulation folder index to the corresponding hardening law parameters
+        indexParamsDict = {} 
         for index, paramDict in enumerate(initial_params):
             indexParamsDict[str(index+1)] = tuple(paramDict.items())
-        
-        #print(simulationDict)
-        # Copying the template folder to the simulation folder for the number of simulations
+
         for index in range(1, numberOfInitialSims + 1):
-            # Create the simulation folder if not exists, else delete the folder and create a new one
             if os.path.exists(f"{simPath}/initial/{index}"):
                 shutil.rmtree(f"{simPath}/initial/{index}")
             shutil.copytree(templatePath, f"{simPath}/initial/{index}")
@@ -109,8 +98,6 @@ class SOO_SIM():
         resultPath = self.info['resultPath']
         logPath = self.info['logPath']
         
-        # The structure of force-displacement curve: dict of (hardening law params typle) -> {force: forceArray , displacement: displacementArray}
-
         FD_Curves = {}
         for index in range(1, numberOfInitialSims + 1):
             if not os.path.exists(f"{resultPath}/initial/data/{index}"):
@@ -130,7 +117,6 @@ class SOO_SIM():
             FD_Curves[paramsTuple]['force'] = force
             create_FD_Curve_file(f"{resultPath}/initial/data/{index}", displacement, force)
             
-        # Returning force-displacement curve data
         np.save(f"{resultPath}/initial/common/FD_Curves_unsmooth.npy", FD_Curves)
         printLog("Starting to apply Savgol smoothing filter on the FD curves", logPath)
         smoothing_force(force, startIndex=20, endIndex=90, iter=10000)
@@ -152,7 +138,6 @@ class SOO_SIM():
     def run_iteration_simulations(self, paramsDict, iterationIndex):
         flowCurves = self.preprocess_simulations_iteration(paramsDict, iterationIndex)
         self.write_paths_iteration(iterationIndex)
-        #time.sleep(180)
         self.submit_array_jobs_iteration()
         FD_Curves = self.postprocess_results_iteration(paramsDict, iterationIndex)
         return FD_Curves, flowCurves
@@ -167,13 +152,12 @@ class SOO_SIM():
         maxTargetDisplacement = self.info['maxTargetDisplacement']
         
         paramsTuple = tuple(paramsDict.items())
-        trueStress = calculate_flowCurve(paramsDict, hardeningLaw, truePlasticStrain)
+        trueStress = findFlowCurve(paramsDict, hardeningLaw, truePlasticStrain)
         flowCurves = {}
         flowCurves[paramsTuple] = {}
         flowCurves[paramsTuple]['strain'] = truePlasticStrain
         flowCurves[paramsTuple]['stress'] = trueStress
         
-        # Create the simulation folder if not exists, else delete the folder and create a new one
         if os.path.exists(f"{simPath}/iteration/{iterationIndex}"):
             shutil.rmtree(f"{simPath}/iteration/{iterationIndex}")
         shutil.copytree(templatePath, f"{simPath}/iteration/{iterationIndex}")
@@ -205,8 +189,6 @@ class SOO_SIM():
         resultPath = self.info['resultPath']
         logPath = self.info['logPath']
         
-        # The structure of force-displacement curve: dict of (hardening law params typle) -> {force: forceArray , displacement: displacementArray}
-
         if not os.path.exists(f"{resultPath}/iteration/data/{iterationIndex}"):
             os.mkdir(f"{resultPath}/iteration/data/{iterationIndex}")
         shutil.copy(f"{simPath}/iteration/{iterationIndex}/FD_Curve.txt", f"{resultPath}/iteration/data/{iterationIndex}")

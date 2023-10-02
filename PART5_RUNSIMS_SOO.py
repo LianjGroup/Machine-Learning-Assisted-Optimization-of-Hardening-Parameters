@@ -11,10 +11,6 @@ from math import *
 import os
 
 def executeSimulations(info):
-
-    # ---------------------------------------#
-    #   Step 2: Running initial simulations  #
-    # ---------------------------------------#
     
     pathForProject = info['pathForProject']
     pathForLog = info['pathForLog']

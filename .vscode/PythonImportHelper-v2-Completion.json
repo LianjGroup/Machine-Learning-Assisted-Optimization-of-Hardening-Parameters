@@ -288,18 +288,66 @@
     },
     {
         "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
         "isExtraImport": true,
-        "detail": "modules.helper",
+        "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
         "isExtraImport": true,
-        "detail": "modules.helper",
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
@@ -321,75 +369,11 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
         "label": "simpson",
         "importPath": "scipy.integrate",
         "description": "scipy.integrate",
         "isExtraImport": true,
         "detail": "scipy.integrate",
-        "documentation": {}
-    },
-    {
-        "label": "LinearRegression",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
-        "isExtraImport": true,
-        "detail": "sklearn.linear_model",
-        "documentation": {}
-    },
-    {
-        "label": "r2_score",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
         "documentation": {}
     },
     {
@@ -619,38 +603,38 @@
         "documentation": {}
     },
     {
-        "label": "Swift",
+        "label": "swiftLaw",
         "kind": 2,
         "importPath": "ASSETS.PART1_HARDENINGLAWS",
         "description": "ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def Swift(c1,c2,c3, truePlasticStrain):\n    trueStress = c1 * (c2 + truePlasticStrain) ** c3\n    return trueStress\ndef Voce(c1,c2,c3,truePlasticStrain):\n    trueStress = c1 + c2 * (1- np.exp(-c3 * truePlasticStrain))\n    return trueStress\ndef SwiftVoce(c1,c2,c3,c4,c5,c6,c7,truePlasticStrain):\n    trueStressSwift = Swift(c2,c3,c4,truePlasticStrain)\n    trueStressVoce = Voce(c5,c6,c7,truePlasticStrain)\n    trueStress = c1 * trueStressSwift + (1 - c1) * trueStressVoce",
+        "peekOfCode": "def swiftLaw(spec1, spec2, spec3, truePlasticStrain):\n    # Calculate true stress using the Swift law formula:\n    # True Stress = spec1 * (spec2 + truePlasticStrain) ** spec3\n    trueStress = spec1 * (spec2 + truePlasticStrain) ** spec3\n    # Return the calculated true stress value.\n    return trueStress\n################################\n##                            ##\n##            VOCE            ##\n##                            ##",
         "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
-        "label": "Voce",
+        "label": "voceLaw",
         "kind": 2,
         "importPath": "ASSETS.PART1_HARDENINGLAWS",
         "description": "ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def Voce(c1,c2,c3,truePlasticStrain):\n    trueStress = c1 + c2 * (1- np.exp(-c3 * truePlasticStrain))\n    return trueStress\ndef SwiftVoce(c1,c2,c3,c4,c5,c6,c7,truePlasticStrain):\n    trueStressSwift = Swift(c2,c3,c4,truePlasticStrain)\n    trueStressVoce = Voce(c5,c6,c7,truePlasticStrain)\n    trueStress = c1 * trueStressSwift + (1 - c1) * trueStressVoce\n    return trueStress\ndef calculate_flowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # We assume that parameters is a dictionary",
+        "peekOfCode": "def voceLaw(spec1, spec2, spec3, truePlasticStrain):\n    # Calculate true stress using the Voce law formula:\n    # True Stress = spec1 + spec2 * (1 - exp(-spec3 * truePlasticStrain))\n    # Calculate the exponential term within the formula.\n    exponential_term = -spec3 * truePlasticStrain\n    exp_result = np.exp(exponential_term)\n    # Calculate the final true stress using the Voce law formula.\n    trueStress = spec1 + spec2 * (1 - exp_result)\n    # Return the calculated true stress value.\n    return trueStress",
         "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
-        "label": "SwiftVoce",
+        "label": "swiftAndVoceLaw",
         "kind": 2,
         "importPath": "ASSETS.PART1_HARDENINGLAWS",
         "description": "ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def SwiftVoce(c1,c2,c3,c4,c5,c6,c7,truePlasticStrain):\n    trueStressSwift = Swift(c2,c3,c4,truePlasticStrain)\n    trueStressVoce = Voce(c5,c6,c7,truePlasticStrain)\n    trueStress = c1 * trueStressSwift + (1 - c1) * trueStressVoce\n    return trueStress\ndef calculate_flowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # We assume that parameters is a dictionary\n    if hardeningLaw == \"Swift\":\n        c1, c2, c3 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"]\n        trueStress = Swift(c1, c2, c3, truePlasticStrain)",
+        "peekOfCode": "def swiftAndVoceLaw(spec1, spec2, spec3, spec4, spec5, spec6, spec7, truePlasticStrain):\n    # Calculate true stress using the Swift law formula.\n    trueStressSwift = swiftLaw(spec2, spec3, spec4, truePlasticStrain)\n    # Calculate true stress using the Voce law formula.\n    trueStressVoce = voceLaw(spec5, spec6, spec7, truePlasticStrain)\n    # Calculate the combined true stress using a weighted average of Swift and Voce stresses:\n    # True Stress = spec1 * trueStressSwift + (1 - spec1) * trueStressVoce\n    # Weighted average of the two stress components with weight spec1.\n    weighted_trueStressSwift = spec1 * trueStressSwift\n    # Weighted average of the two stress components with weight (1 - spec1).",
         "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
-        "label": "calculate_flowCurve",
+        "label": "findFlowCurve",
         "kind": 2,
         "importPath": "ASSETS.PART1_HARDENINGLAWS",
         "description": "ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def calculate_flowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # We assume that parameters is a dictionary\n    if hardeningLaw == \"Swift\":\n        c1, c2, c3 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"]\n        trueStress = Swift(c1, c2, c3, truePlasticStrain)\n    elif hardeningLaw == \"Voce\":\n        c1, c2, c3 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"]\n        trueStress = Voce(c1, c2, c3, truePlasticStrain)\n    elif hardeningLaw == \"SwiftVoce\":\n        c1, c2, c3, c4, c5, c6, c7 = parameters[\"c1\"], parameters[\"c2\"], parameters[\"c3\"], parameters[\"c4\"], parameters[\"c5\"], parameters[\"c6\"], parameters[\"c7\"]",
+        "peekOfCode": "def findFlowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # Check which hardening law is specified and calculate the true stress accordingly.\n    if hardeningLaw == \"Swift\":\n        # Extract Swift law parameters from the dictionary.\n        spec1, spec2, spec3 = parameters[\"spec1\"], parameters[\"spec2\"], parameters[\"spec3\"]\n        # Calculate true stress using the Swift law formula.\n        trueStress = swiftLaw(spec1, spec2, spec3, truePlasticStrain)\n    elif hardeningLaw == \"Voce\":\n        # Extract Voce law parameters from the dictionary.\n        spec1, spec2, spec3 = parameters[\"spec1\"], parameters[\"spec2\"], parameters[\"spec3\"]",
         "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
@@ -677,7 +661,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], \n                                    window_length=5, \n                                    polyorder=3,\n                                    mode='interp',\n                                    #mode='nearest',",
+        "peekOfCode": "def is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)\n        smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))\n    return smooth_force\ndef interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -686,7 +670,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], \n                                    window_length=5, \n                                    polyorder=3,\n                                    mode='interp',\n                                    #mode='nearest',\n                                    #mode='mirror',\n                                    #mode='wrap',",
+        "peekOfCode": "def smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)\n        smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))\n    return smooth_force\ndef interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -749,7 +733,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, yieldingIndices, paramConfig,iteration):\n    # Calculate losses and prepare data for model\n    params = []\n    losses = []\n    for param_tuple, geom_to_simCurves in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        #print(param_tuple)\n        params.append([value for param, value in param_tuple])\n        # The minus sign is because BOTORCH tries to maximize objectives, but we want to minimize the loss\n        loss_iter = []\n        for geometry in geometries:",
+        "peekOfCode": "def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, yieldingIndices, paramConfig,iteration):\n    params = []\n    losses = []\n    for param_tuple, geom_to_simCurves in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        params.append([value for param, value in param_tuple])\n        loss_iter = []\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss_iter.append(- lossFD(\n                targetCurves[geometry][\"displacement\"][yieldingIndex:], ",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -758,7 +742,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_calculate_geometries_weight(targetCurves, geometries):\n    geometryWeights = {}\n    for geometry in geometries:\n        targetDisplacement = targetCurves[geometry][\"displacement\"]\n        targetForce = targetCurves[geometry][\"force\"]\n        x_start = min(targetDisplacement)\n        x_end = max(targetDisplacement)\n        # Interpolate the force-displacement curve\n        target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n        # Evaluate the two curves at various points within the x-range boundary",
+        "peekOfCode": "def MOO_calculate_geometries_weight(targetCurves, geometries):\n    geometryWeights = {}\n    for geometry in geometries:\n        targetDisplacement = targetCurves[geometry][\"displacement\"]\n        targetForce = targetCurves[geometry][\"force\"]\n        x_start = min(targetDisplacement)\n        x_end = max(targetDisplacement)\n        target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n        x_values = np.linspace(x_start, x_end, num=10000)\n        y_values = target_FD_func(x_values)",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -767,7 +751,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def prettyPrint(parameters, paramConfig, logPath):\n    logTable = PrettyTable()\n    logTable.field_names = [\"Parameter\", \"Value\"]\n    for param in parameters:\n        paramName = paramConfig[param]['name']\n        paramValue = parameters[param]\n        paramUnit = paramConfig[param]['unit']\n        paramValueUnit = f\"{paramValue} {paramUnit}\" if paramUnit != \"dimensionless\" else paramValue\n        #print(paramName)\n        #print(paramValueUnit)",
+        "peekOfCode": "def prettyPrint(parameters, paramConfig, logPath):\n    logTable = PrettyTable()\n    logTable.field_names = [\"Parameter\", \"Value\"]\n    for param in parameters:\n        paramName = paramConfig[param]['name']\n        paramValue = parameters[param]\n        paramUnit = paramConfig[param]['unit']\n        paramValueUnit = f\"{paramValue} {paramUnit}\" if paramUnit != \"dimensionless\" else paramValue\n        logTable.add_row([paramName, paramValueUnit])\n    stringMessage = \"\\n\"",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -776,7 +760,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def read_FD_Curve(filePath):\n    output_data=np.loadtxt(filePath, skiprows=2)\n    # column 1 is time step\n    # column 2 is displacement\n    # column 3 is force\n    columns=['X', 'Displacement', 'Force']\n    df = pd.DataFrame(data=output_data, columns=columns)\n    # Converting to numpy array\n    displacement = df.iloc[:, 1].to_numpy()\n    force = df.iloc[:, 2].to_numpy()",
+        "peekOfCode": "def read_FD_Curve(filePath):\n    output_data=np.loadtxt(filePath, skiprows=2)\n    columns=['X', 'Displacement', 'Force']\n    df = pd.DataFrame(data=output_data, columns=columns)\n    displacement = df.iloc[:, 1].to_numpy()\n    force = df.iloc[:, 2].to_numpy()\n    return displacement, force\ndef create_parameter_file(filePath, paramsDict):\n    columns = [\"Parameter\", \"Value\"]\n    df = pd.DataFrame(columns=columns)",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -812,7 +796,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()\n    # Locate the section containing the stress-strain data\n    start_line = None\n    end_line = None\n    for i, line in enumerate(material_inp_content):\n        if '*Plastic' in line:\n            start_line = i + 1\n        elif '*Density' in line:",
+        "peekOfCode": "def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(material_inp_content):\n        if '*Plastic' in line:\n            start_line = i + 1\n        elif '*Density' in line:\n            end_line = i",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -857,7 +841,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"\n    This function calculates the end of the elastic (linear) region of the force-displacement curve.\n    \"\"\"\n    yielding_index = 0\n    # Initialize the Linear Regression model\n    linReg = LinearRegression()\n    targetDisplacement = np.array(targetDisplacement)\n    targetForce = np.array(targetForce)\n    for i in range(2, len(targetDisplacement)):",
+        "peekOfCode": "def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"\n    This function calculates the end of the elastic (linear) region of the force-displacement curve.\n    \"\"\"\n    yielding_index = 0\n    linReg = LinearRegression()\n    targetDisplacement = np.array(targetDisplacement)\n    targetForce = np.array(targetForce)\n    for i in range(2, len(targetDisplacement)):\n        linReg.fit(targetDisplacement[:i].reshape(-1, 1), targetForce[:i]) ",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -884,7 +868,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART5_GUARD",
         "description": "ASSETS.PART5_GUARD",
-        "peekOfCode": "def lossFlow(targetStrain, targetStress, simStress):\n    return np.sqrt(np.mean((targetStress - simStress)**2))\ndef dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    # Implementing numerical integration of the area bounded by \n    # the two curves and two vertical x axis\n    # Define the x-range boundary\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)",
+        "peekOfCode": "def lossFlow(targetStrain, targetStress, simStress):\n    return np.sqrt(np.mean((targetStress - simStress)**2))\ndef dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)",
         "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -893,7 +877,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART5_GUARD",
         "description": "ASSETS.PART5_GUARD",
-        "peekOfCode": "def dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    # Implementing numerical integration of the area bounded by \n    # the two curves and two vertical x axis\n    # Define the x-range boundary\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    # Interpolate the simulated force-displacement curve\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")",
+        "peekOfCode": "def dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)\n    SimHigherThanTarget = np.array(sim_FD_func(x_values) > target_FD_func(x_values))\n    turningIndices = np.where(SimHigherThanTarget[:-1] != SimHigherThanTarget[1:])",
         "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -902,7 +886,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART5_GUARD",
         "description": "ASSETS.PART5_GUARD",
-        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    # Implementing numerical integration of the area bounded by \n    # the two curves and two vertical x axis\n    # Define the x-range boundary\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    # Interpolate the simulated force-displacement curve\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    # Evaluate the two curves at various points within the x-range boundary",
+        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)\n    SimHigherThanTarget = np.array(sim_FD_func(x_values) > target_FD_func(x_values))\n    turningIndices = np.where(SimHigherThanTarget[:-1] != SimHigherThanTarget[1:])\n    if len(turningIndices) == 0:\n        if SimHigherThanTarget[0] == True:",
         "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -911,7 +895,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART5_GUARD",
         "description": "ASSETS.PART5_GUARD",
-        "peekOfCode": "def loss_plastic(targetDisplacement, targetForce, simForce, step, epsilon=1e-8):\n    \"\"\"\n    This function calculates the loss for the plastic region of the force-displacement curve. \n    The loss is a adaptive weighted sum of the residuals loss, slope loss, and important points penalty.\n    The weights adapt as the number of iterations increases.\n    \"\"\"\n    # Calculate residuals and corresponding loss\n    residuals = targetForce - simForce\n    residuals_loss = np.sqrt(np.mean(residuals ** 2))\n    # Calculate slopes and corresponding loss",
+        "peekOfCode": "def loss_plastic(targetDisplacement, targetForce, simForce, step, epsilon=1e-8):\n    \"\"\"\n    This function calculates the loss for the plastic region of the force-displacement curve. \n    The loss is a adaptive weighted sum of the residuals loss, slope loss, and important points penalty.\n    The weights adapt as the number of iterations increases.\n    \"\"\"\n    residuals = targetForce - simForce\n    residuals_loss = np.sqrt(np.mean(residuals ** 2))\n    slope_true = np.diff(targetForce) / np.diff(targetDisplacement)\n    slope_pred = np.diff(simForce) / np.diff(targetDisplacement)",
         "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -947,7 +931,7 @@
         "kind": 6,
         "importPath": "MODELS.PART1_BAYESIANOPT",
         "description": "MODELS.PART1_BAYESIANOPT",
-        "peekOfCode": "class bayesianOptimization():\n    def start(kendi, data):        \n        kendi.info = data\n        kendi.verbose = 1\n        kendi.random_state = 123 \n        kendi.init_points = 0\n        kendi.iterations = 1 \n        kendi.acquisitionFunction = UtilityFunction(kind='poi', xi=0.1)\n        kendi.GP_kernel = RBF(length_scale=1, length_scale_bounds=(1e-3, 1e3)) \n        kendi.alpha = 1e-9",
+        "peekOfCode": "class bayesianOptimization():\n    def start(kendi, data):        \n        kendi.info = data\n        kendi.verbose = 1\n        kendi.random_state = 123 \n        kendi.init_points = 0\n        kendi.iterations = 1 \n        kendi.acquisitionFunction = UtilityFunction(kind='POI', xi=0.1)\n        kendi.GP_kernel = RBF(length_scale=1, length_scale_bounds=(1e-3, 1e3)) \n        kendi.alpha = 1e-9",
         "detail": "MODELS.PART1_BAYESIANOPT",
         "documentation": {}
     },
@@ -1010,7 +994,7 @@
         "kind": 2,
         "importPath": "PART5_RUNSIMS_SOO",
         "description": "PART5_RUNSIMS_SOO",
-        "peekOfCode": "def executeSimulations(info):\n    # ---------------------------------------#\n    #   Step 2: Running initial simulations  #\n    # ---------------------------------------#\n    pathForProject = info['pathForProject']\n    pathForLog = info['pathForLog']\n    pathForOutputs = info['pathForOutputs']\n    pathForSimulations = info['pathForSimulations']\n    pathForTargets = info['pathForTargets']\n    templatePath = info['templatePath'] ",
+        "peekOfCode": "def executeSimulations(info):\n    pathForProject = info['pathForProject']\n    pathForLog = info['pathForLog']\n    pathForOutputs = info['pathForOutputs']\n    pathForSimulations = info['pathForSimulations']\n    pathForTargets = info['pathForTargets']\n    templatePath = info['templatePath'] \n    material = info['material']\n    optimizeStrategy = info['optimizeStrategy']\n    optimizerName = info['optimizerName']",
         "detail": "PART5_RUNSIMS_SOO",
         "documentation": {}
     }
