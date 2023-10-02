@@ -2,8 +2,8 @@ import pandas as pd
 import numpy as np
 from prettytable import PrettyTable
 from PART1_FOLDERS import *
-from modules.helper import *
-from modules.hardeningLaws import *
+from ASSETS.PART2_ASSTFUNCT import *
+from ASSETS.PART1_HARDENINGLAWS import *
 
 #Users need Abaqus and CSC to use this code. 
 

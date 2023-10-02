@@ -1,10 +1,8 @@
 import numpy as np
-import pandas as pd
-
-from modules.MOO_SIM import *
-from modules.hardeningLaws import *
-from modules.helper import *
-from modules.stoploss import *
+from ASSETS.PART1_HARDENINGLAWS import *
+from ASSETS.PART2_ASSTFUNCT import *
+from ASSETS.PART3_SIM_MOO import *
+from ASSETS.PART5_GUARD import *
 from MODELS.PART1_BAYESIANOPT import *
 from PART0_SETTINGS import * 
 import PART0_SETTINGS 

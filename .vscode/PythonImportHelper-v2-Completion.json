@@ -94,42 +94,42 @@
     },
     {
         "label": "*",
-        "importPath": "modules.stoploss",
-        "description": "modules.stoploss",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
         "isExtraImport": true,
-        "detail": "modules.stoploss",
+        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.stoploss",
-        "description": "modules.stoploss",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
         "isExtraImport": true,
-        "detail": "modules.stoploss",
+        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.stoploss",
-        "description": "modules.stoploss",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
         "isExtraImport": true,
-        "detail": "modules.stoploss",
+        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.stoploss",
-        "description": "modules.stoploss",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
         "isExtraImport": true,
-        "detail": "modules.stoploss",
+        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.stoploss",
-        "description": "modules.stoploss",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
         "isExtraImport": true,
-        "detail": "modules.stoploss",
+        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
@@ -256,26 +256,26 @@
     },
     {
         "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.helper",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.helper",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.helper",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
@@ -318,6 +318,38 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
@@ -418,26 +450,10 @@
     },
     {
         "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
         "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
+        "detail": "ASSETS.PART4_SIM_SOO",
         "documentation": {}
     },
     {
@@ -450,10 +466,10 @@
     },
     {
         "label": "*",
-        "importPath": "ASSETS.helper",
-        "description": "ASSETS.helper",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
         "isExtraImport": true,
-        "detail": "ASSETS.helper",
+        "detail": "ASSETS.PART4_SIM_SOO",
         "documentation": {}
     },
     {
@@ -563,34 +579,18 @@
     },
     {
         "label": "*",
-        "importPath": "modules.SOO_SIM",
-        "description": "modules.SOO_SIM",
+        "importPath": "ASSETS.PART3_SIM_MOO",
+        "description": "ASSETS.PART3_SIM_MOO",
         "isExtraImport": true,
-        "detail": "modules.SOO_SIM",
+        "detail": "ASSETS.PART3_SIM_MOO",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "modules.SOO_SIM",
-        "description": "modules.SOO_SIM",
+        "importPath": "ASSETS.PART3_SIM_MOO",
+        "description": "ASSETS.PART3_SIM_MOO",
         "isExtraImport": true,
-        "detail": "modules.SOO_SIM",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.MOO_SIM",
-        "description": "modules.MOO_SIM",
-        "isExtraImport": true,
-        "detail": "modules.MOO_SIM",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.MOO_SIM",
-        "description": "modules.MOO_SIM",
-        "isExtraImport": true,
-        "detail": "modules.MOO_SIM",
+        "detail": "ASSETS.PART3_SIM_MOO",
         "documentation": {}
     },
     {
@@ -695,7 +695,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    # Interpolate the force\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce\ndef interpolating_FD_Curves(FD_Curves, targetCurve):\n    # Interpolate the force from FD_Curves to the target curve\n    # FD_Curves is a dictionaries\n    # where each element is of form (parameterTuples) => {\"displacement\": <np.array>, \"force\": <np.array>}\n    # targetCurve is a dictionary of form {\"displacement\": <np.array>, \"force\": <np.array>}",
+        "peekOfCode": "def interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce\ndef interpolating_FD_Curves(FD_Curves, targetCurve):\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]\n        targetDisp = targetCurve[\"displacement\"]",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -704,7 +704,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolating_FD_Curves(FD_Curves, targetCurve):\n    # Interpolate the force from FD_Curves to the target curve\n    # FD_Curves is a dictionaries\n    # where each element is of form (parameterTuples) => {\"displacement\": <np.array>, \"force\": <np.array>}\n    # targetCurve is a dictionary of form {\"displacement\": <np.array>, \"force\": <np.array>}\n    # Create interp1d fitting from scipy\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]",
+        "peekOfCode": "def interpolating_FD_Curves(FD_Curves, targetCurve):\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]\n        targetDisp = targetCurve[\"displacement\"]\n        FD_Curves_copy[paramsTuple][\"force\"] = interpolatingForce(simDisp, simForce, targetDisp)\n        FD_Curves_copy[paramsTuple][\"displacement\"] = targetDisp\n    return FD_Curves_copy\ndef interpolatingStress(simStrain, simStress, targetStrain):",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -713,7 +713,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolatingStress(simStrain, simStress, targetStrain):\n    interpolatingFunction = interp1d(simStrain, simStress, fill_value='extrapolate')\n    # Interpolate the stress\n    interpolatedSimStress = interpolatingFunction(targetStrain)\n    return interpolatedSimStress\ndef interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]",
+        "peekOfCode": "def interpolatingStress(simStrain, simStress, targetStrain):\n    interpolatingFunction = interp1d(simStrain, simStress, fill_value='extrapolate')\n    interpolatedSimStress = interpolatingFunction(targetStrain)\n    return interpolatedSimStress\ndef interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -722,7 +722,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]\n        # Interpolate the force\n        flowCurves_copy[paramsTuple][\"stress\"] = interpolatingStress(simStrain, simStress, targetStrain)\n        flowCurves_copy[paramsTuple][\"strain\"] = targetStrain\n    return flowCurves_copy",
+        "peekOfCode": "def interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]\n        flowCurves_copy[paramsTuple][\"stress\"] = interpolatingStress(simStrain, simStress, targetStrain)\n        flowCurves_copy[paramsTuple][\"strain\"] = targetStrain\n    return flowCurves_copy\ndef SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -731,7 +731,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):\n    # Write the BO log file\n    # Each line of BO logging json file looks like this\n    # {\"target\": <loss value>, \"params\": {\"params1\": <value1>, ..., \"paramsN\": <valueN>}, \"datetime\": {\"datetime\": \"2023-06-02 18:26:46\", \"elapsed\": 0.0, \"delta\": 0.0}}\n    # FD_Curves is a dictionaries\n    # where each element is of form (parameterTuples) => {\"displacement\": <np.array>, \"force\": <np.array>}\n    # targetCurve is a dictionary of form {\"displacement\": <np.array>, \"force\": <np.array>}\n    # Construct the json file line by line for each element in FD_Curves\n    # Each line is a dictionary\n    # Delete the json file if it exists",
+        "peekOfCode": "def SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, dispforce in FD_Curves.items():\n        line = {}\n        line[\"target\"] = -lossFD(targetCurve[\"displacement\"][yieldingIndex:], targetCurve[\"force\"][yieldingIndex:], dispforce[\"force\"][yieldingIndex:],iteration)\n        line[\"params\"] = dict(paramsTuple)\n        for param in paramConfig:\n            line[\"params\"][param] = line[\"params\"][param]/paramConfig[param][\"exponent\"] \n        line[\"datetime\"] = {}",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -740,7 +740,7 @@
         "kind": 2,
         "importPath": "ASSETS.PART2_ASSTFUNCT",
         "description": "ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_write_BO_json_log(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    # Delete the json file if it exists\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        # Construct the dictionary\n        line = {}\n        # Note: BO in Bayes-Opt tries to maximize, so you should use the negative of the loss function.\n        loss = 0\n        for geometry in geometries:",
+        "peekOfCode": "def MOO_write_BO_json_log(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        line = {}\n        loss = 0\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss += - geometryWeights[geometry] * lossFD(targetCurves[geometry][\"displacement\"][yieldingIndex:], targetCurves[geometry][\"force\"][yieldingIndex:], geometriesToForceDisplacement[geometry][\"force\"][yieldingIndex:],iteration)\n        line[\"target\"] = loss",
         "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
