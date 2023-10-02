@@ -280,10 +280,10 @@
     },
     {
         "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
-        "detail": "modules.helper",
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
@@ -318,6 +318,14 @@
         "importPath": "random",
         "description": "random",
         "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
@@ -438,14 +446,6 @@
         "description": "PART1_FOLDERS",
         "isExtraImport": true,
         "detail": "PART1_FOLDERS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
         "documentation": {}
     },
     {
