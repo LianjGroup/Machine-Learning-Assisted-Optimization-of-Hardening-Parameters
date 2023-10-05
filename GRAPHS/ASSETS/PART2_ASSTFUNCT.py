@@ -20,6 +20,9 @@ from botorch.utils.multi_objective.pareto import is_non_dominated
 from botorch.utils import standardize
 from botorch.acquisition.multi_objective.objective import IdentityMCMultiOutputObjective
 from sklearn.preprocessing import MinMaxScaler
+from sklearn.linear_model import LinearRegression
+from sklearn.metrics import r2_score
+
 
 def printLog(message, logPath):
     with open(logPath, 'a+') as logFile:

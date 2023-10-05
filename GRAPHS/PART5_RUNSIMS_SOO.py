@@ -5,8 +5,8 @@ from ASSETS.PART3_SIM_MOO import *
 from ASSETS.PART4_SIM_SOO import *
 from ASSETS.PART5_GUARD import *
 from MODELS.PART1_BAYESIANOPT import *
-from PART0_SETTINGS import * 
-from PART3_PREPSOO import *
+from GRAPHS.PART0_SETTINGS import * 
+from GRAPHS.PART3_PREPSOO import *
 from math import *
 import os
 

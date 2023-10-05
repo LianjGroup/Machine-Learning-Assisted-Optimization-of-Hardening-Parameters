@@ -4,10 +4,10 @@ from ASSETS.PART2_ASSTFUNCT import *
 from ASSETS.PART3_SIM_MOO import *
 from ASSETS.PART5_GUARD import *
 from MODELS.PART1_BAYESIANOPT import *
-from PART0_SETTINGS import * 
-import PART0_SETTINGS 
-import PART2_PREPMOO
-from PART2_PREPMOO import *
+from GRAPHS.PART0_SETTINGS import * 
+import GRAPHS.PART0_SETTINGS as PART0_SETTINGS 
+import GRAPHS.PART2_PREPMOO as PART2_PREPMOO
+from GRAPHS.PART2_PREPMOO import *
 from math import *
 import os
 

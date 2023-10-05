@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from prettytable import PrettyTable
-from PART1_FOLDERS import *
+from GRAPHS.PART1_FOLDERS import *
 from ASSETS.PART2_ASSTFUNCT import *
 from ASSETS.PART1_HARDENINGLAWS import *
 

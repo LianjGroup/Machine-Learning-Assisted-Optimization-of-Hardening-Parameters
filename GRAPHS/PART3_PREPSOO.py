@@ -4,7 +4,7 @@ from ASSETS.PART2_ASSTFUNCT import *
 from ASSETS.PART4_SIM_SOO import *
 from ASSETS.PART5_GUARD import *
 from MODELS.PART1_BAYESIANOPT import *
-from PART0_SETTINGS import * 
+from GRAPHS.PART0_SETTINGS import * 
 from math import *
 
 def buildTargetCurve(data):
