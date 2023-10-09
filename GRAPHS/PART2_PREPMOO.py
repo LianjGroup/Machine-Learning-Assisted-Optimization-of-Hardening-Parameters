@@ -19,71 +19,12 @@ from math import *
     ################################
 
 def buildTargetCurve(data):
-    
-    ################################
-    ####                        ####
-    ####                        ####
-    ####                        ####
-    ####       DECLARING        ####
-    ####     PATH VARIABLES     ####
-    ####                        ####
-    ####                        ####
-    ####                        ####
-    ################################
-
-    # Retrieve the project path from the 'data' dictionary
-    pathForProject = data['pathForProject']
-
-    # Retrieve the log path from the 'data' dictionary
-    pathForLog = data['pathForLog']
-
-    # Retrieve the outputs path from the 'data' dictionary
-    pathForOutputs = data['pathForOutputs']
-
-    # Retrieve the simulations path from the 'data' dictionary
-    pathForSimulations = data['pathForSimulations']
 
     # Retrieve the targets path from the 'data' dictionary
     pathForTargets = data['pathForTargets']
 
-    # Retrieve the templates path from the 'data' dictionary
-    pathForTemplates = data['pathForTemplates']
-
-
-    ################################
-    ####                        ####
-    ####                        ####
-    ####                        ####
-    ####       DECLARING        ####
-    ####    OTHER VARIABLES     ####
-    ####                        ####
-    ####                        ####
-    ####                        ####
-    ################################
-
-    # Retrieve the 'medium' value from the 'data' dictionary
-    medium = data['medium']
-
-    # Retrieve the 'optimizationApproach' value from the 'data' dictionary
-    optimizationApproach = data['optimizationApproach']
-
-    # Retrieve the 'algorithmLabel' value from the 'data' dictionary
-    algorithmLabel = data['algorithmLabel']
-
-    # Retrieve the 'hardeningLaw' value from the 'data' dictionary
-    hardeningLaw = data['hardeningLaw']
-
-    # Retrieve the 'configData' value from the 'data' dictionary
-    configData = data['configData']
-
     # Retrieve the 'geometries' value from the 'data' dictionary
     geometries = data['geometries']
-
-    # Retrieve the 'percentageDifference' value from the 'data' dictionary
-    percentageDifference = data['percentageDifference']
-
-    # Retrieve the 'numInitialSimulations' value from the 'data' dictionary
-    numInitialSimulations = data['numInitialSimulations']
 
     ################################
     ####                        ####

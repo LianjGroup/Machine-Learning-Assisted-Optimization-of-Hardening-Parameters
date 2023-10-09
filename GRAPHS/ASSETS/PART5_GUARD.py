@@ -102,9 +102,9 @@ def stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):
     targetForceLower = targetForce * (1 - 0.01 * deviationPercent)
     return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))
 
-def stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):
+def stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):
     stopAllCurvesCheck = True
     for geometry in geometries:
         yieldingIndex = yieldingIndices[geometry]
-        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(targetCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)
+        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)
     return stopAllCurvesCheck

@@ -36,6 +36,15 @@
         "documentation": {}
     },
     {
+        "label": "prettytable",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "prettytable",
+        "description": "prettytable",
+        "detail": "prettytable",
+        "documentation": {}
+    },
+    {
         "label": "PrettyTable",
         "importPath": "prettytable",
         "description": "prettytable",
@@ -85,11 +94,67 @@
         "documentation": {}
     },
     {
+        "label": "CubicSpline",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
+        "label": "interp1d",
+        "importPath": "scipy.interpolate",
+        "description": "scipy.interpolate",
+        "isExtraImport": true,
+        "detail": "scipy.interpolate",
+        "documentation": {}
+    },
+    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART5_GUARD",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART5_GUARD",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART5_GUARD",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART5_GUARD",
+        "description": "ASSETS.PART5_GUARD",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
@@ -190,14 +255,6 @@
         "documentation": {}
     },
     {
-        "label": "is_non_dominated",
-        "importPath": "botorch.utils.multi_objective.pareto",
-        "description": "botorch.utils.multi_objective.pareto",
-        "isExtraImport": true,
-        "detail": "botorch.utils.multi_objective.pareto",
-        "documentation": {}
-    },
-    {
         "label": "standardize",
         "importPath": "botorch.utils",
         "description": "botorch.utils",
@@ -231,6 +288,14 @@
     },
     {
         "label": "r2_score",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
         "importPath": "sklearn.metrics",
         "description": "sklearn.metrics",
         "isExtraImport": true,
@@ -300,6 +365,70 @@
         "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
         "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART1_HARDENINGLAWS",
+        "description": "ASSETS.PART1_HARDENINGLAWS",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART2_ASSTFUNCT",
+        "description": "ASSETS.PART2_ASSTFUNCT",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
@@ -474,6 +603,70 @@
     },
     {
         "label": "*",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART4_SIM_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART4_SIM_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART4_SIM_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART4_SIM_SOO",
+        "description": "ASSETS.PART4_SIM_SOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART4_SIM_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
+        "isExtraImport": true,
+        "detail": "MODELS.PART1_BAYESIANOPT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
+        "isExtraImport": true,
+        "detail": "MODELS.PART1_BAYESIANOPT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
+        "isExtraImport": true,
+        "detail": "MODELS.PART1_BAYESIANOPT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "MODELS.PART1_BAYESIANOPT",
+        "description": "MODELS.PART1_BAYESIANOPT",
+        "isExtraImport": true,
+        "detail": "MODELS.PART1_BAYESIANOPT",
+        "documentation": {}
+    },
+    {
+        "label": "*",
         "importPath": "MODELS.PART1_BAYESIANOPT",
         "description": "MODELS.PART1_BAYESIANOPT",
         "isExtraImport": true,
@@ -539,10 +732,34 @@
     },
     {
         "label": "*",
-        "importPath": "GRAPHS.PART0_SETTINGS",
-        "description": "GRAPHS.PART0_SETTINGS",
+        "importPath": "math",
+        "description": "math",
         "isExtraImport": true,
-        "detail": "GRAPHS.PART0_SETTINGS",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
         "documentation": {}
     },
     {
@@ -575,6 +792,38 @@
         "description": "math",
         "isExtraImport": true,
         "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART3_SIM_MOO",
+        "description": "ASSETS.PART3_SIM_MOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART3_SIM_MOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART3_SIM_MOO",
+        "description": "ASSETS.PART3_SIM_MOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART3_SIM_MOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "ASSETS.PART3_SIM_MOO",
+        "description": "ASSETS.PART3_SIM_MOO",
+        "isExtraImport": true,
+        "detail": "ASSETS.PART3_SIM_MOO",
         "documentation": {}
     },
     {
@@ -611,11 +860,130 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "GRAPHS.PART3_PREPSOO",
-        "description": "GRAPHS.PART3_PREPSOO",
+        "label": "PART0_SETTINGS",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "GRAPHS.PART3_PREPSOO",
+        "importPath": "PART0_SETTINGS",
+        "description": "PART0_SETTINGS",
+        "detail": "PART0_SETTINGS",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PART0_SETTINGS",
+        "description": "PART0_SETTINGS",
+        "isExtraImport": true,
+        "detail": "PART0_SETTINGS",
+        "documentation": {}
+    },
+    {
+        "label": "PART3_PREPSOO",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PART3_PREPSOO",
+        "description": "PART3_PREPSOO",
+        "detail": "PART3_PREPSOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "PART3_PREPSOO",
+        "description": "PART3_PREPSOO",
+        "isExtraImport": true,
+        "detail": "PART3_PREPSOO",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.SOO_SIM",
+        "description": "modules.SOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.SOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.MOO_SIM",
+        "description": "modules.MOO_SIM",
+        "isExtraImport": true,
+        "detail": "modules.MOO_SIM",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.hardeningLaws",
+        "description": "modules.hardeningLaws",
+        "isExtraImport": true,
+        "detail": "modules.hardeningLaws",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.helper",
+        "description": "modules.helper",
+        "isExtraImport": true,
+        "detail": "modules.helper",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "modules.stoploss",
+        "description": "modules.stoploss",
+        "isExtraImport": true,
+        "detail": "modules.stoploss",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "optimizers.BO",
+        "description": "optimizers.BO",
+        "isExtraImport": true,
+        "detail": "optimizers.BO",
+        "documentation": {}
+    },
+    {
+        "label": "stage0_configs",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stage0_configs",
+        "description": "stage0_configs",
+        "detail": "stage0_configs",
+        "documentation": {}
+    },
+    {
+        "label": "stage1_SOO_prepare_targetCurve",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stage1_SOO_prepare_targetCurve",
+        "description": "stage1_SOO_prepare_targetCurve",
+        "detail": "stage1_SOO_prepare_targetCurve",
+        "documentation": {}
+    },
+    {
+        "label": "stage2_SOO_run_initialSims",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stage2_SOO_run_initialSims",
+        "description": "stage2_SOO_run_initialSims",
+        "detail": "stage2_SOO_run_initialSims",
+        "documentation": {}
+    },
+    {
+        "label": "stage3_SOO_prepare_simCurves",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "stage3_SOO_prepare_simCurves",
+        "description": "stage3_SOO_prepare_simCurves",
+        "detail": "stage3_SOO_prepare_simCurves",
+        "documentation": {}
+    },
+    {
+        "label": "PART4_RUNSIMS_MOO",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "PART4_RUNSIMS_MOO",
+        "description": "PART4_RUNSIMS_MOO",
+        "detail": "PART4_RUNSIMS_MOO",
         "documentation": {}
     },
     {
@@ -740,7 +1108,7 @@
         "kind": 2,
         "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
         "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_write_BO_json_log(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        line = {}\n        loss = 0\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss += - geometryWeights[geometry] * lossFD(targetCurves[geometry][\"displacement\"][yieldingIndex:], targetCurves[geometry][\"force\"][yieldingIndex:], geometriesToForceDisplacement[geometry][\"force\"][yieldingIndex:],iteration)\n        line[\"target\"] = loss",
+        "peekOfCode": "def MOO_write_BO_json_log(smoothedInterpolationParams, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in smoothedInterpolationParams.items():\n        line = {}\n        loss = 0\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss += - geometryWeights[geometry] * lossFD(targetCurves[geometry][\"displacement\"][yieldingIndex:], targetCurves[geometry][\"force\"][yieldingIndex:], geometriesToForceDisplacement[geometry][\"force\"][yieldingIndex:],iteration)\n        line[\"target\"] = loss",
         "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
@@ -920,7 +1288,7 @@
         "kind": 2,
         "importPath": "GRAPHS.ASSETS.PART5_GUARD",
         "description": "GRAPHS.ASSETS.PART5_GUARD",
-        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    return loss_plastic(targetDisplacement, targetForce, simForce, iteration)\ndef stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]",
+        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    return loss_plastic(targetDisplacement, targetForce, simForce, iteration)\ndef stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]",
         "detail": "GRAPHS.ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -929,7 +1297,7 @@
         "kind": 2,
         "importPath": "GRAPHS.ASSETS.PART5_GUARD",
         "description": "GRAPHS.ASSETS.PART5_GUARD",
-        "peekOfCode": "def stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(targetCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
+        "peekOfCode": "def stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
         "detail": "GRAPHS.ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -938,7 +1306,7 @@
         "kind": 2,
         "importPath": "GRAPHS.ASSETS.PART5_GUARD",
         "description": "GRAPHS.ASSETS.PART5_GUARD",
-        "peekOfCode": "def stopFD_MOO(targetCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(targetCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
+        "peekOfCode": "def stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
         "detail": "GRAPHS.ASSETS.PART5_GUARD",
         "documentation": {}
     },
@@ -983,7 +1351,7 @@
         "kind": 2,
         "importPath": "GRAPHS.PART2_PREPMOO",
         "description": "GRAPHS.PART2_PREPMOO",
-        "peekOfCode": "def buildTargetCurve(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####       DECLARING        ####\n    ####     PATH VARIABLES     ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
+        "peekOfCode": "def buildTargetCurve(data):\n    # Retrieve the targets path from the 'data' dictionary\n    pathForTargets = data['pathForTargets']\n    # Retrieve the 'geometries' value from the 'data' dictionary\n    geometries = data['geometries']\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####  CURVE SPECIFICATIONS  ####",
         "detail": "GRAPHS.PART2_PREPMOO",
         "documentation": {}
     },
@@ -992,7 +1360,7 @@
         "kind": 2,
         "importPath": "GRAPHS.PART3_PREPSOO",
         "description": "GRAPHS.PART3_PREPSOO",
-        "peekOfCode": "def buildTargetCurve(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    #### BUILDING TARGET CURVE  ####\n    ####        FOR SOO         ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
+        "peekOfCode": "def buildTargetCurve(data):\n    # Retrieve the targets path from the 'data' dictionary\n    pathForTargets = data['pathForTargets']\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####  CURVE SPECIFICATIONS  ####\n    ####                        ####\n    ####                        ####",
         "detail": "GRAPHS.PART3_PREPSOO",
         "documentation": {}
     },
@@ -1010,8 +1378,53 @@
         "kind": 2,
         "importPath": "GRAPHS.PART5_RUNSIMS_SOO",
         "description": "GRAPHS.PART5_RUNSIMS_SOO",
-        "peekOfCode": "def executeSimulations(info):\n    pathForProject = info['pathForProject']\n    pathForLog = info['pathForLog']\n    pathForOutputs = info['pathForOutputs']\n    pathForSimulations = info['pathForSimulations']\n    pathForTargets = info['pathForTargets']\n    templatePath = info['templatePath'] \n    material = info['material']\n    optimizeStrategy = info['optimizeStrategy']\n    optimizerName = info['optimizerName']",
+        "peekOfCode": "def executeSimulations(info):\n    numberOfInitialSims = info['numberOfInitialSims']\n    generateParams = info['generateParams'] \n    if generateParams == \"manual\":\n        parameters = np.load(f\"{outputFileDirectory}/initial/common/parameters.npy\", allow_pickle=True).tolist()\n        info['numberOfInitialSims'] = len(parameters)\n    elif generateParams == \"auto\":\n        parameters = sim.latin_hypercube_sampling()\n    sim = SOO_SIM(info)    \n    if not os.path.exists(f\"{outputFileDirectory}/initial/common/FD_Curves_unsmooth.npy\"):",
         "detail": "GRAPHS.PART5_RUNSIMS_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "main_prepare_simCurves",
+        "kind": 2,
+        "importPath": "GRAPHS.PART6_PREPSIM_MOO",
+        "description": "GRAPHS.PART6_PREPSIM_MOO",
+        "peekOfCode": "def main_prepare_simCurves(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    geometries = info['geometries']    \n    targetCurves = info['targetCurves']\n    exampleGeometry = geometries[0]\n    initial_original_geom_to_param_FD_Curves_unsmooth = {}\n    initial_original_geom_to_param_FD_Curves_smooth = {}\n    initial_original_geom_to_param_flowCurves = {}\n    for geometry in geometries:",
+        "detail": "GRAPHS.PART6_PREPSIM_MOO",
+        "documentation": {}
+    },
+    {
+        "label": "main_prepare_simCurves",
+        "kind": 2,
+        "importPath": "GRAPHS.PART7_PREPSIM_SOO",
+        "description": "GRAPHS.PART7_PREPSIM_SOO",
+        "peekOfCode": "def main_prepare_simCurves(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    targetCurve = info['targetCurve']\n    # Loading initial simulations\n    initial_original_FD_Curves_unsmooth = np.load(f\"{resultPath}/initial/common/FD_Curves_unsmooth.npy\", allow_pickle=True).tolist()\n    initial_original_FD_Curves_smooth = np.load(f\"{resultPath}/initial/common/FD_Curves_smooth.npy\", allow_pickle=True).tolist()\n    initial_original_flowCurves = np.load(f\"{resultPath}/initial/common/flowCurves.npy\", allow_pickle=True).tolist()\n    # Check if there are any iteration simulations\n    if not os.path.exists(f\"{resultPath}/iteration/common/FD_Curves_unsmooth.npy\"):",
+        "detail": "GRAPHS.PART7_PREPSIM_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "main_iterative_calibration",
+        "kind": 2,
+        "importPath": "GRAPHS.PART8_CALIB_MOO",
+        "description": "GRAPHS.PART8_CALIB_MOO",
+        "peekOfCode": "def main_iterative_calibration(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    material = info['material']\n    optimizerName = info['optimizerName']\n    hardeningLaw = info['hardeningLaw']\n    paramConfig = info['paramConfig']\n    geometries = info['geometries']\n    curveIndex = info['curveIndex']\n    deviationPercent = info['deviationPercent']",
+        "detail": "GRAPHS.PART8_CALIB_MOO",
+        "documentation": {}
+    },
+    {
+        "label": "main_iterative_calibration",
+        "kind": 2,
+        "importPath": "GRAPHS.PART9_CALIB_SOO",
+        "description": "GRAPHS.PART9_CALIB_SOO",
+        "peekOfCode": "def main_iterative_calibration(info):\n    # ---------------------------------------------------#\n    #  Stage 4: Run iterative parameter calibration loop #\n    # ---------------------------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
+        "detail": "GRAPHS.PART9_CALIB_SOO",
+        "documentation": {}
+    },
+    {
+        "label": "main_optimize",
+        "kind": 2,
+        "importPath": "GRAPHS.optimize",
+        "description": "GRAPHS.optimize",
+        "peekOfCode": "def main_optimize():\n    data = PART0_SETTINGS.load_settings()\n    logPath = data['logPath']\n    optimizeStrategy = data['optimizeStrategy']\n    deviationPercent = data['deviationPercent']\n    if optimizeStrategy == \"SOO\":\n        targetCurve, maxTargetDisplacement = PART3_PREPSOO.buildTargetCurve(data)\n        data['targetCurve'] = targetCurve\n        data['maxTargetDisplacement'] = maxTargetDisplacement\n        PART4_RUNSIMS_MOO.executeSimulations(data)",
+        "detail": "GRAPHS.optimize",
         "documentation": {}
     }
 ]

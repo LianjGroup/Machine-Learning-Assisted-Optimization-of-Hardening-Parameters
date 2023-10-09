@@ -16,7 +16,6 @@ from botorch.fit import fit_gpytorch_model
 from botorch.acquisition.multi_objective import qExpectedHypervolumeImprovement
 from botorch.optim import optimize_acqf
 from botorch.utils.multi_objective.box_decompositions import NondominatedPartitioning
-from botorch.utils.multi_objective.pareto import is_non_dominated
 from botorch.utils import standardize
 from botorch.acquisition.multi_objective.objective import IdentityMCMultiOutputObjective
 from sklearn.preprocessing import MinMaxScaler
@@ -93,12 +92,12 @@ def SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,ite
             json.dump(line, file)
             file.write("\n")
 
-def MOO_write_BO_json_log(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):
+def MOO_write_BO_json_log(smoothedInterpolationParams, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):
     
     if os.path.exists(f"optimizers/logs.json"):
         os.remove(f"optimizers/logs.json")
 
-    for paramsTuple, geometriesToForceDisplacement in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():
+    for paramsTuple, geometriesToForceDisplacement in smoothedInterpolationParams.items():
         line = {}
         loss = 0
         for geometry in geometries:
