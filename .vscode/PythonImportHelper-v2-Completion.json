@@ -36,15 +36,6 @@
         "documentation": {}
     },
     {
-        "label": "prettytable",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "prettytable",
-        "description": "prettytable",
-        "detail": "prettytable",
-        "documentation": {}
-    },
-    {
         "label": "PrettyTable",
         "importPath": "prettytable",
         "description": "prettytable",
@@ -94,51 +85,11 @@
         "documentation": {}
     },
     {
-        "label": "CubicSpline",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "interp1d",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
         "label": "datetime",
         "importPath": "datetime",
         "description": "datetime",
         "isExtraImport": true,
         "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
@@ -295,14 +246,6 @@
         "documentation": {}
     },
     {
-        "label": "mean_squared_error",
-        "importPath": "sklearn.metrics",
-        "description": "sklearn.metrics",
-        "isExtraImport": true,
-        "detail": "sklearn.metrics",
-        "documentation": {}
-    },
-    {
         "label": "subprocess",
         "kind": 6,
         "isExtraImport": true,
@@ -381,46 +324,6 @@
         "description": "ASSETS.PART1_HARDENINGLAWS",
         "isExtraImport": true,
         "detail": "ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
@@ -522,59 +425,11 @@
         "documentation": {}
     },
     {
-        "label": "BayesianOptimization",
-        "importPath": "bayes_opt",
-        "description": "bayes_opt",
-        "isExtraImport": true,
-        "detail": "bayes_opt",
-        "documentation": {}
-    },
-    {
-        "label": "UtilityFunction",
-        "importPath": "bayes_opt",
-        "description": "bayes_opt",
-        "isExtraImport": true,
-        "detail": "bayes_opt",
-        "documentation": {}
-    },
-    {
-        "label": "JSONLogger",
-        "importPath": "bayes_opt.logger",
-        "description": "bayes_opt.logger",
-        "isExtraImport": true,
-        "detail": "bayes_opt.logger",
-        "documentation": {}
-    },
-    {
-        "label": "Events",
-        "importPath": "bayes_opt.event",
-        "description": "bayes_opt.event",
-        "isExtraImport": true,
-        "detail": "bayes_opt.event",
-        "documentation": {}
-    },
-    {
-        "label": "load_logs",
-        "importPath": "bayes_opt.util",
-        "description": "bayes_opt.util",
-        "isExtraImport": true,
-        "detail": "bayes_opt.util",
-        "documentation": {}
-    },
-    {
-        "label": "RBF",
-        "importPath": "sklearn.gaussian_process.kernels",
-        "description": "sklearn.gaussian_process.kernels",
-        "isExtraImport": true,
-        "detail": "sklearn.gaussian_process.kernels",
-        "documentation": {}
-    },
-    {
         "label": "*",
-        "importPath": "GRAPHS.PART1_FOLDERS",
-        "description": "GRAPHS.PART1_FOLDERS",
+        "importPath": "MAIN.PART1_FOLDERS",
+        "description": "MAIN.PART1_FOLDERS",
         "isExtraImport": true,
-        "detail": "GRAPHS.PART1_FOLDERS",
+        "detail": "MAIN.PART1_FOLDERS",
         "documentation": {}
     },
     {
@@ -618,140 +473,36 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MODELS.PART1_BAYESIANOPT",
-        "description": "MODELS.PART1_BAYESIANOPT",
-        "isExtraImport": true,
-        "detail": "MODELS.PART1_BAYESIANOPT",
-        "documentation": {}
-    },
-    {
-        "label": "GRAPHS.PART0_SETTINGS",
+        "label": "MAIN.PART0_SETTINGS",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "GRAPHS.PART0_SETTINGS",
-        "description": "GRAPHS.PART0_SETTINGS",
-        "detail": "GRAPHS.PART0_SETTINGS",
+        "importPath": "MAIN.PART0_SETTINGS",
+        "description": "MAIN.PART0_SETTINGS",
+        "detail": "MAIN.PART0_SETTINGS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "GRAPHS.PART0_SETTINGS",
-        "description": "GRAPHS.PART0_SETTINGS",
+        "importPath": "MAIN.PART0_SETTINGS",
+        "description": "MAIN.PART0_SETTINGS",
         "isExtraImport": true,
-        "detail": "GRAPHS.PART0_SETTINGS",
+        "detail": "MAIN.PART0_SETTINGS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "GRAPHS.PART0_SETTINGS",
-        "description": "GRAPHS.PART0_SETTINGS",
+        "importPath": "MAIN.PART0_SETTINGS",
+        "description": "MAIN.PART0_SETTINGS",
         "isExtraImport": true,
-        "detail": "GRAPHS.PART0_SETTINGS",
+        "detail": "MAIN.PART0_SETTINGS",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "GRAPHS.PART0_SETTINGS",
-        "description": "GRAPHS.PART0_SETTINGS",
+        "importPath": "MAIN.PART0_SETTINGS",
+        "description": "MAIN.PART0_SETTINGS",
         "isExtraImport": true,
-        "detail": "GRAPHS.PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
+        "detail": "MAIN.PART0_SETTINGS",
         "documentation": {}
     },
     {
@@ -835,37 +586,20 @@
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART3_SIM_MOO",
-        "description": "ASSETS.PART3_SIM_MOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART3_SIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "GRAPHS.PART2_PREPMOO",
+        "label": "MAIN.PART2_PREPMOO",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "GRAPHS.PART2_PREPMOO",
-        "description": "GRAPHS.PART2_PREPMOO",
-        "detail": "GRAPHS.PART2_PREPMOO",
+        "importPath": "MAIN.PART2_PREPMOO",
+        "description": "MAIN.PART2_PREPMOO",
+        "detail": "MAIN.PART2_PREPMOO",
         "documentation": {}
     },
     {
         "label": "*",
-        "importPath": "GRAPHS.PART2_PREPMOO",
-        "description": "GRAPHS.PART2_PREPMOO",
+        "importPath": "MAIN.PART2_PREPMOO",
+        "description": "MAIN.PART2_PREPMOO",
         "isExtraImport": true,
-        "detail": "GRAPHS.PART2_PREPMOO",
-        "documentation": {}
-    },
-    {
-        "label": "PART0_SETTINGS",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "PART0_SETTINGS",
-        "description": "PART0_SETTINGS",
-        "detail": "PART0_SETTINGS",
+        "detail": "MAIN.PART2_PREPMOO",
         "documentation": {}
     },
     {
@@ -877,554 +611,416 @@
         "documentation": {}
     },
     {
-        "label": "PART3_PREPSOO",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "PART3_PREPSOO",
-        "description": "PART3_PREPSOO",
-        "detail": "PART3_PREPSOO",
-        "documentation": {}
-    },
-    {
         "label": "*",
         "importPath": "PART3_PREPSOO",
         "description": "PART3_PREPSOO",
         "isExtraImport": true,
         "detail": "PART3_PREPSOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.SOO_SIM",
-        "description": "modules.SOO_SIM",
-        "isExtraImport": true,
-        "detail": "modules.SOO_SIM",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.MOO_SIM",
-        "description": "modules.MOO_SIM",
-        "isExtraImport": true,
-        "detail": "modules.MOO_SIM",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.hardeningLaws",
-        "description": "modules.hardeningLaws",
-        "isExtraImport": true,
-        "detail": "modules.hardeningLaws",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.helper",
-        "description": "modules.helper",
-        "isExtraImport": true,
-        "detail": "modules.helper",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "modules.stoploss",
-        "description": "modules.stoploss",
-        "isExtraImport": true,
-        "detail": "modules.stoploss",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "optimizers.BO",
-        "description": "optimizers.BO",
-        "isExtraImport": true,
-        "detail": "optimizers.BO",
-        "documentation": {}
-    },
-    {
-        "label": "stage0_configs",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "stage0_configs",
-        "description": "stage0_configs",
-        "detail": "stage0_configs",
-        "documentation": {}
-    },
-    {
-        "label": "stage1_SOO_prepare_targetCurve",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "stage1_SOO_prepare_targetCurve",
-        "description": "stage1_SOO_prepare_targetCurve",
-        "detail": "stage1_SOO_prepare_targetCurve",
-        "documentation": {}
-    },
-    {
-        "label": "stage2_SOO_run_initialSims",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "stage2_SOO_run_initialSims",
-        "description": "stage2_SOO_run_initialSims",
-        "detail": "stage2_SOO_run_initialSims",
-        "documentation": {}
-    },
-    {
-        "label": "stage3_SOO_prepare_simCurves",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "stage3_SOO_prepare_simCurves",
-        "description": "stage3_SOO_prepare_simCurves",
-        "detail": "stage3_SOO_prepare_simCurves",
-        "documentation": {}
-    },
-    {
-        "label": "PART4_RUNSIMS_MOO",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "PART4_RUNSIMS_MOO",
-        "description": "PART4_RUNSIMS_MOO",
-        "detail": "PART4_RUNSIMS_MOO",
         "documentation": {}
     },
     {
         "label": "swiftLaw",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
-        "description": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
+        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "peekOfCode": "def swiftLaw(spec1, spec2, spec3, truePlasticStrain):\n    # Calculate true stress using the Swift law formula:\n    # True Stress = spec1 * (spec2 + truePlasticStrain) ** spec3\n    trueStress = spec1 * (spec2 + truePlasticStrain) ** spec3\n    # Return the calculated true stress value.\n    return trueStress\n################################\n##                            ##\n##            VOCE            ##\n##                            ##",
-        "detail": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "voceLaw",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
-        "description": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
+        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "peekOfCode": "def voceLaw(spec1, spec2, spec3, truePlasticStrain):\n    # Calculate true stress using the Voce law formula:\n    # True Stress = spec1 + spec2 * (1 - exp(-spec3 * truePlasticStrain))\n    # Calculate the exponential term within the formula.\n    exponential_term = -spec3 * truePlasticStrain\n    exp_result = np.exp(exponential_term)\n    # Calculate the final true stress using the Voce law formula.\n    trueStress = spec1 + spec2 * (1 - exp_result)\n    # Return the calculated true stress value.\n    return trueStress",
-        "detail": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "swiftAndVoceLaw",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
-        "description": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
+        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "peekOfCode": "def swiftAndVoceLaw(spec1, spec2, spec3, spec4, spec5, spec6, spec7, truePlasticStrain):\n    # Calculate true stress using the Swift law formula.\n    trueStressSwift = swiftLaw(spec2, spec3, spec4, truePlasticStrain)\n    # Calculate true stress using the Voce law formula.\n    trueStressVoce = voceLaw(spec5, spec6, spec7, truePlasticStrain)\n    # Calculate the combined true stress using a weighted average of Swift and Voce stresses:\n    # True Stress = spec1 * trueStressSwift + (1 - spec1) * trueStressVoce\n    # Weighted average of the two stress components with weight spec1.\n    weighted_trueStressSwift = spec1 * trueStressSwift\n    # Weighted average of the two stress components with weight (1 - spec1).",
-        "detail": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "findFlowCurve",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
-        "description": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
+        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "peekOfCode": "def findFlowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # Check which hardening law is specified and calculate the true stress accordingly.\n    if hardeningLaw == \"Swift\":\n        # Extract Swift law parameters from the dictionary.\n        spec1, spec2, spec3 = parameters[\"spec1\"], parameters[\"spec2\"], parameters[\"spec3\"]\n        # Calculate true stress using the Swift law formula.\n        trueStress = swiftLaw(spec1, spec2, spec3, truePlasticStrain)\n    elif hardeningLaw == \"Voce\":\n        # Extract Voce law parameters from the dictionary.\n        spec1, spec2, spec3 = parameters[\"spec1\"], parameters[\"spec2\"], parameters[\"spec3\"]",
-        "detail": "GRAPHS.ASSETS.PART1_HARDENINGLAWS",
+        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
         "documentation": {}
     },
     {
         "label": "printLog",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def printLog(message, logPath):\n    with open(logPath, 'a+') as logFile:\n        logFile.writelines(message + \"\\n\")\n    print(message)\ndef parseBoundsBO(paramInfo):\n    paramBounds = {}\n    for param in paramInfo:\n        paramBounds[param] = (paramInfo[param]['lowerBound'], paramInfo[param]['upperBound'])\n    return paramBounds\ndef is_directory_empty(directory_path):",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "parseBoundsBO",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def parseBoundsBO(paramInfo):\n    paramBounds = {}\n    for param in paramInfo:\n        paramBounds[param] = (paramInfo[param]['lowerBound'], paramInfo[param]['upperBound'])\n    return paramBounds\ndef is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "is_directory_empty",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)\n        smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))\n    return smooth_force\ndef interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "smoothing_force",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)\n        smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))\n    return smooth_force\ndef interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "interpolatingForce",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce\ndef interpolating_FD_Curves(FD_Curves, targetCurve):\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]\n        targetDisp = targetCurve[\"displacement\"]",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "interpolating_FD_Curves",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def interpolating_FD_Curves(FD_Curves, targetCurve):\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]\n        targetDisp = targetCurve[\"displacement\"]\n        FD_Curves_copy[paramsTuple][\"force\"] = interpolatingForce(simDisp, simForce, targetDisp)\n        FD_Curves_copy[paramsTuple][\"displacement\"] = targetDisp\n    return FD_Curves_copy\ndef interpolatingStress(simStrain, simStress, targetStrain):",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "interpolatingStress",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def interpolatingStress(simStrain, simStress, targetStrain):\n    interpolatingFunction = interp1d(simStrain, simStress, fill_value='extrapolate')\n    interpolatedSimStress = interpolatingFunction(targetStrain)\n    return interpolatedSimStress\ndef interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "interpolating_flowCurves",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]\n        flowCurves_copy[paramsTuple][\"stress\"] = interpolatingStress(simStrain, simStress, targetStrain)\n        flowCurves_copy[paramsTuple][\"strain\"] = targetStrain\n    return flowCurves_copy\ndef SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "SOO_write_BO_json_log",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, dispforce in FD_Curves.items():\n        line = {}\n        line[\"target\"] = -lossFD(targetCurve[\"displacement\"][yieldingIndex:], targetCurve[\"force\"][yieldingIndex:], dispforce[\"force\"][yieldingIndex:],iteration)\n        line[\"params\"] = dict(paramsTuple)\n        for param in paramConfig:\n            line[\"params\"][param] = line[\"params\"][param]/paramConfig[param][\"exponent\"] \n        line[\"datetime\"] = {}",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "MOO_write_BO_json_log",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def MOO_write_BO_json_log(smoothedInterpolationParams, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in smoothedInterpolationParams.items():\n        line = {}\n        loss = 0\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss += - geometryWeights[geometry] * lossFD(targetCurves[geometry][\"displacement\"][yieldingIndex:], targetCurves[geometry][\"force\"][yieldingIndex:], geometriesToForceDisplacement[geometry][\"force\"][yieldingIndex:],iteration)\n        line[\"target\"] = loss",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "MOO_suggest_BOTORCH",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, yieldingIndices, paramConfig,iteration):\n    params = []\n    losses = []\n    for param_tuple, geom_to_simCurves in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        params.append([value for param, value in param_tuple])\n        loss_iter = []\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss_iter.append(- lossFD(\n                targetCurves[geometry][\"displacement\"][yieldingIndex:], ",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "MOO_calculate_geometries_weight",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def MOO_calculate_geometries_weight(targetCurves, geometries):\n    geometryWeights = {}\n    for geometry in geometries:\n        targetDisplacement = targetCurves[geometry][\"displacement\"]\n        targetForce = targetCurves[geometry][\"force\"]\n        x_start = min(targetDisplacement)\n        x_end = max(targetDisplacement)\n        target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n        x_values = np.linspace(x_start, x_end, num=10000)\n        y_values = target_FD_func(x_values)",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "prettyPrint",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def prettyPrint(parameters, paramConfig, logPath):\n    logTable = PrettyTable()\n    logTable.field_names = [\"Parameter\", \"Value\"]\n    for param in parameters:\n        paramName = paramConfig[param]['name']\n        paramValue = parameters[param]\n        paramUnit = paramConfig[param]['unit']\n        paramValueUnit = f\"{paramValue} {paramUnit}\" if paramUnit != \"dimensionless\" else paramValue\n        logTable.add_row([paramName, paramValueUnit])\n    stringMessage = \"\\n\"",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "read_FD_Curve",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def read_FD_Curve(filePath):\n    output_data=np.loadtxt(filePath, skiprows=2)\n    columns=['X', 'Displacement', 'Force']\n    df = pd.DataFrame(data=output_data, columns=columns)\n    displacement = df.iloc[:, 1].to_numpy()\n    force = df.iloc[:, 2].to_numpy()\n    return displacement, force\ndef create_parameter_file(filePath, paramsDict):\n    columns = [\"Parameter\", \"Value\"]\n    df = pd.DataFrame(columns=columns)",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "create_parameter_file",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def create_parameter_file(filePath, paramsDict):\n    columns = [\"Parameter\", \"Value\"]\n    df = pd.DataFrame(columns=columns)\n    for key, value in paramsDict.items():\n        df.loc[len(df.index)] = [key, value]\n    df.to_excel(f\"{filePath}/parameters.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/parameters.csv\", index=False)\ndef create_flowCurve_file(filePath, truePlasticStrain, trueStress):\n    columns = [\"strain,-\", \"stress,MPa\", \"stress,Pa\"]\n    df = pd.DataFrame(columns=columns)",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "create_flowCurve_file",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def create_flowCurve_file(filePath, truePlasticStrain, trueStress):\n    columns = [\"strain,-\", \"stress,MPa\", \"stress,Pa\"]\n    df = pd.DataFrame(columns=columns)\n    for i in range(len(truePlasticStrain)):\n        df.loc[len(df.index)] = [truePlasticStrain[i], trueStress[i], trueStress[i]*1e6]\n    df.to_excel(f\"{filePath}/flowCurve.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/flowCurve.csv\", index=False)\ndef create_FD_Curve_file(filePath, displacement, force):\n    columns = [\"displacement,mm\", \"force,kN\", \"force,N\"]\n    df = pd.DataFrame(columns=columns)",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "create_FD_Curve_file",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def create_FD_Curve_file(filePath, displacement, force):\n    columns = [\"displacement,mm\", \"force,kN\", \"force,N\"]\n    df = pd.DataFrame(columns=columns)\n    for i in range(len(displacement)):\n        df.loc[len(df.index)] = [displacement[i], force[i] * 1e-3, force[i]]\n    df.to_excel(f\"{filePath}/FD_Curve.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/FD_Curve.csv\", index=False)\ndef replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "replace_flowCurve_material_inp",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(material_inp_content):\n        if '*Plastic' in line:\n            start_line = i + 1\n        elif '*Density' in line:\n            end_line = i",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "replace_maxDisp_geometry_inp",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def replace_maxDisp_geometry_inp(filePath, maxTargetDisplacement):\n    with open(filePath, 'r') as geometry_inp:\n        geometry_inp_content = geometry_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(geometry_inp_content[-60:]):\n        if line.startswith('*Boundary, amplitude'):\n            original_index = len(geometry_inp_content) - 60 + i\n            start_line = original_index + 1\n            end_line = original_index + 2",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "replace_materialName_geometry_inp",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def replace_materialName_geometry_inp(filePath, materialName):\n    with open(filePath, 'r') as geometry_inp:\n        geometry_inp_content = geometry_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(geometry_inp_content[-100:]):\n        if line.startswith('*INCLUDE, INPUT='):\n            original_index = len(geometry_inp_content) - 100 + i\n            start_line = original_index\n            end_line = original_index + 1",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "rescale_paramsDict",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def rescale_paramsDict(paramsDict, paramConfig):\n    rescaled_paramsDict = {}\n    for param, value in paramsDict.items():\n        rescaled_paramsDict[param] = value * paramConfig[param]['exponent']\n    return rescaled_paramsDict\ndef reverseAsParamsToGeometries(curves, geometries):\n    exampleGeometry = geometries[0]\n    reverseCurves = {}\n    for paramsTuple in curves[exampleGeometry]:\n        reverseCurves[paramsTuple] = {}",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "reverseAsParamsToGeometries",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def reverseAsParamsToGeometries(curves, geometries):\n    exampleGeometry = geometries[0]\n    reverseCurves = {}\n    for paramsTuple in curves[exampleGeometry]:\n        reverseCurves[paramsTuple] = {}\n        for geometry in geometries:\n            reverseCurves[paramsTuple][geometry] = curves[geometry][paramsTuple]\n    return reverseCurves\ndef calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "calculate_yielding_index",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
-        "description": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
+        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "peekOfCode": "def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"\n    This function calculates the end of the elastic (linear) region of the force-displacement curve.\n    \"\"\"\n    yielding_index = 0\n    linReg = LinearRegression()\n    targetDisplacement = np.array(targetDisplacement)\n    targetForce = np.array(targetForce)\n    for i in range(2, len(targetDisplacement)):\n        linReg.fit(targetDisplacement[:i].reshape(-1, 1), targetForce[:i]) ",
-        "detail": "GRAPHS.ASSETS.PART2_ASSTFUNCT",
+        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
         "documentation": {}
     },
     {
         "label": "MOO_SIM",
         "kind": 6,
-        "importPath": "GRAPHS.ASSETS.PART3_SIM_MOO",
-        "description": "GRAPHS.ASSETS.PART3_SIM_MOO",
+        "importPath": "MAIN.ASSETS.PART3_SIM_MOO",
+        "description": "MAIN.ASSETS.PART3_SIM_MOO",
         "peekOfCode": "class MOO_SIM():\n    def __init__(self, info):\n        self.info = info\n    def latin_hypercube_sampling(self):\n        paramConfig = self.info[\"paramConfig\"]\n        numberOfInitialSims = self.info[\"numberOfInitialSims\"]\n        linspaceValues = {}\n        for param in paramConfig:\n            linspaceValues[param] = np.linspace(\n                start=paramConfig[param][\"lowerBound\"] * paramConfig[param][\"exponent\"], ",
-        "detail": "GRAPHS.ASSETS.PART3_SIM_MOO",
+        "detail": "MAIN.ASSETS.PART3_SIM_MOO",
         "documentation": {}
     },
     {
         "label": "SOO_SIM",
         "kind": 6,
-        "importPath": "GRAPHS.ASSETS.PART4_SIM_SOO",
-        "description": "GRAPHS.ASSETS.PART4_SIM_SOO",
+        "importPath": "MAIN.ASSETS.PART4_SIM_SOO",
+        "description": "MAIN.ASSETS.PART4_SIM_SOO",
         "peekOfCode": "class SOO_SIM():\n    def __init__(self, info):\n        self.info = info\n    def latin_hypercube_sampling(self):\n        paramConfig = self.info[\"paramConfig\"]\n        numberOfInitialSims = self.info[\"numberOfInitialSims\"]\n        linspaceValues = {}\n        for param in paramConfig:\n            linspaceValues[param] = np.linspace(\n                start=paramConfig[param][\"lowerBound\"] * paramConfig[param][\"exponent\"], ",
-        "detail": "GRAPHS.ASSETS.PART4_SIM_SOO",
+        "detail": "MAIN.ASSETS.PART4_SIM_SOO",
         "documentation": {}
     },
     {
         "label": "lossFlow",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def lossFlow(targetStrain, targetStress, simStress):\n    return np.sqrt(np.mean((targetStress - simStress)**2))\ndef dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "dummy_lossFD",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)\n    SimHigherThanTarget = np.array(sim_FD_func(x_values) > target_FD_func(x_values))\n    turningIndices = np.where(SimHigherThanTarget[:-1] != SimHigherThanTarget[1:])",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "lossFD",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)\n    SimHigherThanTarget = np.array(sim_FD_func(x_values) > target_FD_func(x_values))\n    turningIndices = np.where(SimHigherThanTarget[:-1] != SimHigherThanTarget[1:])\n    if len(turningIndices) == 0:\n        if SimHigherThanTarget[0] == True:",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "loss_plastic",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def loss_plastic(targetDisplacement, targetForce, simForce, step, epsilon=1e-8):\n    \"\"\"\n    This function calculates the loss for the plastic region of the force-displacement curve. \n    The loss is a adaptive weighted sum of the residuals loss, slope loss, and important points penalty.\n    The weights adapt as the number of iterations increases.\n    \"\"\"\n    residuals = targetForce - simForce\n    residuals_loss = np.sqrt(np.mean(residuals ** 2))\n    slope_true = np.diff(targetForce) / np.diff(targetDisplacement)\n    slope_pred = np.diff(simForce) / np.diff(targetDisplacement)",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "lossFD",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    return loss_plastic(targetDisplacement, targetForce, simForce, iteration)\ndef stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "stopFD_SOO",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "stopFD_MOO",
         "kind": 2,
-        "importPath": "GRAPHS.ASSETS.PART5_GUARD",
-        "description": "GRAPHS.ASSETS.PART5_GUARD",
+        "importPath": "MAIN.ASSETS.PART5_GUARD",
+        "description": "MAIN.ASSETS.PART5_GUARD",
         "peekOfCode": "def stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
-        "detail": "GRAPHS.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "bayesianOptimization",
-        "kind": 6,
-        "importPath": "GRAPHS.MODELS.PART1_BAYESIANOPT",
-        "description": "GRAPHS.MODELS.PART1_BAYESIANOPT",
-        "peekOfCode": "class bayesianOptimization():\n    def start(kendi, data):        \n        kendi.info = data\n        kendi.verbose = 1\n        kendi.random_state = 123 \n        kendi.init_points = 0\n        kendi.iterations = 1 \n        kendi.acquisitionFunction = UtilityFunction(kind='POI', xi=0.1)\n        kendi.GP_kernel = RBF(length_scale=1, length_scale_bounds=(1e-3, 1e3)) \n        kendi.alpha = 1e-9",
-        "detail": "GRAPHS.MODELS.PART1_BAYESIANOPT",
+        "detail": "MAIN.ASSETS.PART5_GUARD",
         "documentation": {}
     },
     {
         "label": "load_settings",
         "kind": 2,
-        "importPath": "GRAPHS.PART0_SETTINGS",
-        "description": "GRAPHS.PART0_SETTINGS",
+        "importPath": "MAIN.PART0_SETTINGS",
+        "description": "MAIN.PART0_SETTINGS",
         "peekOfCode": "def load_settings(): \n     # First, we define a dictionary 'dataDictionary' containing various configuration settings and data. \n     # we will return this dictionary \n    dataDictionary = {\n        'projectDirectoryLocation': projectDirectoryLocation,  # Location of the project directory\n        'logFileLocation': logFileLocation,  # Location of log files\n        'specsDataFolder': specsDataFolder,  # Folder for specifications data\n        'outputFileDirectory': outputFileDirectory,  # Directory for output files\n        'simulationFileDirectory': simulationFileDirectory,  # Directory for simulation files\n        'targetFileDirectory': targetFileDirectory,  # Directory for target files",
-        "detail": "GRAPHS.PART0_SETTINGS",
+        "detail": "MAIN.PART0_SETTINGS",
         "documentation": {}
     },
     {
         "label": "verifyAndBuild",
         "kind": 2,
-        "importPath": "GRAPHS.PART1_FOLDERS",
-        "description": "GRAPHS.PART1_FOLDERS",
+        "importPath": "MAIN.PART1_FOLDERS",
+        "description": "MAIN.PART1_FOLDERS",
         "peekOfCode": "def verifyAndBuild(path):\n    \"\"\"\n    Creates a directory at the specified 'path' if it does not already exist.\n    Args:\n        path (str): The path where the directory should be created.\n    Returns:\n        None\n    \"\"\"\n    if not os.path.exists(path):\n        os.makedirs(path)",
-        "detail": "GRAPHS.PART1_FOLDERS",
+        "detail": "MAIN.PART1_FOLDERS",
         "documentation": {}
     },
     {
         "label": "startFolder",
         "kind": 2,
-        "importPath": "GRAPHS.PART1_FOLDERS",
-        "description": "GRAPHS.PART1_FOLDERS",
+        "importPath": "MAIN.PART1_FOLDERS",
+        "description": "MAIN.PART1_FOLDERS",
         "peekOfCode": "def startFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, curveIdentifier):\n    \"\"\"\n    Activate a folder structure based on optimization parameters.\n    Args:\n        optimization_approach (str): The optimization approach ('SOO' or other).\n        medium (str): The medium type.\n        hardening_law (str): The hardening law used.\n        shape_of_the_object (str): The shape of the object.\n        curve_identifier (int): The curve identifier.\n    \"\"\"",
-        "detail": "GRAPHS.PART1_FOLDERS",
+        "detail": "MAIN.PART1_FOLDERS",
         "documentation": {}
     },
     {
         "label": "buildTargetCurve",
         "kind": 2,
-        "importPath": "GRAPHS.PART2_PREPMOO",
-        "description": "GRAPHS.PART2_PREPMOO",
+        "importPath": "MAIN.PART2_PREPMOO",
+        "description": "MAIN.PART2_PREPMOO",
         "peekOfCode": "def buildTargetCurve(data):\n    # Retrieve the targets path from the 'data' dictionary\n    pathForTargets = data['pathForTargets']\n    # Retrieve the 'geometries' value from the 'data' dictionary\n    geometries = data['geometries']\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####  CURVE SPECIFICATIONS  ####",
-        "detail": "GRAPHS.PART2_PREPMOO",
+        "detail": "MAIN.PART2_PREPMOO",
         "documentation": {}
     },
     {
         "label": "buildTargetCurve",
         "kind": 2,
-        "importPath": "GRAPHS.PART3_PREPSOO",
-        "description": "GRAPHS.PART3_PREPSOO",
+        "importPath": "MAIN.PART3_PREPSOO",
+        "description": "MAIN.PART3_PREPSOO",
         "peekOfCode": "def buildTargetCurve(data):\n    # Retrieve the targets path from the 'data' dictionary\n    pathForTargets = data['pathForTargets']\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####  CURVE SPECIFICATIONS  ####\n    ####                        ####\n    ####                        ####",
-        "detail": "GRAPHS.PART3_PREPSOO",
+        "detail": "MAIN.PART3_PREPSOO",
         "documentation": {}
     },
     {
         "label": "executeSimulations",
         "kind": 2,
-        "importPath": "GRAPHS.PART4_RUNSIMS_MOO",
-        "description": "GRAPHS.PART4_RUNSIMS_MOO",
+        "importPath": "MAIN.PART4_RUNSIMS_MOO",
+        "description": "MAIN.PART4_RUNSIMS_MOO",
         "peekOfCode": "def executeSimulations(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####       DECLARING        ####\n    ####     PATH VARIABLES     ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
-        "detail": "GRAPHS.PART4_RUNSIMS_MOO",
+        "detail": "MAIN.PART4_RUNSIMS_MOO",
         "documentation": {}
     },
     {
         "label": "executeSimulations",
         "kind": 2,
-        "importPath": "GRAPHS.PART5_RUNSIMS_SOO",
-        "description": "GRAPHS.PART5_RUNSIMS_SOO",
+        "importPath": "MAIN.PART5_RUNSIMS_SOO",
+        "description": "MAIN.PART5_RUNSIMS_SOO",
         "peekOfCode": "def executeSimulations(info):\n    numberOfInitialSims = info['numberOfInitialSims']\n    generateParams = info['generateParams'] \n    if generateParams == \"manual\":\n        parameters = np.load(f\"{outputFileDirectory}/initial/common/parameters.npy\", allow_pickle=True).tolist()\n        info['numberOfInitialSims'] = len(parameters)\n    elif generateParams == \"auto\":\n        parameters = sim.latin_hypercube_sampling()\n    sim = SOO_SIM(info)    \n    if not os.path.exists(f\"{outputFileDirectory}/initial/common/FD_Curves_unsmooth.npy\"):",
-        "detail": "GRAPHS.PART5_RUNSIMS_SOO",
+        "detail": "MAIN.PART5_RUNSIMS_SOO",
         "documentation": {}
     },
     {
         "label": "main_prepare_simCurves",
         "kind": 2,
-        "importPath": "GRAPHS.PART6_PREPSIM_MOO",
-        "description": "GRAPHS.PART6_PREPSIM_MOO",
+        "importPath": "MAIN.PART6_PREPSIM_MOO",
+        "description": "MAIN.PART6_PREPSIM_MOO",
         "peekOfCode": "def main_prepare_simCurves(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    geometries = info['geometries']    \n    targetCurves = info['targetCurves']\n    exampleGeometry = geometries[0]\n    initial_original_geom_to_param_FD_Curves_unsmooth = {}\n    initial_original_geom_to_param_FD_Curves_smooth = {}\n    initial_original_geom_to_param_flowCurves = {}\n    for geometry in geometries:",
-        "detail": "GRAPHS.PART6_PREPSIM_MOO",
+        "detail": "MAIN.PART6_PREPSIM_MOO",
         "documentation": {}
     },
     {
         "label": "main_prepare_simCurves",
         "kind": 2,
-        "importPath": "GRAPHS.PART7_PREPSIM_SOO",
-        "description": "GRAPHS.PART7_PREPSIM_SOO",
+        "importPath": "MAIN.PART7_PREPSIM_SOO",
+        "description": "MAIN.PART7_PREPSIM_SOO",
         "peekOfCode": "def main_prepare_simCurves(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    targetCurve = info['targetCurve']\n    # Loading initial simulations\n    initial_original_FD_Curves_unsmooth = np.load(f\"{resultPath}/initial/common/FD_Curves_unsmooth.npy\", allow_pickle=True).tolist()\n    initial_original_FD_Curves_smooth = np.load(f\"{resultPath}/initial/common/FD_Curves_smooth.npy\", allow_pickle=True).tolist()\n    initial_original_flowCurves = np.load(f\"{resultPath}/initial/common/flowCurves.npy\", allow_pickle=True).tolist()\n    # Check if there are any iteration simulations\n    if not os.path.exists(f\"{resultPath}/iteration/common/FD_Curves_unsmooth.npy\"):",
-        "detail": "GRAPHS.PART7_PREPSIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "main_iterative_calibration",
-        "kind": 2,
-        "importPath": "GRAPHS.PART8_CALIB_MOO",
-        "description": "GRAPHS.PART8_CALIB_MOO",
-        "peekOfCode": "def main_iterative_calibration(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    material = info['material']\n    optimizerName = info['optimizerName']\n    hardeningLaw = info['hardeningLaw']\n    paramConfig = info['paramConfig']\n    geometries = info['geometries']\n    curveIndex = info['curveIndex']\n    deviationPercent = info['deviationPercent']",
-        "detail": "GRAPHS.PART8_CALIB_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "main_iterative_calibration",
-        "kind": 2,
-        "importPath": "GRAPHS.PART9_CALIB_SOO",
-        "description": "GRAPHS.PART9_CALIB_SOO",
-        "peekOfCode": "def main_iterative_calibration(info):\n    # ---------------------------------------------------#\n    #  Stage 4: Run iterative parameter calibration loop #\n    # ---------------------------------------------------#\n    projectPath = info['projectPath']\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    simPath = info['simPath']\n    targetPath = info['targetPath']\n    templatePath = info['templatePath'] ",
-        "detail": "GRAPHS.PART9_CALIB_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "main_optimize",
-        "kind": 2,
-        "importPath": "GRAPHS.optimize",
-        "description": "GRAPHS.optimize",
-        "peekOfCode": "def main_optimize():\n    data = PART0_SETTINGS.load_settings()\n    logPath = data['logPath']\n    optimizeStrategy = data['optimizeStrategy']\n    deviationPercent = data['deviationPercent']\n    if optimizeStrategy == \"SOO\":\n        targetCurve, maxTargetDisplacement = PART3_PREPSOO.buildTargetCurve(data)\n        data['targetCurve'] = targetCurve\n        data['maxTargetDisplacement'] = maxTargetDisplacement\n        PART4_RUNSIMS_MOO.executeSimulations(data)",
-        "detail": "GRAPHS.optimize",
+        "detail": "MAIN.PART7_PREPSIM_SOO",
         "documentation": {}
     }
 ]
