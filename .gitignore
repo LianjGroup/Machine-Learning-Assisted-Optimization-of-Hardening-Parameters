@@ -9,6 +9,8 @@ __pycache__/
 *.rpt
 *.pth
 *.txt
+*.npy
+*.png
 
 # Distribution / packaging
 .Python
