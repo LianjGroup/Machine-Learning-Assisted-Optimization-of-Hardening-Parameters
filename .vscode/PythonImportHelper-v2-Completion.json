@@ -1,29 +1,38 @@
 [
     {
+        "label": "torch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch",
+        "description": "torch",
+        "detail": "torch",
+        "documentation": {}
+    },
+    {
+        "label": "torch.nn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.nn",
+        "description": "torch.nn",
+        "detail": "torch.nn",
+        "documentation": {}
+    },
+    {
+        "label": "torch.optim",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "torch.optim",
+        "description": "torch.optim",
+        "detail": "torch.optim",
+        "documentation": {}
+    },
+    {
         "label": "numpy",
         "kind": 6,
         "isExtraImport": true,
         "importPath": "numpy",
         "description": "numpy",
         "detail": "numpy",
-        "documentation": {}
-    },
-    {
-        "label": "json",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "json",
-        "description": "json",
-        "detail": "json",
-        "documentation": {}
-    },
-    {
-        "label": "os",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "os",
-        "description": "os",
-        "detail": "os",
         "documentation": {}
     },
     {
@@ -36,189 +45,11 @@
         "documentation": {}
     },
     {
-        "label": "PrettyTable",
-        "importPath": "prettytable",
-        "description": "prettytable",
+        "label": "train_test_split",
+        "importPath": "sklearn.model_selection",
+        "description": "sklearn.model_selection",
         "isExtraImport": true,
-        "detail": "prettytable",
-        "documentation": {}
-    },
-    {
-        "label": "PrettyTable",
-        "importPath": "prettytable",
-        "description": "prettytable",
-        "isExtraImport": true,
-        "detail": "prettytable",
-        "documentation": {}
-    },
-    {
-        "label": "copy",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "copy",
-        "description": "copy",
-        "detail": "copy",
-        "documentation": {}
-    },
-    {
-        "label": "savgol_filter",
-        "importPath": "scipy.signal",
-        "description": "scipy.signal",
-        "isExtraImport": true,
-        "detail": "scipy.signal",
-        "documentation": {}
-    },
-    {
-        "label": "interp1d",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "interp1d",
-        "importPath": "scipy.interpolate",
-        "description": "scipy.interpolate",
-        "isExtraImport": true,
-        "detail": "scipy.interpolate",
-        "documentation": {}
-    },
-    {
-        "label": "datetime",
-        "importPath": "datetime",
-        "description": "datetime",
-        "isExtraImport": true,
-        "detail": "datetime",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART5_GUARD",
-        "description": "ASSETS.PART5_GUARD",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "torch",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "torch",
-        "description": "torch",
-        "detail": "torch",
-        "documentation": {}
-    },
-    {
-        "label": "SingleTaskGP",
-        "importPath": "botorch.models",
-        "description": "botorch.models",
-        "isExtraImport": true,
-        "detail": "botorch.models",
-        "documentation": {}
-    },
-    {
-        "label": "ExactMarginalLogLikelihood",
-        "importPath": "gpytorch.mlls",
-        "description": "gpytorch.mlls",
-        "isExtraImport": true,
-        "detail": "gpytorch.mlls",
-        "documentation": {}
-    },
-    {
-        "label": "fit_gpytorch_model",
-        "importPath": "botorch.fit",
-        "description": "botorch.fit",
-        "isExtraImport": true,
-        "detail": "botorch.fit",
-        "documentation": {}
-    },
-    {
-        "label": "qExpectedHypervolumeImprovement",
-        "importPath": "botorch.acquisition.multi_objective",
-        "description": "botorch.acquisition.multi_objective",
-        "isExtraImport": true,
-        "detail": "botorch.acquisition.multi_objective",
-        "documentation": {}
-    },
-    {
-        "label": "optimize_acqf",
-        "importPath": "botorch.optim",
-        "description": "botorch.optim",
-        "isExtraImport": true,
-        "detail": "botorch.optim",
-        "documentation": {}
-    },
-    {
-        "label": "NondominatedPartitioning",
-        "importPath": "botorch.utils.multi_objective.box_decompositions",
-        "description": "botorch.utils.multi_objective.box_decompositions",
-        "isExtraImport": true,
-        "detail": "botorch.utils.multi_objective.box_decompositions",
-        "documentation": {}
-    },
-    {
-        "label": "standardize",
-        "importPath": "botorch.utils",
-        "description": "botorch.utils",
-        "isExtraImport": true,
-        "detail": "botorch.utils",
-        "documentation": {}
-    },
-    {
-        "label": "IdentityMCMultiOutputObjective",
-        "importPath": "botorch.acquisition.multi_objective.objective",
-        "description": "botorch.acquisition.multi_objective.objective",
-        "isExtraImport": true,
-        "detail": "botorch.acquisition.multi_objective.objective",
+        "detail": "sklearn.model_selection",
         "documentation": {}
     },
     {
@@ -230,11 +61,19 @@
         "documentation": {}
     },
     {
-        "label": "LinearRegression",
-        "importPath": "sklearn.linear_model",
-        "description": "sklearn.linear_model",
+        "label": "mean_absolute_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
         "isExtraImport": true,
-        "detail": "sklearn.linear_model",
+        "detail": "sklearn.metrics",
+        "documentation": {}
+    },
+    {
+        "label": "mean_squared_error",
+        "importPath": "sklearn.metrics",
+        "description": "sklearn.metrics",
+        "isExtraImport": true,
+        "detail": "sklearn.metrics",
         "documentation": {}
     },
     {
@@ -246,781 +85,244 @@
         "documentation": {}
     },
     {
-        "label": "subprocess",
+        "label": "NeuralNetRegressor",
+        "importPath": "skorch",
+        "description": "skorch",
+        "isExtraImport": true,
+        "detail": "skorch",
+        "documentation": {}
+    },
+    {
+        "label": "EarlyStopping",
+        "importPath": "skorch.callbacks",
+        "description": "skorch.callbacks",
+        "isExtraImport": true,
+        "detail": "skorch.callbacks",
+        "documentation": {}
+    },
+    {
+        "label": "NeuralNetwork",
         "kind": 6,
-        "isExtraImport": true,
-        "importPath": "subprocess",
-        "description": "subprocess",
-        "detail": "subprocess",
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "class NeuralNetwork(nn.Module):\n    def __init__(self, input_size, hidden_size1, hidden_size2, hidden_size3, output_size):\n        super(NeuralNetwork, self).__init__()\n        self.fc1 = nn.Linear(input_size, hidden_size1)\n        self.relu1 = nn.LeakyReLU(negative_slope=0.01)\n        self.fc2 = nn.Linear(hidden_size1, hidden_size2)\n        self.relu2 = nn.LeakyReLU(negative_slope=0.01)\n        self.fc3 = nn.Linear(hidden_size2, hidden_size3)  # New hidden layer\n        self.relu3 = nn.LeakyReLU(negative_slope=0.01)     # New activation function\n        self.fc4 = nn.Linear(hidden_size3, output_size)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "x_data_file",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "x_data_file = \"MODEL_DATA/NEWDATA/newData_combined_FD.csv\"\ny_data_file = \"MODEL_DATA/NEWDATA/newData_expanded_realHardParam.csv\"\nx_data = pd.read_csv(x_data_file)\ny_data = pd.read_csv(y_data_file)\n# Split the data into X (input features) and Y (target - c-parameters)\nX_data = x_data.values.astype(np.float32)\nY_data = y_data.values.astype(np.float32)\n# Create Min-Max scalers for input data and target values\ninput_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "y_data_file",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "y_data_file = \"MODEL_DATA/NEWDATA/newData_expanded_realHardParam.csv\"\nx_data = pd.read_csv(x_data_file)\ny_data = pd.read_csv(y_data_file)\n# Split the data into X (input features) and Y (target - c-parameters)\nX_data = x_data.values.astype(np.float32)\nY_data = y_data.values.astype(np.float32)\n# Create Min-Max scalers for input data and target values\ninput_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "x_data",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "x_data = pd.read_csv(x_data_file)\ny_data = pd.read_csv(y_data_file)\n# Split the data into X (input features) and Y (target - c-parameters)\nX_data = x_data.values.astype(np.float32)\nY_data = y_data.values.astype(np.float32)\n# Create Min-Max scalers for input data and target values\ninput_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "y_data",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "y_data = pd.read_csv(y_data_file)\n# Split the data into X (input features) and Y (target - c-parameters)\nX_data = x_data.values.astype(np.float32)\nY_data = y_data.values.astype(np.float32)\n# Create Min-Max scalers for input data and target values\ninput_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "X_data",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "X_data = x_data.values.astype(np.float32)\nY_data = y_data.values.astype(np.float32)\n# Create Min-Max scalers for input data and target values\ninput_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X_data_scaled, Y_data_scaled, test_size=0.2, random_state=42)\n# Define a custom neural network model",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "Y_data",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "Y_data = y_data.values.astype(np.float32)\n# Create Min-Max scalers for input data and target values\ninput_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X_data_scaled, Y_data_scaled, test_size=0.2, random_state=42)\n# Define a custom neural network model\nclass NeuralNetwork(nn.Module):",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "input_scaler",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "input_scaler = MinMaxScaler()\nX_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X_data_scaled, Y_data_scaled, test_size=0.2, random_state=42)\n# Define a custom neural network model\nclass NeuralNetwork(nn.Module):\n    def __init__(self, input_size, hidden_size1, hidden_size2, hidden_size3, output_size):\n        super(NeuralNetwork, self).__init__()",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "X_data_scaled",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "X_data_scaled = input_scaler.fit_transform(X_data)\ntarget_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X_data_scaled, Y_data_scaled, test_size=0.2, random_state=42)\n# Define a custom neural network model\nclass NeuralNetwork(nn.Module):\n    def __init__(self, input_size, hidden_size1, hidden_size2, hidden_size3, output_size):\n        super(NeuralNetwork, self).__init__()\n        self.fc1 = nn.Linear(input_size, hidden_size1)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART1_HARDENINGLAWS",
-        "description": "ASSETS.PART1_HARDENINGLAWS",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART1_HARDENINGLAWS",
+        "label": "target_scaler",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "target_scaler = MinMaxScaler()\nY_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X_data_scaled, Y_data_scaled, test_size=0.2, random_state=42)\n# Define a custom neural network model\nclass NeuralNetwork(nn.Module):\n    def __init__(self, input_size, hidden_size1, hidden_size2, hidden_size3, output_size):\n        super(NeuralNetwork, self).__init__()\n        self.fc1 = nn.Linear(input_size, hidden_size1)\n        self.relu1 = nn.LeakyReLU(negative_slope=0.01)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "Y_data_scaled",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "Y_data_scaled = target_scaler.fit_transform(Y_data)\n# Split the data into training and testing sets\nX_train, X_test, y_train, y_test = train_test_split(X_data_scaled, Y_data_scaled, test_size=0.2, random_state=42)\n# Define a custom neural network model\nclass NeuralNetwork(nn.Module):\n    def __init__(self, input_size, hidden_size1, hidden_size2, hidden_size3, output_size):\n        super(NeuralNetwork, self).__init__()\n        self.fc1 = nn.Linear(input_size, hidden_size1)\n        self.relu1 = nn.LeakyReLU(negative_slope=0.01)\n        self.fc2 = nn.Linear(hidden_size1, hidden_size2)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "net",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "net = NeuralNetRegressor(\n    module=NeuralNetwork,\n    module__input_size=X_data.shape[1],\n    module__hidden_size1=256,\n    module__hidden_size2=256,\n    module__hidden_size3=128,   # New hidden layer size\n    module__output_size=Y_data.shape[1],\n    criterion=nn.MSELoss,\n    optimizer=optim.Adam,\n    optimizer__lr=0.0005,",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "history",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "history = net.fit(X_train, y_train)\n# Extract the training and validation losses from the history\ntrain_losses = history.history[:, 'train_loss']\nvalid_losses = history.history[:, 'valid_loss']\n# Evaluate the model on the test set\ny_pred = net.predict(X_test)\n# Inverse scale the predictions to the original range\ny_pred_original = target_scaler.inverse_transform(y_pred)\ny_test_original = target_scaler.inverse_transform(y_test)\n# Calculate evaluation metrics",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "train_losses",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "train_losses = history.history[:, 'train_loss']\nvalid_losses = history.history[:, 'valid_loss']\n# Evaluate the model on the test set\ny_pred = net.predict(X_test)\n# Inverse scale the predictions to the original range\ny_pred_original = target_scaler.inverse_transform(y_pred)\ny_test_original = target_scaler.inverse_transform(y_test)\n# Calculate evaluation metrics\nmae = mean_absolute_error(y_test_original, y_pred_original)\nmse = mean_squared_error(y_test_original, y_pred_original)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "valid_losses",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "valid_losses = history.history[:, 'valid_loss']\n# Evaluate the model on the test set\ny_pred = net.predict(X_test)\n# Inverse scale the predictions to the original range\ny_pred_original = target_scaler.inverse_transform(y_pred)\ny_test_original = target_scaler.inverse_transform(y_test)\n# Calculate evaluation metrics\nmae = mean_absolute_error(y_test_original, y_pred_original)\nmse = mean_squared_error(y_test_original, y_pred_original)\nr2 = r2_score(y_test_original, y_pred_original)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "y_pred",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "y_pred = net.predict(X_test)\n# Inverse scale the predictions to the original range\ny_pred_original = target_scaler.inverse_transform(y_pred)\ny_test_original = target_scaler.inverse_transform(y_test)\n# Calculate evaluation metrics\nmae = mean_absolute_error(y_test_original, y_pred_original)\nmse = mean_squared_error(y_test_original, y_pred_original)\nr2 = r2_score(y_test_original, y_pred_original)\nprint(f'Mean Absolute Error: {mae:.4f}')\nprint(f'Mean Squared Error: {mse:.4f}')",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "y_pred_original",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "y_pred_original = target_scaler.inverse_transform(y_pred)\ny_test_original = target_scaler.inverse_transform(y_test)\n# Calculate evaluation metrics\nmae = mean_absolute_error(y_test_original, y_pred_original)\nmse = mean_squared_error(y_test_original, y_pred_original)\nr2 = r2_score(y_test_original, y_pred_original)\nprint(f'Mean Absolute Error: {mae:.4f}')\nprint(f'Mean Squared Error: {mse:.4f}')\nprint(f'R-squared (R2) Score: {r2:.4f}')\n# Save the trained model",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "y_test_original",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "y_test_original = target_scaler.inverse_transform(y_test)\n# Calculate evaluation metrics\nmae = mean_absolute_error(y_test_original, y_pred_original)\nmse = mean_squared_error(y_test_original, y_pred_original)\nr2 = r2_score(y_test_original, y_pred_original)\nprint(f'Mean Absolute Error: {mae:.4f}')\nprint(f'Mean Squared Error: {mse:.4f}')\nprint(f'R-squared (R2) Score: {r2:.4f}')\n# Save the trained model\ntorch.save(net.module_.state_dict(), 'trained_model.pth')",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART2_ASSTFUNCT",
-        "description": "ASSETS.PART2_ASSTFUNCT",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART2_ASSTFUNCT",
+        "label": "mae",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "mae = mean_absolute_error(y_test_original, y_pred_original)\nmse = mean_squared_error(y_test_original, y_pred_original)\nr2 = r2_score(y_test_original, y_pred_original)\nprint(f'Mean Absolute Error: {mae:.4f}')\nprint(f'Mean Squared Error: {mse:.4f}')\nprint(f'R-squared (R2) Score: {r2:.4f}')\n# Save the trained model\ntorch.save(net.module_.state_dict(), 'trained_model.pth')\n# Load the trained model for prediction\nnet.module_.load_state_dict(torch.load('trained_model.pth'))",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "shutil",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "shutil",
-        "description": "shutil",
-        "detail": "shutil",
+        "label": "mse",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "mse = mean_squared_error(y_test_original, y_pred_original)\nr2 = r2_score(y_test_original, y_pred_original)\nprint(f'Mean Absolute Error: {mae:.4f}')\nprint(f'Mean Squared Error: {mse:.4f}')\nprint(f'R-squared (R2) Score: {r2:.4f}')\n# Save the trained model\ntorch.save(net.module_.state_dict(), 'trained_model.pth')\n# Load the trained model for prediction\nnet.module_.load_state_dict(torch.load('trained_model.pth'))\nnet.module_.eval()",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "random",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "random",
-        "description": "random",
-        "detail": "random",
+        "label": "r2",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "r2 = r2_score(y_test_original, y_pred_original)\nprint(f'Mean Absolute Error: {mae:.4f}')\nprint(f'Mean Squared Error: {mse:.4f}')\nprint(f'R-squared (R2) Score: {r2:.4f}')\n# Save the trained model\ntorch.save(net.module_.state_dict(), 'trained_model.pth')\n# Load the trained model for prediction\nnet.module_.load_state_dict(torch.load('trained_model.pth'))\nnet.module_.eval()\n# Example prediction for a single input (you can replace this with your data)",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "simpson",
-        "importPath": "scipy.integrate",
-        "description": "scipy.integrate",
-        "isExtraImport": true,
-        "detail": "scipy.integrate",
+        "label": "X_example",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "X_example = X_test[0]\nX_example_tensor = torch.tensor(X_example, dtype=torch.float32)\nwith torch.no_grad():\n    prediction = net.module_(X_example_tensor.unsqueeze(0))  # Unsqueeze to add batch dimension\n# Inverse scale the prediction to the original range\nprediction_original = target_scaler.inverse_transform(prediction.numpy())\n# Print the predicted 'c-parameters'\npredicted_parameters = prediction_original[0].tolist()\nprint(f'Predicted c-parameters:')\nprint(prediction_original[0].tolist())",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "MAIN.PART1_FOLDERS",
-        "description": "MAIN.PART1_FOLDERS",
-        "isExtraImport": true,
-        "detail": "MAIN.PART1_FOLDERS",
+        "label": "X_example_tensor",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "X_example_tensor = torch.tensor(X_example, dtype=torch.float32)\nwith torch.no_grad():\n    prediction = net.module_(X_example_tensor.unsqueeze(0))  # Unsqueeze to add batch dimension\n# Inverse scale the prediction to the original range\nprediction_original = target_scaler.inverse_transform(prediction.numpy())\n# Print the predicted 'c-parameters'\npredicted_parameters = prediction_original[0].tolist()\nprint(f'Predicted c-parameters:')\nprint(prediction_original[0].tolist())\n# val error usually around 0.05",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
+        "label": "prediction_original",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "prediction_original = target_scaler.inverse_transform(prediction.numpy())\n# Print the predicted 'c-parameters'\npredicted_parameters = prediction_original[0].tolist()\nprint(f'Predicted c-parameters:')\nprint(prediction_original[0].tolist())\n# val error usually around 0.05\n# r-squared value usually around 0.5",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     },
     {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART4_SIM_SOO",
-        "description": "ASSETS.PART4_SIM_SOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "MAIN.PART0_SETTINGS",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "MAIN.PART0_SETTINGS",
-        "description": "MAIN.PART0_SETTINGS",
-        "detail": "MAIN.PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MAIN.PART0_SETTINGS",
-        "description": "MAIN.PART0_SETTINGS",
-        "isExtraImport": true,
-        "detail": "MAIN.PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MAIN.PART0_SETTINGS",
-        "description": "MAIN.PART0_SETTINGS",
-        "isExtraImport": true,
-        "detail": "MAIN.PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MAIN.PART0_SETTINGS",
-        "description": "MAIN.PART0_SETTINGS",
-        "isExtraImport": true,
-        "detail": "MAIN.PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "math",
-        "description": "math",
-        "isExtraImport": true,
-        "detail": "math",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART3_SIM_MOO",
-        "description": "ASSETS.PART3_SIM_MOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART3_SIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART3_SIM_MOO",
-        "description": "ASSETS.PART3_SIM_MOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART3_SIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART3_SIM_MOO",
-        "description": "ASSETS.PART3_SIM_MOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART3_SIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "ASSETS.PART3_SIM_MOO",
-        "description": "ASSETS.PART3_SIM_MOO",
-        "isExtraImport": true,
-        "detail": "ASSETS.PART3_SIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "MAIN.PART2_PREPMOO",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "MAIN.PART2_PREPMOO",
-        "description": "MAIN.PART2_PREPMOO",
-        "detail": "MAIN.PART2_PREPMOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "MAIN.PART2_PREPMOO",
-        "description": "MAIN.PART2_PREPMOO",
-        "isExtraImport": true,
-        "detail": "MAIN.PART2_PREPMOO",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "PART0_SETTINGS",
-        "description": "PART0_SETTINGS",
-        "isExtraImport": true,
-        "detail": "PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "*",
-        "importPath": "PART3_PREPSOO",
-        "description": "PART3_PREPSOO",
-        "isExtraImport": true,
-        "detail": "PART3_PREPSOO",
-        "documentation": {}
-    },
-    {
-        "label": "swiftLaw",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def swiftLaw(spec1, spec2, spec3, truePlasticStrain):\n    # Calculate true stress using the Swift law formula:\n    # True Stress = spec1 * (spec2 + truePlasticStrain) ** spec3\n    trueStress = spec1 * (spec2 + truePlasticStrain) ** spec3\n    # Return the calculated true stress value.\n    return trueStress\n################################\n##                            ##\n##            VOCE            ##\n##                            ##",
-        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "voceLaw",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def voceLaw(spec1, spec2, spec3, truePlasticStrain):\n    # Calculate true stress using the Voce law formula:\n    # True Stress = spec1 + spec2 * (1 - exp(-spec3 * truePlasticStrain))\n    # Calculate the exponential term within the formula.\n    exponential_term = -spec3 * truePlasticStrain\n    exp_result = np.exp(exponential_term)\n    # Calculate the final true stress using the Voce law formula.\n    trueStress = spec1 + spec2 * (1 - exp_result)\n    # Return the calculated true stress value.\n    return trueStress",
-        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "swiftAndVoceLaw",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def swiftAndVoceLaw(spec1, spec2, spec3, spec4, spec5, spec6, spec7, truePlasticStrain):\n    # Calculate true stress using the Swift law formula.\n    trueStressSwift = swiftLaw(spec2, spec3, spec4, truePlasticStrain)\n    # Calculate true stress using the Voce law formula.\n    trueStressVoce = voceLaw(spec5, spec6, spec7, truePlasticStrain)\n    # Calculate the combined true stress using a weighted average of Swift and Voce stresses:\n    # True Stress = spec1 * trueStressSwift + (1 - spec1) * trueStressVoce\n    # Weighted average of the two stress components with weight spec1.\n    weighted_trueStressSwift = spec1 * trueStressSwift\n    # Weighted average of the two stress components with weight (1 - spec1).",
-        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "findFlowCurve",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "description": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "peekOfCode": "def findFlowCurve(parameters, hardeningLaw, truePlasticStrain):\n    # Check which hardening law is specified and calculate the true stress accordingly.\n    if hardeningLaw == \"Swift\":\n        # Extract Swift law parameters from the dictionary.\n        spec1, spec2, spec3 = parameters[\"spec1\"], parameters[\"spec2\"], parameters[\"spec3\"]\n        # Calculate true stress using the Swift law formula.\n        trueStress = swiftLaw(spec1, spec2, spec3, truePlasticStrain)\n    elif hardeningLaw == \"Voce\":\n        # Extract Voce law parameters from the dictionary.\n        spec1, spec2, spec3 = parameters[\"spec1\"], parameters[\"spec2\"], parameters[\"spec3\"]",
-        "detail": "MAIN.ASSETS.PART1_HARDENINGLAWS",
-        "documentation": {}
-    },
-    {
-        "label": "printLog",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def printLog(message, logPath):\n    with open(logPath, 'a+') as logFile:\n        logFile.writelines(message + \"\\n\")\n    print(message)\ndef parseBoundsBO(paramInfo):\n    paramBounds = {}\n    for param in paramInfo:\n        paramBounds[param] = (paramInfo[param]['lowerBound'], paramInfo[param]['upperBound'])\n    return paramBounds\ndef is_directory_empty(directory_path):",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "parseBoundsBO",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def parseBoundsBO(paramInfo):\n    paramBounds = {}\n    for param in paramInfo:\n        paramBounds[param] = (paramInfo[param]['lowerBound'], paramInfo[param]['upperBound'])\n    return paramBounds\ndef is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "is_directory_empty",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def is_directory_empty(directory_path):\n    return len(os.listdir(directory_path)) == 0\ndef smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)\n        smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))\n    return smooth_force\ndef interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "smoothing_force",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def smoothing_force(force, startIndex, endIndex, iter=20000):\n    smooth_force = copy.deepcopy(force)\n    for i in range(iter):\n        smooth_force = savgol_filter(smooth_force[startIndex:endIndex], window_length=5, polyorder=3,mode='interp', delta=1)\n        smooth_force = np.concatenate((force[0:startIndex], smooth_force, force[endIndex:]))\n    return smooth_force\ndef interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "interpolatingForce",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolatingForce(simDisplacement, simForce, targetDisplacement):\n    interpolatingFunction = interp1d(simDisplacement, simForce, fill_value='extrapolate')\n    interpolatedSimForce = interpolatingFunction(targetDisplacement)\n    return interpolatedSimForce\ndef interpolating_FD_Curves(FD_Curves, targetCurve):\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]\n        targetDisp = targetCurve[\"displacement\"]",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "interpolating_FD_Curves",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolating_FD_Curves(FD_Curves, targetCurve):\n    FD_Curves_copy = copy.deepcopy(FD_Curves)\n    for paramsTuple, dispforce in FD_Curves_copy.items():\n        simDisp = dispforce[\"displacement\"]\n        simForce = dispforce[\"force\"]\n        targetDisp = targetCurve[\"displacement\"]\n        FD_Curves_copy[paramsTuple][\"force\"] = interpolatingForce(simDisp, simForce, targetDisp)\n        FD_Curves_copy[paramsTuple][\"displacement\"] = targetDisp\n    return FD_Curves_copy\ndef interpolatingStress(simStrain, simStress, targetStrain):",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "interpolatingStress",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolatingStress(simStrain, simStress, targetStrain):\n    interpolatingFunction = interp1d(simStrain, simStress, fill_value='extrapolate')\n    interpolatedSimStress = interpolatingFunction(targetStrain)\n    return interpolatedSimStress\ndef interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "interpolating_flowCurves",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def interpolating_flowCurves(flowCurves, targetCurve):\n    flowCurves_copy = copy.deepcopy(flowCurves)\n    for paramsTuple, strainstress in flowCurves_copy.items():\n        simStrain = strainstress[\"strain\"]\n        simStress = strainstress[\"stress\"]\n        targetStrain = targetCurve[\"strain\"]\n        flowCurves_copy[paramsTuple][\"stress\"] = interpolatingStress(simStrain, simStress, targetStrain)\n        flowCurves_copy[paramsTuple][\"strain\"] = targetStrain\n    return flowCurves_copy\ndef SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "SOO_write_BO_json_log",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def SOO_write_BO_json_log(FD_Curves, targetCurve, yieldingIndex, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, dispforce in FD_Curves.items():\n        line = {}\n        line[\"target\"] = -lossFD(targetCurve[\"displacement\"][yieldingIndex:], targetCurve[\"force\"][yieldingIndex:], dispforce[\"force\"][yieldingIndex:],iteration)\n        line[\"params\"] = dict(paramsTuple)\n        for param in paramConfig:\n            line[\"params\"][param] = line[\"params\"][param]/paramConfig[param][\"exponent\"] \n        line[\"datetime\"] = {}",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "MOO_write_BO_json_log",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_write_BO_json_log(smoothedInterpolationParams, targetCurves, geometries, geometryWeights, yieldingIndices, paramConfig,iteration):\n    if os.path.exists(f\"optimizers/logs.json\"):\n        os.remove(f\"optimizers/logs.json\")\n    for paramsTuple, geometriesToForceDisplacement in smoothedInterpolationParams.items():\n        line = {}\n        loss = 0\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss += - geometryWeights[geometry] * lossFD(targetCurves[geometry][\"displacement\"][yieldingIndex:], targetCurves[geometry][\"force\"][yieldingIndex:], geometriesToForceDisplacement[geometry][\"force\"][yieldingIndex:],iteration)\n        line[\"target\"] = loss",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "MOO_suggest_BOTORCH",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_suggest_BOTORCH(combined_interpolated_params_to_geoms_FD_Curves_smooth, targetCurves, geometries, yieldingIndices, paramConfig,iteration):\n    params = []\n    losses = []\n    for param_tuple, geom_to_simCurves in combined_interpolated_params_to_geoms_FD_Curves_smooth.items():\n        params.append([value for param, value in param_tuple])\n        loss_iter = []\n        for geometry in geometries:\n            yieldingIndex = yieldingIndices[geometry]\n            loss_iter.append(- lossFD(\n                targetCurves[geometry][\"displacement\"][yieldingIndex:], ",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "MOO_calculate_geometries_weight",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def MOO_calculate_geometries_weight(targetCurves, geometries):\n    geometryWeights = {}\n    for geometry in geometries:\n        targetDisplacement = targetCurves[geometry][\"displacement\"]\n        targetForce = targetCurves[geometry][\"force\"]\n        x_start = min(targetDisplacement)\n        x_end = max(targetDisplacement)\n        target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n        x_values = np.linspace(x_start, x_end, num=10000)\n        y_values = target_FD_func(x_values)",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "prettyPrint",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def prettyPrint(parameters, paramConfig, logPath):\n    logTable = PrettyTable()\n    logTable.field_names = [\"Parameter\", \"Value\"]\n    for param in parameters:\n        paramName = paramConfig[param]['name']\n        paramValue = parameters[param]\n        paramUnit = paramConfig[param]['unit']\n        paramValueUnit = f\"{paramValue} {paramUnit}\" if paramUnit != \"dimensionless\" else paramValue\n        logTable.add_row([paramName, paramValueUnit])\n    stringMessage = \"\\n\"",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "read_FD_Curve",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def read_FD_Curve(filePath):\n    output_data=np.loadtxt(filePath, skiprows=2)\n    columns=['X', 'Displacement', 'Force']\n    df = pd.DataFrame(data=output_data, columns=columns)\n    displacement = df.iloc[:, 1].to_numpy()\n    force = df.iloc[:, 2].to_numpy()\n    return displacement, force\ndef create_parameter_file(filePath, paramsDict):\n    columns = [\"Parameter\", \"Value\"]\n    df = pd.DataFrame(columns=columns)",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "create_parameter_file",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def create_parameter_file(filePath, paramsDict):\n    columns = [\"Parameter\", \"Value\"]\n    df = pd.DataFrame(columns=columns)\n    for key, value in paramsDict.items():\n        df.loc[len(df.index)] = [key, value]\n    df.to_excel(f\"{filePath}/parameters.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/parameters.csv\", index=False)\ndef create_flowCurve_file(filePath, truePlasticStrain, trueStress):\n    columns = [\"strain,-\", \"stress,MPa\", \"stress,Pa\"]\n    df = pd.DataFrame(columns=columns)",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "create_flowCurve_file",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def create_flowCurve_file(filePath, truePlasticStrain, trueStress):\n    columns = [\"strain,-\", \"stress,MPa\", \"stress,Pa\"]\n    df = pd.DataFrame(columns=columns)\n    for i in range(len(truePlasticStrain)):\n        df.loc[len(df.index)] = [truePlasticStrain[i], trueStress[i], trueStress[i]*1e6]\n    df.to_excel(f\"{filePath}/flowCurve.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/flowCurve.csv\", index=False)\ndef create_FD_Curve_file(filePath, displacement, force):\n    columns = [\"displacement,mm\", \"force,kN\", \"force,N\"]\n    df = pd.DataFrame(columns=columns)",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "create_FD_Curve_file",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def create_FD_Curve_file(filePath, displacement, force):\n    columns = [\"displacement,mm\", \"force,kN\", \"force,N\"]\n    df = pd.DataFrame(columns=columns)\n    for i in range(len(displacement)):\n        df.loc[len(df.index)] = [displacement[i], force[i] * 1e-3, force[i]]\n    df.to_excel(f\"{filePath}/FD_Curve.xlsx\", index=False)\n    df.to_csv(f\"{filePath}/FD_Curve.csv\", index=False)\ndef replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "replace_flowCurve_material_inp",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def replace_flowCurve_material_inp(filePath, truePlasticStrain, trueStress):\n    with open(filePath, 'r') as material_inp:\n        material_inp_content = material_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(material_inp_content):\n        if '*Plastic' in line:\n            start_line = i + 1\n        elif '*Density' in line:\n            end_line = i",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "replace_maxDisp_geometry_inp",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def replace_maxDisp_geometry_inp(filePath, maxTargetDisplacement):\n    with open(filePath, 'r') as geometry_inp:\n        geometry_inp_content = geometry_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(geometry_inp_content[-60:]):\n        if line.startswith('*Boundary, amplitude'):\n            original_index = len(geometry_inp_content) - 60 + i\n            start_line = original_index + 1\n            end_line = original_index + 2",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "replace_materialName_geometry_inp",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def replace_materialName_geometry_inp(filePath, materialName):\n    with open(filePath, 'r') as geometry_inp:\n        geometry_inp_content = geometry_inp.readlines()\n    start_line = None\n    end_line = None\n    for i, line in enumerate(geometry_inp_content[-100:]):\n        if line.startswith('*INCLUDE, INPUT='):\n            original_index = len(geometry_inp_content) - 100 + i\n            start_line = original_index\n            end_line = original_index + 1",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "rescale_paramsDict",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def rescale_paramsDict(paramsDict, paramConfig):\n    rescaled_paramsDict = {}\n    for param, value in paramsDict.items():\n        rescaled_paramsDict[param] = value * paramConfig[param]['exponent']\n    return rescaled_paramsDict\ndef reverseAsParamsToGeometries(curves, geometries):\n    exampleGeometry = geometries[0]\n    reverseCurves = {}\n    for paramsTuple in curves[exampleGeometry]:\n        reverseCurves[paramsTuple] = {}",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "reverseAsParamsToGeometries",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def reverseAsParamsToGeometries(curves, geometries):\n    exampleGeometry = geometries[0]\n    reverseCurves = {}\n    for paramsTuple in curves[exampleGeometry]:\n        reverseCurves[paramsTuple] = {}\n        for geometry in geometries:\n            reverseCurves[paramsTuple][geometry] = curves[geometry][paramsTuple]\n    return reverseCurves\ndef calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "calculate_yielding_index",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "description": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "peekOfCode": "def calculate_yielding_index(targetDisplacement, targetForce, r2_threshold=0.998):\n    \"\"\"\n    This function calculates the end of the elastic (linear) region of the force-displacement curve.\n    \"\"\"\n    yielding_index = 0\n    linReg = LinearRegression()\n    targetDisplacement = np.array(targetDisplacement)\n    targetForce = np.array(targetForce)\n    for i in range(2, len(targetDisplacement)):\n        linReg.fit(targetDisplacement[:i].reshape(-1, 1), targetForce[:i]) ",
-        "detail": "MAIN.ASSETS.PART2_ASSTFUNCT",
-        "documentation": {}
-    },
-    {
-        "label": "MOO_SIM",
-        "kind": 6,
-        "importPath": "MAIN.ASSETS.PART3_SIM_MOO",
-        "description": "MAIN.ASSETS.PART3_SIM_MOO",
-        "peekOfCode": "class MOO_SIM():\n    def __init__(self, info):\n        self.info = info\n    def latin_hypercube_sampling(self):\n        paramConfig = self.info[\"paramConfig\"]\n        numberOfInitialSims = self.info[\"numberOfInitialSims\"]\n        linspaceValues = {}\n        for param in paramConfig:\n            linspaceValues[param] = np.linspace(\n                start=paramConfig[param][\"lowerBound\"] * paramConfig[param][\"exponent\"], ",
-        "detail": "MAIN.ASSETS.PART3_SIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "SOO_SIM",
-        "kind": 6,
-        "importPath": "MAIN.ASSETS.PART4_SIM_SOO",
-        "description": "MAIN.ASSETS.PART4_SIM_SOO",
-        "peekOfCode": "class SOO_SIM():\n    def __init__(self, info):\n        self.info = info\n    def latin_hypercube_sampling(self):\n        paramConfig = self.info[\"paramConfig\"]\n        numberOfInitialSims = self.info[\"numberOfInitialSims\"]\n        linspaceValues = {}\n        for param in paramConfig:\n            linspaceValues[param] = np.linspace(\n                start=paramConfig[param][\"lowerBound\"] * paramConfig[param][\"exponent\"], ",
-        "detail": "MAIN.ASSETS.PART4_SIM_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "lossFlow",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def lossFlow(targetStrain, targetStress, simStress):\n    return np.sqrt(np.mean((targetStress - simStress)**2))\ndef dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "dummy_lossFD",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def dummy_lossFD(targetDisplacement, targetForce, simForce):\n    return np.sqrt(np.mean((targetForce - simForce)**2))\ndef lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)\n    SimHigherThanTarget = np.array(sim_FD_func(x_values) > target_FD_func(x_values))\n    turningIndices = np.where(SimHigherThanTarget[:-1] != SimHigherThanTarget[1:])",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "lossFD",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    x_start = min(targetDisplacement)\n    x_end = max(targetDisplacement)\n    sim_FD_func = interp1d(targetDisplacement, simForce, fill_value=\"extrapolate\")\n    target_FD_func = interp1d(targetDisplacement, targetForce, fill_value=\"extrapolate\")\n    x_values = np.linspace(x_start, x_end, num=1000)\n    SimHigherThanTarget = np.array(sim_FD_func(x_values) > target_FD_func(x_values))\n    turningIndices = np.where(SimHigherThanTarget[:-1] != SimHigherThanTarget[1:])\n    if len(turningIndices) == 0:\n        if SimHigherThanTarget[0] == True:",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "loss_plastic",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def loss_plastic(targetDisplacement, targetForce, simForce, step, epsilon=1e-8):\n    \"\"\"\n    This function calculates the loss for the plastic region of the force-displacement curve. \n    The loss is a adaptive weighted sum of the residuals loss, slope loss, and important points penalty.\n    The weights adapt as the number of iterations increases.\n    \"\"\"\n    residuals = targetForce - simForce\n    residuals_loss = np.sqrt(np.mean(residuals ** 2))\n    slope_true = np.diff(targetForce) / np.diff(targetDisplacement)\n    slope_pred = np.diff(simForce) / np.diff(targetDisplacement)",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "lossFD",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def lossFD(targetDisplacement, targetForce, simForce,iteration):\n    return loss_plastic(targetDisplacement, targetForce, simForce, iteration)\ndef stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "stopFD_SOO",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def stopFD_SOO(targetForce, simForce, yieldingIndex, deviationPercent):\n    targetForceUpper = targetForce * (1 + 0.01 * deviationPercent)\n    targetForceLower = targetForce * (1 - 0.01 * deviationPercent)\n    return np.all((simForce[yieldingIndex:] >= targetForceLower[yieldingIndex:]) & (simForce[yieldingIndex:] <= targetForceUpper[yieldingIndex:]))\ndef stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "stopFD_MOO",
-        "kind": 2,
-        "importPath": "MAIN.ASSETS.PART5_GUARD",
-        "description": "MAIN.ASSETS.PART5_GUARD",
-        "peekOfCode": "def stopFD_MOO(intendedCurves, simCurves, geometries, yieldingIndices, deviationPercent):\n    stopAllCurvesCheck = True\n    for geometry in geometries:\n        yieldingIndex = yieldingIndices[geometry]\n        stopAllCurvesCheck = stopAllCurvesCheck & stopFD_SOO(intendedCurves[geometry]['force'], simCurves[geometry]['force'], yieldingIndex, deviationPercent)\n    return stopAllCurvesCheck",
-        "detail": "MAIN.ASSETS.PART5_GUARD",
-        "documentation": {}
-    },
-    {
-        "label": "load_settings",
-        "kind": 2,
-        "importPath": "MAIN.PART0_SETTINGS",
-        "description": "MAIN.PART0_SETTINGS",
-        "peekOfCode": "def load_settings(): \n     # First, we define a dictionary 'dataDictionary' containing various configuration settings and data. \n     # we will return this dictionary \n    dataDictionary = {\n        'projectDirectoryLocation': projectDirectoryLocation,  # Location of the project directory\n        'logFileLocation': logFileLocation,  # Location of log files\n        'specsDataFolder': specsDataFolder,  # Folder for specifications data\n        'outputFileDirectory': outputFileDirectory,  # Directory for output files\n        'simulationFileDirectory': simulationFileDirectory,  # Directory for simulation files\n        'targetFileDirectory': targetFileDirectory,  # Directory for target files",
-        "detail": "MAIN.PART0_SETTINGS",
-        "documentation": {}
-    },
-    {
-        "label": "verifyAndBuild",
-        "kind": 2,
-        "importPath": "MAIN.PART1_FOLDERS",
-        "description": "MAIN.PART1_FOLDERS",
-        "peekOfCode": "def verifyAndBuild(path):\n    \"\"\"\n    Creates a directory at the specified 'path' if it does not already exist.\n    Args:\n        path (str): The path where the directory should be created.\n    Returns:\n        None\n    \"\"\"\n    if not os.path.exists(path):\n        os.makedirs(path)",
-        "detail": "MAIN.PART1_FOLDERS",
-        "documentation": {}
-    },
-    {
-        "label": "startFolder",
-        "kind": 2,
-        "importPath": "MAIN.PART1_FOLDERS",
-        "description": "MAIN.PART1_FOLDERS",
-        "peekOfCode": "def startFolder(optimizationApproach, medium, hardeningLaw, shapeOfTheObject, curveIdentifier):\n    \"\"\"\n    Activate a folder structure based on optimization parameters.\n    Args:\n        optimization_approach (str): The optimization approach ('SOO' or other).\n        medium (str): The medium type.\n        hardening_law (str): The hardening law used.\n        shape_of_the_object (str): The shape of the object.\n        curve_identifier (int): The curve identifier.\n    \"\"\"",
-        "detail": "MAIN.PART1_FOLDERS",
-        "documentation": {}
-    },
-    {
-        "label": "buildTargetCurve",
-        "kind": 2,
-        "importPath": "MAIN.PART2_PREPMOO",
-        "description": "MAIN.PART2_PREPMOO",
-        "peekOfCode": "def buildTargetCurve(data):\n    # Retrieve the targets path from the 'data' dictionary\n    pathForTargets = data['pathForTargets']\n    # Retrieve the 'geometries' value from the 'data' dictionary\n    geometries = data['geometries']\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####  CURVE SPECIFICATIONS  ####",
-        "detail": "MAIN.PART2_PREPMOO",
-        "documentation": {}
-    },
-    {
-        "label": "buildTargetCurve",
-        "kind": 2,
-        "importPath": "MAIN.PART3_PREPSOO",
-        "description": "MAIN.PART3_PREPSOO",
-        "peekOfCode": "def buildTargetCurve(data):\n    # Retrieve the targets path from the 'data' dictionary\n    pathForTargets = data['pathForTargets']\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####  CURVE SPECIFICATIONS  ####\n    ####                        ####\n    ####                        ####",
-        "detail": "MAIN.PART3_PREPSOO",
-        "documentation": {}
-    },
-    {
-        "label": "executeSimulations",
-        "kind": 2,
-        "importPath": "MAIN.PART4_RUNSIMS_MOO",
-        "description": "MAIN.PART4_RUNSIMS_MOO",
-        "peekOfCode": "def executeSimulations(data):\n    ################################\n    ####                        ####\n    ####                        ####\n    ####                        ####\n    ####       DECLARING        ####\n    ####     PATH VARIABLES     ####\n    ####                        ####\n    ####                        ####\n    ####                        ####",
-        "detail": "MAIN.PART4_RUNSIMS_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "executeSimulations",
-        "kind": 2,
-        "importPath": "MAIN.PART5_RUNSIMS_SOO",
-        "description": "MAIN.PART5_RUNSIMS_SOO",
-        "peekOfCode": "def executeSimulations(info):\n    numberOfInitialSims = info['numberOfInitialSims']\n    generateParams = info['generateParams'] \n    if generateParams == \"manual\":\n        parameters = np.load(f\"{outputFileDirectory}/initial/common/parameters.npy\", allow_pickle=True).tolist()\n        info['numberOfInitialSims'] = len(parameters)\n    elif generateParams == \"auto\":\n        parameters = sim.latin_hypercube_sampling()\n    sim = SOO_SIM(info)    \n    if not os.path.exists(f\"{outputFileDirectory}/initial/common/FD_Curves_unsmooth.npy\"):",
-        "detail": "MAIN.PART5_RUNSIMS_SOO",
-        "documentation": {}
-    },
-    {
-        "label": "main_prepare_simCurves",
-        "kind": 2,
-        "importPath": "MAIN.PART6_PREPSIM_MOO",
-        "description": "MAIN.PART6_PREPSIM_MOO",
-        "peekOfCode": "def main_prepare_simCurves(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    geometries = info['geometries']    \n    targetCurves = info['targetCurves']\n    exampleGeometry = geometries[0]\n    initial_original_geom_to_param_FD_Curves_unsmooth = {}\n    initial_original_geom_to_param_FD_Curves_smooth = {}\n    initial_original_geom_to_param_flowCurves = {}\n    for geometry in geometries:",
-        "detail": "MAIN.PART6_PREPSIM_MOO",
-        "documentation": {}
-    },
-    {
-        "label": "main_prepare_simCurves",
-        "kind": 2,
-        "importPath": "MAIN.PART7_PREPSIM_SOO",
-        "description": "MAIN.PART7_PREPSIM_SOO",
-        "peekOfCode": "def main_prepare_simCurves(info):\n    logPath = info['logPath']\n    resultPath = info['resultPath']\n    targetCurve = info['targetCurve']\n    # Loading initial simulations\n    initial_original_FD_Curves_unsmooth = np.load(f\"{resultPath}/initial/common/FD_Curves_unsmooth.npy\", allow_pickle=True).tolist()\n    initial_original_FD_Curves_smooth = np.load(f\"{resultPath}/initial/common/FD_Curves_smooth.npy\", allow_pickle=True).tolist()\n    initial_original_flowCurves = np.load(f\"{resultPath}/initial/common/flowCurves.npy\", allow_pickle=True).tolist()\n    # Check if there are any iteration simulations\n    if not os.path.exists(f\"{resultPath}/iteration/common/FD_Curves_unsmooth.npy\"):",
-        "detail": "MAIN.PART7_PREPSIM_SOO",
+        "label": "predicted_parameters",
+        "kind": 5,
+        "importPath": "MAIN.MODELS.FINAL_MODEL",
+        "description": "MAIN.MODELS.FINAL_MODEL",
+        "peekOfCode": "predicted_parameters = prediction_original[0].tolist()\nprint(f'Predicted c-parameters:')\nprint(prediction_original[0].tolist())\n# val error usually around 0.05\n# r-squared value usually around 0.5",
+        "detail": "MAIN.MODELS.FINAL_MODEL",
         "documentation": {}
     }
 ]
