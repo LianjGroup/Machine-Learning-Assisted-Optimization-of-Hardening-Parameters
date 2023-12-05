@@ -24,14 +24,30 @@ In order to run and visualise the main model, you need to have the following lib
 - scikit-learn 
 - scikit-neuralnetwork (skorch)
 - Matplotlib
+- xgboost
 
 ### Installation
 
 1. Clone the repository to your local device by forking it and then open the code in your preferred local environment. 
 
-2. Ensure to tailor the parameter intervals for 'c4' and 'c6' appropriately, especially if the material under consideration differs significantly from DP1000. Adjusting these intervals is crucial for optimizing the model's performance on diverse materials, ensuring accurate predictions and reliable outcomes. Be mindful of the specific characteristics and behavior of the material you are working with to fine-tune the model for optimal results.
+2. If you don't have the necessary libraries specified in the prerequisites section, open the terminal and run 'pip install -r requirements.txt'. 
 
-3. For seamless execution, the model is implemented within a Jupyter environment. Simply click on the 'run' icon to effortlessly execute the code and witness the model in action. This streamlined setup ensures a user-friendly experience, allowing quick access and execution without the need for complex configurations or installations.
+3. Ensure to tailor the parameter intervals for 'c4' and 'c6' appropriately, especially if the material under consideration differs significantly from DP1000. Adjusting these intervals is crucial for optimizing the model's performance on diverse materials, ensuring accurate predictions and reliable outcomes. Be mindful of the specific characteristics and behavior of the material you are working with to fine-tune the model for optimal results.
+
+4. For seamless execution, the model is implemented within a Jupyter environment. Simply click on the 'run' icon to effortlessly execute the code and witness the model in action. This streamlined setup ensures a user-friendly experience, allowing quick access and execution without the need for complex configurations or installations.
+
+Note: For Step-By-Step instructions where I walk you through how I developed the project, watch these videos:
+
+- Part 4, Using CSC For Simulations:
+https://www.loom.com/share/cb0dfd3255be4c96aae214a69a13ba65?sid=2109cdf7-67e7-43b3-a0d7-bdde40c1faf4
+
+- Part 3, Constructing Stress-Strain and Force Displacement Curves: https://www.loom.com/share/c16163ff5fe64d2ea5e4e1a7a876e242?sid=682db7cc-b51e-41f0-8208-7846891d75c3
+
+- Part 2, Exploring Random Forest and XGBoost Models:
+https://www.loom.com/share/063f10f9a9fe4b84a0b1053f33fc2405?sid=82ecc3ae-28d4-425d-af05-0dff60732cb7
+
+- Part 1, Neural Network Model Walkthrough: 
+https://www.loom.com/share/6b575915aaa44bee87e54fdb092187c7?sid=06ffb9ae-697d-40e8-b063-23f654a6a035
 
 ## License
 
