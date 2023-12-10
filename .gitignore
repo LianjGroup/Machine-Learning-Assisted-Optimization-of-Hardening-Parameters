@@ -14,7 +14,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
-TRASH_MODELS/
+MAIN/MODELS/TRASH_MODELS/
 build/
 develop-eggs/
 dist/
