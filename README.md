@@ -3,6 +3,8 @@
 Hardening parameters play a crucial role in materials science and engineering, representing the response of a material to deformation and stress. In this project, we leverage the power of machine learning, specifically neural networks, to predict hardening parameters. 
 
 ![Inverse Problem Illutsrated](REPORT/inverse_2.png)
+
+![inverse_2](https://github.com/Crista96/coeproject3/assets/85801775/474f1875-3344-4bdc-bbf5-e34d9dad2161)
 <sub> Figure Source: R. Lourenço, A. Andrade-Campos, and P. Georgieva, “The use of machine-learning techniques in material constitutive modelling for metal forming processes,” Metals, vol. 12, no. 3, p. 427, 2022.</sub>
 
 ## Table of Contents
