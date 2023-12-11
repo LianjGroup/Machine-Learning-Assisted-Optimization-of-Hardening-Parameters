@@ -3,7 +3,9 @@
 /MAIN/MODELS/MODEL_DATA/
 /MAIN/MODELS/PREDICTED_FD/
 .vscode/
+.metals/
 
+*.DS_Store
 *.so
 *.csv
 *.rpt
